@@ -1,0 +1,422 @@
+# Logfile created on 2018-08-30 17:23:52 by logger.rb/56438
+I, [2018-08-30T17:23:52.243073 #1957]  INFO -- : 标记:请求认证数据\n 标题:无\n 详细信息:
+            <?xml version="1.0" encoding="UTF-8"?>
+            <message>
+              <head>
+                <version>1.0</version>
+                <serviceType>AuthenService</serviceType>
+              </head>
+              <body>
+                <clientInfo>
+                  <clientIP>0:0:0:0:0:0:0:1</clientIP>
+                </clientInfo>
+                <appId>testApp</appId>
+                <authen>
+                  <authCredential authMode="cert">
+                    <detach>
+                      MIIDTAYKKoEcz1UGAQQCAqCCAzwwggM4AgEBMQwwCgYIKoEcz1UBgxEwDAYKKoEcz1UGAQQCAaCCAgcwggIDMIIBqKADAgECAghdX9025EN5wTAMBggqgRzPVQGDdQUAMIGOMQswCQYDVQQGEwJDTjEPMA0GA1UECAwGU2hhblhpMRAwDgYDVQQHDAdUYWlZdWFuMS0wKwYDVQQKDCRTaGFuWGkgRGlnaXRhbCBDZXJ0aWZpY2F0ZSBBdXRob3JpdHkxLTArBgNVBAMMJFNoYW5YaSBEaWdpdGFsIENlcnRpZmljYXRlIEF1dGhvcml0eTAeFw0xODA2MDYwNjU0NDZaFw0xODA5MDQwNjU0NDZaMGkxCzAJBgNVBAYTAkNOMRIwEAYDVQQIDAnlsbHopb/nnIExEjAQBgNVBAcMCeWkquWOn+W4gjEbMBkGA1UECwwSOU0yNDMzMjAxODAzMDEwMDU5MRUwEwYDVQQDDAzljZXkvY0wMzAxMDIwWTATBgcqhkjOPQIBBggqgRzPVQGCLQNCAAQumrNoY3Si3AFXXX1cyk8aMNEkSbFQ31NAqF+JzidbMBLJphQ4mp1wa1k5eyz3x5qeQ427B9/J9ZaQZdB/2Fl3oxIwEDAOBgNVHQ8BAf8EBAMCBsAwDAYIKoEcz1UBg3UFAANHADBEAiByUhZ8oXRl5dh5NZSvtLAg2lQkJJ0akEcuBwYadavWiQIgXCPcvq1QDrVXXXevOX7M9PSatREYvLHG5hywJdHJTEQxggEKMIIBBgIBATCBmzCBjjELMAkGA1UEBhMCQ04xDzANBgNVBAgMBlNoYW5YaTEQMA4GA1UEBwwHVGFpWXVhbjEtMCsGA1UECgwkU2hhblhpIERpZ2l0YWwgQ2VydGlmaWNhdGUgQXV0aG9yaXR5MS0wKwYDVQQDDCRTaGFuWGkgRGlnaXRhbCBDZXJ0aWZpY2F0ZSBBdXRob3JpdHkCCF1f3TbkQ3nBMAwGCCqBHM9VAYMRBQAwDQYJKoEcz1UBgi0BBQAERjBEAiAOa3LEl0j6RWk+mZodF/jk6DJ5ZnT69b/1qGOfl3b7IwIgetOzdofYWuqiNDlh2nxCFR0HxgaQCk2BDBxWvx+Deck=
+                    </detach>
+                    <original>YzY0NGIyYTljZGFlNDVkNGE3NjYyZjY3NTVhY2IxZGI=</original>
+                  </authCredential>
+                </authen>
+                <accessControl>false</accessControl>
+                <attributes attributeType="all"/>
+              </body>
+            </message>      
+          
+I, [2018-08-30T17:25:24.047219 #1996]  INFO -- : 标记:请求认证数据\n 标题:无\n 详细信息:
+            <?xml version="1.0" encoding="UTF-8"?>
+            <message>
+              <head>
+                <version>1.0</version>
+                <serviceType>AuthenService</serviceType>
+              </head>
+              <body>
+                <clientInfo>
+                  <clientIP>0:0:0:0:0:0:0:1</clientIP>
+                </clientInfo>
+                <appId>testApp</appId>
+                <authen>
+                  <authCredential authMode="cert">
+                    <detach>
+                      MIIDTAYKKoEcz1UGAQQCAqCCAzwwggM4AgEBMQwwCgYIKoEcz1UBgxEwDAYKKoEcz1UGAQQCAaCCAgcwggIDMIIBqKADAgECAghdX9025EN5wTAMBggqgRzPVQGDdQUAMIGOMQswCQYDVQQGEwJDTjEPMA0GA1UECAwGU2hhblhpMRAwDgYDVQQHDAdUYWlZdWFuMS0wKwYDVQQKDCRTaGFuWGkgRGlnaXRhbCBDZXJ0aWZpY2F0ZSBBdXRob3JpdHkxLTArBgNVBAMMJFNoYW5YaSBEaWdpdGFsIENlcnRpZmljYXRlIEF1dGhvcml0eTAeFw0xODA2MDYwNjU0NDZaFw0xODA5MDQwNjU0NDZaMGkxCzAJBgNVBAYTAkNOMRIwEAYDVQQIDAnlsbHopb/nnIExEjAQBgNVBAcMCeWkquWOn+W4gjEbMBkGA1UECwwSOU0yNDMzMjAxODAzMDEwMDU5MRUwEwYDVQQDDAzljZXkvY0wMzAxMDIwWTATBgcqhkjOPQIBBggqgRzPVQGCLQNCAAQumrNoY3Si3AFXXX1cyk8aMNEkSbFQ31NAqF+JzidbMBLJphQ4mp1wa1k5eyz3x5qeQ427B9/J9ZaQZdB/2Fl3oxIwEDAOBgNVHQ8BAf8EBAMCBsAwDAYIKoEcz1UBg3UFAANHADBEAiByUhZ8oXRl5dh5NZSvtLAg2lQkJJ0akEcuBwYadavWiQIgXCPcvq1QDrVXXXevOX7M9PSatREYvLHG5hywJdHJTEQxggEKMIIBBgIBATCBmzCBjjELMAkGA1UEBhMCQ04xDzANBgNVBAgMBlNoYW5YaTEQMA4GA1UEBwwHVGFpWXVhbjEtMCsGA1UECgwkU2hhblhpIERpZ2l0YWwgQ2VydGlmaWNhdGUgQXV0aG9yaXR5MS0wKwYDVQQDDCRTaGFuWGkgRGlnaXRhbCBDZXJ0aWZpY2F0ZSBBdXRob3JpdHkCCF1f3TbkQ3nBMAwGCCqBHM9VAYMRBQAwDQYJKoEcz1UBgi0BBQAERjBEAiAOa3LEl0j6RWk+mZodF/jk6DJ5ZnT69b/1qGOfl3b7IwIgetOzdofYWuqiNDlh2nxCFR0HxgaQCk2BDBxWvx+Deck=
+                    </detach>
+                    <original>WlRZMk1XVmhNMlEyT0RJeU5HVXpPVGxqT1RkaVpEQTNNVFl6TkRjeVpqYz0=</original>
+                  </authCredential>
+                </authen>
+                <accessControl>false</accessControl>
+                <attributes attributeType="all"/>
+              </body>
+            </message>      
+          
+I, [2018-08-30T17:26:21.796145 #2137]  INFO -- : 标记:获取认证原文\n 标题:无\n 详细信息:ZWNlMjcwODJjZjJmNGVlZThhYzQxZTJkNWIxMzNlMjM=
+I, [2018-08-30T17:26:21.796293 #2137]  INFO -- : 标记:请求认证数据\n 标题:无\n 详细信息:
+            <?xml version="1.0" encoding="UTF-8"?>
+            <message>
+              <head>
+                <version>1.0</version>
+                <serviceType>AuthenService</serviceType>
+              </head>
+              <body>
+                <clientInfo>
+                  <clientIP>0:0:0:0:0:0:0:1</clientIP>
+                </clientInfo>
+                <appId>testApp</appId>
+                <authen>
+                  <authCredential authMode="cert">
+                    <detach>
+                      MIIDTAYKKoEcz1UGAQQCAqCCAzwwggM4AgEBMQwwCgYIKoEcz1UBgxEwDAYKKoEcz1UGAQQCAaCCAgcwggIDMIIBqKADAgECAghdX9025EN5wTAMBggqgRzPVQGDdQUAMIGOMQswCQYDVQQGEwJDTjEPMA0GA1UECAwGU2hhblhpMRAwDgYDVQQHDAdUYWlZdWFuMS0wKwYDVQQKDCRTaGFuWGkgRGlnaXRhbCBDZXJ0aWZpY2F0ZSBBdXRob3JpdHkxLTArBgNVBAMMJFNoYW5YaSBEaWdpdGFsIENlcnRpZmljYXRlIEF1dGhvcml0eTAeFw0xODA2MDYwNjU0NDZaFw0xODA5MDQwNjU0NDZaMGkxCzAJBgNVBAYTAkNOMRIwEAYDVQQIDAnlsbHopb/nnIExEjAQBgNVBAcMCeWkquWOn+W4gjEbMBkGA1UECwwSOU0yNDMzMjAxODAzMDEwMDU5MRUwEwYDVQQDDAzljZXkvY0wMzAxMDIwWTATBgcqhkjOPQIBBggqgRzPVQGCLQNCAAQumrNoY3Si3AFXXX1cyk8aMNEkSbFQ31NAqF+JzidbMBLJphQ4mp1wa1k5eyz3x5qeQ427B9/J9ZaQZdB/2Fl3oxIwEDAOBgNVHQ8BAf8EBAMCBsAwDAYIKoEcz1UBg3UFAANHADBEAiByUhZ8oXRl5dh5NZSvtLAg2lQkJJ0akEcuBwYadavWiQIgXCPcvq1QDrVXXXevOX7M9PSatREYvLHG5hywJdHJTEQxggEKMIIBBgIBATCBmzCBjjELMAkGA1UEBhMCQ04xDzANBgNVBAgMBlNoYW5YaTEQMA4GA1UEBwwHVGFpWXVhbjEtMCsGA1UECgwkU2hhblhpIERpZ2l0YWwgQ2VydGlmaWNhdGUgQXV0aG9yaXR5MS0wKwYDVQQDDCRTaGFuWGkgRGlnaXRhbCBDZXJ0aWZpY2F0ZSBBdXRob3JpdHkCCF1f3TbkQ3nBMAwGCCqBHM9VAYMRBQAwDQYJKoEcz1UBgi0BBQAERjBEAiAOa3LEl0j6RWk+mZodF/jk6DJ5ZnT69b/1qGOfl3b7IwIgetOzdofYWuqiNDlh2nxCFR0HxgaQCk2BDBxWvx+Deck=
+                    </detach>
+                    <original>WldObE1qY3dPREpqWmpKbU5HVmxaVGhoWXpReFpUSmtOV0l4TXpObE1qTT0=</original>
+                  </authCredential>
+                </authen>
+                <accessControl>false</accessControl>
+                <attributes attributeType="all"/>
+              </body>
+            </message>      
+          
+I, [2018-08-30T18:16:28.101882 #2137]  INFO -- : 标记:获取认证原文\n 标题:无\n 详细信息:M2Q4ZGE1NzQyNTMzNGI4MWFmMjNhM2Y4NzMwNDQwNmI=
+I, [2018-08-30T18:16:28.102583 #2137]  INFO -- : 标记:请求认证数据\n 标题:无\n 详细信息:
+            <?xml version="1.0" encoding="UTF-8"?>
+            <message>
+              <head>
+                <version>1.0</version>
+                <serviceType>AuthenService</serviceType>
+              </head>
+              <body>
+                <clientInfo>
+                  <clientIP>0:0:0:0:0:0:0:1</clientIP>
+                </clientInfo>
+                <appId>testApp</appId>
+                <authen>
+                  <authCredential authMode="cert">
+                    <detach>
+                      MIIDTAYKKoEcz1UGAQQCAqCCAzwwggM4AgEBMQwwCgYIKoEcz1UBgxEwDAYKKoEcz1UGAQQCAaCCAgcwggIDMIIBqKADAgECAghdX9025EN5wTAMBggqgRzPVQGDdQUAMIGOMQswCQYDVQQGEwJDTjEPMA0GA1UECAwGU2hhblhpMRAwDgYDVQQHDAdUYWlZdWFuMS0wKwYDVQQKDCRTaGFuWGkgRGlnaXRhbCBDZXJ0aWZpY2F0ZSBBdXRob3JpdHkxLTArBgNVBAMMJFNoYW5YaSBEaWdpdGFsIENlcnRpZmljYXRlIEF1dGhvcml0eTAeFw0xODA2MDYwNjU0NDZaFw0xODA5MDQwNjU0NDZaMGkxCzAJBgNVBAYTAkNOMRIwEAYDVQQIDAnlsbHopb/nnIExEjAQBgNVBAcMCeWkquWOn+W4gjEbMBkGA1UECwwSOU0yNDMzMjAxODAzMDEwMDU5MRUwEwYDVQQDDAzljZXkvY0wMzAxMDIwWTATBgcqhkjOPQIBBggqgRzPVQGCLQNCAAQumrNoY3Si3AFXXX1cyk8aMNEkSbFQ31NAqF+JzidbMBLJphQ4mp1wa1k5eyz3x5qeQ427B9/J9ZaQZdB/2Fl3oxIwEDAOBgNVHQ8BAf8EBAMCBsAwDAYIKoEcz1UBg3UFAANHADBEAiByUhZ8oXRl5dh5NZSvtLAg2lQkJJ0akEcuBwYadavWiQIgXCPcvq1QDrVXXXevOX7M9PSatREYvLHG5hywJdHJTEQxggEKMIIBBgIBATCBmzCBjjELMAkGA1UEBhMCQ04xDzANBgNVBAgMBlNoYW5YaTEQMA4GA1UEBwwHVGFpWXVhbjEtMCsGA1UECgwkU2hhblhpIERpZ2l0YWwgQ2VydGlmaWNhdGUgQXV0aG9yaXR5MS0wKwYDVQQDDCRTaGFuWGkgRGlnaXRhbCBDZXJ0aWZpY2F0ZSBBdXRob3JpdHkCCF1f3TbkQ3nBMAwGCCqBHM9VAYMRBQAwDQYJKoEcz1UBgi0BBQAERjBEAiAOa3LEl0j6RWk+mZodF/jk6DJ5ZnT69b/1qGOfl3b7IwIgetOzdofYWuqiNDlh2nxCFR0HxgaQCk2BDBxWvx+Deck=
+                    </detach>
+                    <original>TTJRNFpHRTFOelF5TlRNek5HSTRNV0ZtTWpOaE0yWTROek13TkRRd05tST0=</original>
+                  </authCredential>
+                </authen>
+                <accessControl>false</accessControl>
+                <attributes attributeType="all"/>
+              </body>
+            </message>      
+          
+I, [2018-08-31T09:47:08.436820 #5762]  INFO -- : 标记:获取认证原文\n 标题:无\n 详细信息:MjA5YzVhZDgzN2JkNDUxMmE0NWMxZGNhY2ExZDlmMWQ=
+I, [2018-08-31T09:47:56.722149 #5506]  INFO -- : 标记:获取认证原文\n 标题:无\n 详细信息:NjU0ZGNiNWE3NmYxNDg1ODhiMjYyNTE0OGYyYzI0YmY=
+I, [2018-08-31T09:48:39.125664 #5506]  INFO -- : 标记:获取认证原文\n 标题:无\n 详细信息:MmI5ZGFjNTM5MjgyNDNlY2I5MWUyNTVlOTBhYWQ5YTQ=
+I, [2018-08-31T09:49:10.449149 #5506]  INFO -- : 标记:获取认证原文\n 标题:无\n 详细信息:MGRjYWQ0ODJiYTI4NDYyYzkwNmY4NTc0ZWNhN2M1NDY=
+I, [2018-08-31T09:50:16.998599 #6014]  INFO -- : 标记:获取认证原文\n 标题:无\n 详细信息:NTdlODRmNGY3YThhNDkwYmJhMDkyY2Q5NTc5Yjk4OGE=
+I, [2018-08-31T09:50:25.617902 #6014]  INFO -- : 标记:获取认证原文\n 标题:无\n 详细信息:ZjM2MzdlZWM0NzRkNDdhOThiMDRlN2VmN2I0ZTE5Nzk=
+I, [2018-08-31T10:07:12.155969 #6796]  INFO -- : 标记:获取认证原文\n 标题:无\n 详细信息:YTY3NWYxMGQ3N2NhNGI0ZWE1MjZhN2M2MDY3NjZiODE=
+I, [2018-08-31T10:21:34.669712 #7221]  INFO -- : 标记:获取认证原文\n 标题:无\n 详细信息:ZmY4MmU0NjM5Y2E3NDM4MWE4YmQ4ZTk1ZTcxZTA1MTI=
+I, [2018-08-31T10:24:43.023436 #7319]  INFO -- : 标记:获取认证原文\n 标题:无\n 详细信息:YTg0MTQ2MTljYmNkNGVhNDg1ZGY2NTlkMDVmMWI3MGE=
+I, [2018-08-31T10:25:14.787081 #7319]  INFO -- : 标记:请求认证数据\n 标题:无\n 详细信息:
+            <?xml version="1.0" encoding="UTF-8"?>
+            <message>
+              <head>
+                <version>1.0</version>
+                <serviceType>AuthenService</serviceType>
+              </head>
+              <body>
+                <clientInfo>
+                  <clientIP>192.168.1.191</clientIP>
+                </clientInfo>
+                <appId>testApp</appId>
+                <authen>
+                  <authCredential authMode=cert>
+                    <detach>
+                      MIIDTgYKKoEcz1UGAQQCAqCCAz4wggM6AgEBMQwwCgYIKoEcz1UBgxEwDAYKKoEcz1UGAQQCAaCCAgcwggIDMIIBqKADAgECAghdX9025EN5wTAMBggqgRzPVQGDdQUAMIGOMQswCQYDVQQGEwJDTjEPMA0GA1UECAwGU2hhblhpMRAwDgYDVQQHDAdUYWlZdWFuMS0wKwYDVQQKDCRTaGFuWGkgRGlnaXRhbCBDZXJ0aWZpY2F0ZSBBdXRob3JpdHkxLTArBgNVBAMMJFNoYW5YaSBEaWdpdGFsIENlcnRpZmljYXRlIEF1dGhvcml0eTAeFw0xODA2MDYwNjU0NDZaFw0xODA5MDQwNjU0NDZaMGkxCzAJBgNVBAYTAkNOMRIwEAYDVQQIDAnlsbHopb/nnIExEjAQBgNVBAcMCeWkquWOn+W4gjEbMBkGA1UECwwSOU0yNDMzMjAxODAzMDEwMDU5MRUwEwYDVQQDDAzljZXkvY0wMzAxMDIwWTATBgcqhkjOPQIBBggqgRzPVQGCLQNCAAQumrNoY3Si3AFXXX1cyk8aMNEkSbFQ31NAqF+JzidbMBLJphQ4mp1wa1k5eyz3x5qeQ427B9/J9ZaQZdB/2Fl3oxIwEDAOBgNVHQ8BAf8EBAMCBsAwDAYIKoEcz1UBg3UFAANHADBEAiByUhZ8oXRl5dh5NZSvtLAg2lQkJJ0akEcuBwYadavWiQIgXCPcvq1QDrVXXXevOX7M9PSatREYvLHG5hywJdHJTEQxggEMMIIBCAIBATCBmzCBjjELMAkGA1UEBhMCQ04xDzANBgNVBAgMBlNoYW5YaTEQMA4GA1UEBwwHVGFpWXVhbjEtMCsGA1UECgwkU2hhblhpIERpZ2l0YWwgQ2VydGlmaWNhdGUgQXV0aG9yaXR5MS0wKwYDVQQDDCRTaGFuWGkgRGlnaXRhbCBDZXJ0aWZpY2F0ZSBBdXRob3JpdHkCCF1f3TbkQ3nBMAwGCCqBHM9VAYMRBQAwDQYJKoEcz1UBgi0BBQAESDBGAiEAtFNBGyMjZKIcuF8JnlZRiRe2eOJZek6zSQlOh9HeJ0kCIQDkNs5K2EANG40SZ4tybybrupvmSEzUTLsmvU5s5omgNQ==
+                    </detach>
+                    <original>WVRnME1UUTJNVGxqWW1Oa05HVmhORGcxWkdZMk5UbGtNRFZtTVdJM01HRT0=</original>
+                  </authCredential>
+                </authen>
+                <accessControl>false</accessControl>
+                <attributes attributeType="all"/>
+              </body>
+            </message>      
+          
+I, [2018-08-31T10:32:25.851686 #7457]  INFO -- : 标记:获取认证原文\n 标题:无\n 详细信息:MjliNzA2OGFiMGUzNDZmMzkzMzg2ZDc0YzhiZDgyYjY=
+I, [2018-08-31T10:33:02.428213 #7457]  INFO -- : 标记:请求认证数据\n 标题:无\n 详细信息:
+            <?xml version="1.0" encoding="UTF-8"?>
+            <message>
+              <head>
+                <version>1.0</version>
+                <serviceType>AuthenService</serviceType>
+              </head>
+              <body>
+                <clientInfo>
+                  <clientIP>192.168.1.191</clientIP>
+                </clientInfo>
+                <appId>testApp</appId>
+                <authen>
+                  <authCredential authMode=cert>
+                    <detach>
+                      MIIDTQYKKoEcz1UGAQQCAqCCAz0wggM5AgEBMQwwCgYIKoEcz1UBgxEwDAYKKoEcz1UGAQQCAaCCAgcwggIDMIIBqKADAgECAghdX9025EN5wTAMBggqgRzPVQGDdQUAMIGOMQswCQYDVQQGEwJDTjEPMA0GA1UECAwGU2hhblhpMRAwDgYDVQQHDAdUYWlZdWFuMS0wKwYDVQQKDCRTaGFuWGkgRGlnaXRhbCBDZXJ0aWZpY2F0ZSBBdXRob3JpdHkxLTArBgNVBAMMJFNoYW5YaSBEaWdpdGFsIENlcnRpZmljYXRlIEF1dGhvcml0eTAeFw0xODA2MDYwNjU0NDZaFw0xODA5MDQwNjU0NDZaMGkxCzAJBgNVBAYTAkNOMRIwEAYDVQQIDAnlsbHopb/nnIExEjAQBgNVBAcMCeWkquWOn+W4gjEbMBkGA1UECwwSOU0yNDMzMjAxODAzMDEwMDU5MRUwEwYDVQQDDAzljZXkvY0wMzAxMDIwWTATBgcqhkjOPQIBBggqgRzPVQGCLQNCAAQumrNoY3Si3AFXXX1cyk8aMNEkSbFQ31NAqF+JzidbMBLJphQ4mp1wa1k5eyz3x5qeQ427B9/J9ZaQZdB/2Fl3oxIwEDAOBgNVHQ8BAf8EBAMCBsAwDAYIKoEcz1UBg3UFAANHADBEAiByUhZ8oXRl5dh5NZSvtLAg2lQkJJ0akEcuBwYadavWiQIgXCPcvq1QDrVXXXevOX7M9PSatREYvLHG5hywJdHJTEQxggELMIIBBwIBATCBmzCBjjELMAkGA1UEBhMCQ04xDzANBgNVBAgMBlNoYW5YaTEQMA4GA1UEBwwHVGFpWXVhbjEtMCsGA1UECgwkU2hhblhpIERpZ2l0YWwgQ2VydGlmaWNhdGUgQXV0aG9yaXR5MS0wKwYDVQQDDCRTaGFuWGkgRGlnaXRhbCBDZXJ0aWZpY2F0ZSBBdXRob3JpdHkCCF1f3TbkQ3nBMAwGCCqBHM9VAYMRBQAwDQYJKoEcz1UBgi0BBQAERzBFAiAbRNmy7SzLie5ocgV1r2ZyEal3fbah8Jt0pVX0J4DRBgIhAPdqQg+J3HQ4wGYUsNhAG6+u1n42vgQp2TTNsA8Ft9Ax
+                    </detach>
+                    <original>TWpsaU56QTJPR0ZpTUdVek5EWm1Nemt6TXpnMlpEYzBZemhpWkRneVlqWT0=</original>
+                  </authCredential>
+                </authen>
+                <accessControl>false</accessControl>
+                <attributes attributeType="all"/>
+              </body>
+            </message>      
+          
+I, [2018-08-31T10:33:27.452962 #7457]  INFO -- : 标记:请求认证数据\n 标题:无\n 详细信息:
+            <?xml version="1.0" encoding="UTF-8"?>
+            <message>
+              <head>
+                <version>1.0</version>
+                <serviceType>AuthenService</serviceType>
+              </head>
+              <body>
+                <clientInfo>
+                  <clientIP>192.168.1.191</clientIP>
+                </clientInfo>
+                <appId>testApp</appId>
+                <authen>
+                  <authCredential authMode=cert>
+                    <detach>
+                      MIIDTQYKKoEcz1UGAQQCAqCCAz0wggM5AgEBMQwwCgYIKoEcz1UBgxEwDAYKKoEcz1UGAQQCAaCCAgcwggIDMIIBqKADAgECAghdX9025EN5wTAMBggqgRzPVQGDdQUAMIGOMQswCQYDVQQGEwJDTjEPMA0GA1UECAwGU2hhblhpMRAwDgYDVQQHDAdUYWlZdWFuMS0wKwYDVQQKDCRTaGFuWGkgRGlnaXRhbCBDZXJ0aWZpY2F0ZSBBdXRob3JpdHkxLTArBgNVBAMMJFNoYW5YaSBEaWdpdGFsIENlcnRpZmljYXRlIEF1dGhvcml0eTAeFw0xODA2MDYwNjU0NDZaFw0xODA5MDQwNjU0NDZaMGkxCzAJBgNVBAYTAkNOMRIwEAYDVQQIDAnlsbHopb/nnIExEjAQBgNVBAcMCeWkquWOn+W4gjEbMBkGA1UECwwSOU0yNDMzMjAxODAzMDEwMDU5MRUwEwYDVQQDDAzljZXkvY0wMzAxMDIwWTATBgcqhkjOPQIBBggqgRzPVQGCLQNCAAQumrNoY3Si3AFXXX1cyk8aMNEkSbFQ31NAqF+JzidbMBLJphQ4mp1wa1k5eyz3x5qeQ427B9/J9ZaQZdB/2Fl3oxIwEDAOBgNVHQ8BAf8EBAMCBsAwDAYIKoEcz1UBg3UFAANHADBEAiByUhZ8oXRl5dh5NZSvtLAg2lQkJJ0akEcuBwYadavWiQIgXCPcvq1QDrVXXXevOX7M9PSatREYvLHG5hywJdHJTEQxggELMIIBBwIBATCBmzCBjjELMAkGA1UEBhMCQ04xDzANBgNVBAgMBlNoYW5YaTEQMA4GA1UEBwwHVGFpWXVhbjEtMCsGA1UECgwkU2hhblhpIERpZ2l0YWwgQ2VydGlmaWNhdGUgQXV0aG9yaXR5MS0wKwYDVQQDDCRTaGFuWGkgRGlnaXRhbCBDZXJ0aWZpY2F0ZSBBdXRob3JpdHkCCF1f3TbkQ3nBMAwGCCqBHM9VAYMRBQAwDQYJKoEcz1UBgi0BBQAERzBFAiAbRNmy7SzLie5ocgV1r2ZyEal3fbah8Jt0pVX0J4DRBgIhAPdqQg+J3HQ4wGYUsNhAG6+u1n42vgQp2TTNsA8Ft9Ax
+                    </detach>
+                    <original>TWpsaU56QTJPR0ZpTUdVek5EWm1Nemt6TXpnMlpEYzBZemhpWkRneVlqWT0=</original>
+                  </authCredential>
+                </authen>
+                <accessControl>false</accessControl>
+                <attributes attributeType="all"/>
+              </body>
+            </message>      
+          
+I, [2018-08-31T10:34:26.924510 #7561]  INFO -- : 标记:获取认证原文\n 标题:无\n 详细信息:ZjMwODllMjhhMDRmNGI0MWI3NGYyOTkwOWQ5Yjc4NWE=
+I, [2018-08-31T10:35:19.688656 #7561]  INFO -- : 标记:请求认证数据\n 标题:无\n 详细信息:
+            <?xml version="1.0" encoding="UTF-8"?>
+            <message>
+              <head>
+                <version>1.0</version>
+                <serviceType>AuthenService</serviceType>
+              </head>
+              <body>
+                <clientInfo>
+                  <clientIP>192.168.1.191</clientIP>
+                </clientInfo>
+                <appId>testApp</appId>
+                <authen>
+                  <authCredential authMode=cert>
+                    <detach>
+                      MIIDTAYKKoEcz1UGAQQCAqCCAzwwggM4AgEBMQwwCgYIKoEcz1UBgxEwDAYKKoEcz1UGAQQCAaCCAgcwggIDMIIBqKADAgECAghdX9025EN5wTAMBggqgRzPVQGDdQUAMIGOMQswCQYDVQQGEwJDTjEPMA0GA1UECAwGU2hhblhpMRAwDgYDVQQHDAdUYWlZdWFuMS0wKwYDVQQKDCRTaGFuWGkgRGlnaXRhbCBDZXJ0aWZpY2F0ZSBBdXRob3JpdHkxLTArBgNVBAMMJFNoYW5YaSBEaWdpdGFsIENlcnRpZmljYXRlIEF1dGhvcml0eTAeFw0xODA2MDYwNjU0NDZaFw0xODA5MDQwNjU0NDZaMGkxCzAJBgNVBAYTAkNOMRIwEAYDVQQIDAnlsbHopb/nnIExEjAQBgNVBAcMCeWkquWOn+W4gjEbMBkGA1UECwwSOU0yNDMzMjAxODAzMDEwMDU5MRUwEwYDVQQDDAzljZXkvY0wMzAxMDIwWTATBgcqhkjOPQIBBggqgRzPVQGCLQNCAAQumrNoY3Si3AFXXX1cyk8aMNEkSbFQ31NAqF+JzidbMBLJphQ4mp1wa1k5eyz3x5qeQ427B9/J9ZaQZdB/2Fl3oxIwEDAOBgNVHQ8BAf8EBAMCBsAwDAYIKoEcz1UBg3UFAANHADBEAiByUhZ8oXRl5dh5NZSvtLAg2lQkJJ0akEcuBwYadavWiQIgXCPcvq1QDrVXXXevOX7M9PSatREYvLHG5hywJdHJTEQxggEKMIIBBgIBATCBmzCBjjELMAkGA1UEBhMCQ04xDzANBgNVBAgMBlNoYW5YaTEQMA4GA1UEBwwHVGFpWXVhbjEtMCsGA1UECgwkU2hhblhpIERpZ2l0YWwgQ2VydGlmaWNhdGUgQXV0aG9yaXR5MS0wKwYDVQQDDCRTaGFuWGkgRGlnaXRhbCBDZXJ0aWZpY2F0ZSBBdXRob3JpdHkCCF1f3TbkQ3nBMAwGCCqBHM9VAYMRBQAwDQYJKoEcz1UBgi0BBQAERjBEAiABpBCjVjZKsamYf95jJEewp32FJxJ1oe66aJBE1Hh6iwIgTrsSj4sFtov190cDTwuiVjqjiwaozSI+YyHmNH4Eo/E=
+                    </detach>
+                    <original>WmpNd09EbGxNamhoTURSbU5HSTBNV0kzTkdZeU9Ua3dPV1E1WWpjNE5XRT0=</original>
+                  </authCredential>
+                </authen>
+                <accessControl>false</accessControl>
+                <attributes attributeType="all"/>
+              </body>
+            </message>      
+          
+I, [2018-08-31T11:25:10.952038 #7561]  INFO -- : 标记:获取认证原文\n 标题:无\n 详细信息:NDQwMzJkODE4ZTdiNDVjZWE3YWRkMzFlOGVjZTYxNGM=
+I, [2018-08-31T11:27:21.853019 #8645]  INFO -- : 标记:请求认证数据\n 标题:无\n 详细信息:
+            <?xml version="1.0" encoding="UTF-8"?>
+            <message>
+              <head>
+                <version>1.0</version>
+                <serviceType>AuthenService</serviceType>
+              </head>
+              <body>
+                <clientInfo>
+                  <clientIP>192.168.1.191</clientIP>
+                </clientInfo>
+                <appId>testApp</appId>
+                <authen>
+                  <authCredential authMode=cert>
+                    <detach>
+                      MIIDTAYKKoEcz1UGAQQCAqCCAzwwggM4AgEBMQwwCgYIKoEcz1UBgxEwDAYKKoEcz1UGAQQCAaCCAgcwggIDMIIBqKADAgECAghdX9025EN5wTAMBggqgRzPVQGDdQUAMIGOMQswCQYDVQQGEwJDTjEPMA0GA1UECAwGU2hhblhpMRAwDgYDVQQHDAdUYWlZdWFuMS0wKwYDVQQKDCRTaGFuWGkgRGlnaXRhbCBDZXJ0aWZpY2F0ZSBBdXRob3JpdHkxLTArBgNVBAMMJFNoYW5YaSBEaWdpdGFsIENlcnRpZmljYXRlIEF1dGhvcml0eTAeFw0xODA2MDYwNjU0NDZaFw0xODA5MDQwNjU0NDZaMGkxCzAJBgNVBAYTAkNOMRIwEAYDVQQIDAnlsbHopb/nnIExEjAQBgNVBAcMCeWkquWOn+W4gjEbMBkGA1UECwwSOU0yNDMzMjAxODAzMDEwMDU5MRUwEwYDVQQDDAzljZXkvY0wMzAxMDIwWTATBgcqhkjOPQIBBggqgRzPVQGCLQNCAAQumrNoY3Si3AFXXX1cyk8aMNEkSbFQ31NAqF+JzidbMBLJphQ4mp1wa1k5eyz3x5qeQ427B9/J9ZaQZdB/2Fl3oxIwEDAOBgNVHQ8BAf8EBAMCBsAwDAYIKoEcz1UBg3UFAANHADBEAiByUhZ8oXRl5dh5NZSvtLAg2lQkJJ0akEcuBwYadavWiQIgXCPcvq1QDrVXXXevOX7M9PSatREYvLHG5hywJdHJTEQxggEKMIIBBgIBATCBmzCBjjELMAkGA1UEBhMCQ04xDzANBgNVBAgMBlNoYW5YaTEQMA4GA1UEBwwHVGFpWXVhbjEtMCsGA1UECgwkU2hhblhpIERpZ2l0YWwgQ2VydGlmaWNhdGUgQXV0aG9yaXR5MS0wKwYDVQQDDCRTaGFuWGkgRGlnaXRhbCBDZXJ0aWZpY2F0ZSBBdXRob3JpdHkCCF1f3TbkQ3nBMAwGCCqBHM9VAYMRBQAwDQYJKoEcz1UBgi0BBQAERjBEAiAJw/f8JDGfQfHBqIb9M/O+HDuMGiDQC2R3Llv8CLwe/gIgNAcOYXILq+bdO+gN6rt7HxX4zLlmDdwwF44Sq8mZRIo=
+                    </detach>
+                    <original>TkRRd016SmtPREU0WlRkaU5EVmpaV0UzWVdSa016RmxPR1ZqWlRZeE5HTT0=</original>
+                  </authCredential>
+                </authen>
+                <accessControl>false</accessControl>
+                <attributes attributeType="all"/>
+              </body>
+            </message>      
+          
+I, [2018-08-31T11:38:37.961241 #9108]  INFO -- : 标记:获取认证原文\n 标题:无\n 详细信息:N2JlMWRiNmEzN2IzNDU1YThmNTkxODc5NTQ0NzE0Zjc=
+I, [2018-08-31T11:38:50.774449 #9108]  INFO -- : 标记:请求认证数据\n 标题:无\n 详细信息:
+            <?xml version="1.0" encoding="UTF-8"?>
+            <message>
+              <head>
+                <version>1.0</version>
+                <serviceType>AuthenService</serviceType>
+              </head>
+              <body>
+                <clientInfo>
+                  <clientIP>192.168.1.191</clientIP>
+                </clientInfo>
+                <appId>testApp</appId>
+                <authen>
+                  <authCredential authMode=cert>
+                    <detach>
+                      MIIDTQYKKoEcz1UGAQQCAqCCAz0wggM5AgEBMQwwCgYIKoEcz1UBgxEwDAYKKoEcz1UGAQQCAaCCAgcwggIDMIIBqKADAgECAghdX9025EN5wTAMBggqgRzPVQGDdQUAMIGOMQswCQYDVQQGEwJDTjEPMA0GA1UECAwGU2hhblhpMRAwDgYDVQQHDAdUYWlZdWFuMS0wKwYDVQQKDCRTaGFuWGkgRGlnaXRhbCBDZXJ0aWZpY2F0ZSBBdXRob3JpdHkxLTArBgNVBAMMJFNoYW5YaSBEaWdpdGFsIENlcnRpZmljYXRlIEF1dGhvcml0eTAeFw0xODA2MDYwNjU0NDZaFw0xODA5MDQwNjU0NDZaMGkxCzAJBgNVBAYTAkNOMRIwEAYDVQQIDAnlsbHopb/nnIExEjAQBgNVBAcMCeWkquWOn+W4gjEbMBkGA1UECwwSOU0yNDMzMjAxODAzMDEwMDU5MRUwEwYDVQQDDAzljZXkvY0wMzAxMDIwWTATBgcqhkjOPQIBBggqgRzPVQGCLQNCAAQumrNoY3Si3AFXXX1cyk8aMNEkSbFQ31NAqF+JzidbMBLJphQ4mp1wa1k5eyz3x5qeQ427B9/J9ZaQZdB/2Fl3oxIwEDAOBgNVHQ8BAf8EBAMCBsAwDAYIKoEcz1UBg3UFAANHADBEAiByUhZ8oXRl5dh5NZSvtLAg2lQkJJ0akEcuBwYadavWiQIgXCPcvq1QDrVXXXevOX7M9PSatREYvLHG5hywJdHJTEQxggELMIIBBwIBATCBmzCBjjELMAkGA1UEBhMCQ04xDzANBgNVBAgMBlNoYW5YaTEQMA4GA1UEBwwHVGFpWXVhbjEtMCsGA1UECgwkU2hhblhpIERpZ2l0YWwgQ2VydGlmaWNhdGUgQXV0aG9yaXR5MS0wKwYDVQQDDCRTaGFuWGkgRGlnaXRhbCBDZXJ0aWZpY2F0ZSBBdXRob3JpdHkCCF1f3TbkQ3nBMAwGCCqBHM9VAYMRBQAwDQYJKoEcz1UBgi0BBQAERzBFAiEA1UJfID3FikzOAXraOiCN4xB0+eUxIUsTkZM8Vsz0nCcCIHzGj9N/G6u20MTao18yY4V3eLfefspcT+xwGFRJDv9K
+                    </detach>
+                    <original>TjJKbE1XUmlObUV6TjJJek5EVTFZVGhtTlRreE9EYzVOVFEwTnpFMFpqYz0=</original>
+                  </authCredential>
+                </authen>
+                <accessControl>false</accessControl>
+                <attributes attributeType="all"/>
+              </body>
+            </message>      
+          
+I, [2018-08-31T11:38:52.083788 #9108]  INFO -- : 标记:获取认证原文\n 标题:无\n 详细信息:NWVlOTM5NWM1ZTFiNGQ0ZTk0ZGM4MjU1NGM3N2VmN2M=
+I, [2018-08-31T11:39:16.775485 #9108]  INFO -- : 标记:获取认证原文\n 标题:无\n 详细信息:MGQ4OTNmMDcxMDcwNGEyY2IyNmU2NDljMjczNjkzNzc=
+I, [2018-08-31T11:39:28.709974 #9108]  INFO -- : 标记:请求认证数据\n 标题:无\n 详细信息:
+            <?xml version="1.0" encoding="UTF-8"?>
+            <message>
+              <head>
+                <version>1.0</version>
+                <serviceType>AuthenService</serviceType>
+              </head>
+              <body>
+                <clientInfo>
+                  <clientIP>192.168.1.191</clientIP>
+                </clientInfo>
+                <appId>testApp</appId>
+                <authen>
+                  <authCredential authMode=cert>
+                    <detach>
+                      MIIDTQYKKoEcz1UGAQQCAqCCAz0wggM5AgEBMQwwCgYIKoEcz1UBgxEwDAYKKoEcz1UGAQQCAaCCAgcwggIDMIIBqKADAgECAghdX9025EN5wTAMBggqgRzPVQGDdQUAMIGOMQswCQYDVQQGEwJDTjEPMA0GA1UECAwGU2hhblhpMRAwDgYDVQQHDAdUYWlZdWFuMS0wKwYDVQQKDCRTaGFuWGkgRGlnaXRhbCBDZXJ0aWZpY2F0ZSBBdXRob3JpdHkxLTArBgNVBAMMJFNoYW5YaSBEaWdpdGFsIENlcnRpZmljYXRlIEF1dGhvcml0eTAeFw0xODA2MDYwNjU0NDZaFw0xODA5MDQwNjU0NDZaMGkxCzAJBgNVBAYTAkNOMRIwEAYDVQQIDAnlsbHopb/nnIExEjAQBgNVBAcMCeWkquWOn+W4gjEbMBkGA1UECwwSOU0yNDMzMjAxODAzMDEwMDU5MRUwEwYDVQQDDAzljZXkvY0wMzAxMDIwWTATBgcqhkjOPQIBBggqgRzPVQGCLQNCAAQumrNoY3Si3AFXXX1cyk8aMNEkSbFQ31NAqF+JzidbMBLJphQ4mp1wa1k5eyz3x5qeQ427B9/J9ZaQZdB/2Fl3oxIwEDAOBgNVHQ8BAf8EBAMCBsAwDAYIKoEcz1UBg3UFAANHADBEAiByUhZ8oXRl5dh5NZSvtLAg2lQkJJ0akEcuBwYadavWiQIgXCPcvq1QDrVXXXevOX7M9PSatREYvLHG5hywJdHJTEQxggELMIIBBwIBATCBmzCBjjELMAkGA1UEBhMCQ04xDzANBgNVBAgMBlNoYW5YaTEQMA4GA1UEBwwHVGFpWXVhbjEtMCsGA1UECgwkU2hhblhpIERpZ2l0YWwgQ2VydGlmaWNhdGUgQXV0aG9yaXR5MS0wKwYDVQQDDCRTaGFuWGkgRGlnaXRhbCBDZXJ0aWZpY2F0ZSBBdXRob3JpdHkCCF1f3TbkQ3nBMAwGCCqBHM9VAYMRBQAwDQYJKoEcz1UBgi0BBQAERzBFAiEAgpRDdZp2+Ta3R6yK6zha/XFHzwZcPxloiM7dVxNqM+gCIAKzwwtfkiAIP2+7xsnRA1MD8gKUSXP1HFPKV3c4BhxC
+                    </detach>
+                    <original>TUdRNE9UTm1NRGN4TURjd05HRXlZMkl5Tm1VMk5EbGpNamN6Tmprek56Yz0=</original>
+                  </authCredential>
+                </authen>
+                <accessControl>false</accessControl>
+                <attributes attributeType="all"/>
+              </body>
+            </message>      
+          
+I, [2018-08-31T11:39:29.026627 #9108]  INFO -- : 标记:获取认证原文\n 标题:无\n 详细信息:YWZiYmMwYWViZjA0NGM1ZGFlMjY4MGViN2M5NTNkN2Q=
+I, [2018-08-31T14:49:19.287620 #12921]  INFO -- : 标记:获取认证原文\n 标题:无\n 详细信息:MjZjM2M3NzIxZjFlNGI4MjliODBhMGZhYjMwNjE0Y2U=
+I, [2018-08-31T14:56:23.362694 #12921]  INFO -- : 标记:获取认证原文\n 标题:无\n 详细信息:NWUyODgyNTU4NjM5NGU2Y2JiNTBmN2VmNTJlZTc2YzM=
+I, [2018-08-31T17:01:29.475984 #12921]  INFO -- : 标记:获取认证原文\n 标题:无\n 详细信息:OWU0OGZjNzY3NWExNDkwOTg3ZTExZDViZTMxNmE4YTA=
+I, [2018-08-31T17:02:20.769555 #12921]  INFO -- : 标记:获取认证原文\n 标题:无\n 详细信息:ODJhOTQzMzI2MWRmNDk5MWFiOGM5YmMwNmQyMjNlZjg=
+I, [2018-08-31T17:04:10.083217 #12921]  INFO -- : 标记:获取认证原文\n 标题:无\n 详细信息:ZDFkN2YyMzJiZTExNDM0NDgyZDE3YjA1N2E2NDI3YTE=
+I, [2018-08-31T17:07:28.326804 #12921]  INFO -- : 标记:获取认证原文\n 标题:无\n 详细信息:Y2ViMmI5MTkzM2NlNDRmODhjYWIyMzI3NjdkOTI2OTE=
+I, [2018-08-31T17:08:06.476032 #12921]  INFO -- : 标记:请求认证数据\n 标题:无\n 详细信息:
+            <?xml version="1.0" encoding="UTF-8"?>
+            <message>
+              <head>
+                <version>1.0</version>
+                <serviceType>AuthenService</serviceType>
+              </head>
+              <body>
+                <clientInfo>
+                  <clientIP>192.168.1.191</clientIP>
+                </clientInfo>
+                <appId>testApp</appId>
+                <authen>
+                  <authCredential authMode=cert>
+                    <detach>
+                      MIIDTQYKKoEcz1UGAQQCAqCCAz0wggM5AgEBMQwwCgYIKoEcz1UBgxEwDAYKKoEcz1UGAQQCAaCCAgcwggIDMIIBqKADAgECAghdX9025EN5wTAMBggqgRzPVQGDdQUAMIGOMQswCQYDVQQGEwJDTjEPMA0GA1UECAwGU2hhblhpMRAwDgYDVQQHDAdUYWlZdWFuMS0wKwYDVQQKDCRTaGFuWGkgRGlnaXRhbCBDZXJ0aWZpY2F0ZSBBdXRob3JpdHkxLTArBgNVBAMMJFNoYW5YaSBEaWdpdGFsIENlcnRpZmljYXRlIEF1dGhvcml0eTAeFw0xODA2MDYwNjU0NDZaFw0xODA5MDQwNjU0NDZaMGkxCzAJBgNVBAYTAkNOMRIwEAYDVQQIDAnlsbHopb/nnIExEjAQBgNVBAcMCeWkquWOn+W4gjEbMBkGA1UECwwSOU0yNDMzMjAxODAzMDEwMDU5MRUwEwYDVQQDDAzljZXkvY0wMzAxMDIwWTATBgcqhkjOPQIBBggqgRzPVQGCLQNCAAQumrNoY3Si3AFXXX1cyk8aMNEkSbFQ31NAqF+JzidbMBLJphQ4mp1wa1k5eyz3x5qeQ427B9/J9ZaQZdB/2Fl3oxIwEDAOBgNVHQ8BAf8EBAMCBsAwDAYIKoEcz1UBg3UFAANHADBEAiByUhZ8oXRl5dh5NZSvtLAg2lQkJJ0akEcuBwYadavWiQIgXCPcvq1QDrVXXXevOX7M9PSatREYvLHG5hywJdHJTEQxggELMIIBBwIBATCBmzCBjjELMAkGA1UEBhMCQ04xDzANBgNVBAgMBlNoYW5YaTEQMA4GA1UEBwwHVGFpWXVhbjEtMCsGA1UECgwkU2hhblhpIERpZ2l0YWwgQ2VydGlmaWNhdGUgQXV0aG9yaXR5MS0wKwYDVQQDDCRTaGFuWGkgRGlnaXRhbCBDZXJ0aWZpY2F0ZSBBdXRob3JpdHkCCF1f3TbkQ3nBMAwGCCqBHM9VAYMRBQAwDQYJKoEcz1UBgi0BBQAERzBFAiEApHPZz++D4gjdnrTdyTDpTdEtRX5FhvSHsRhBY3uhu7ICIF6AaGasu3akhvmhRzgEN5OFApSTbnulnwUtlF/guZxR
+                    </detach>
+                    <original>WTJWaU1tSTVNVGt6TTJObE5EUm1PRGhqWVdJeU16STNOamRrT1RJMk9URT0=</original>
+                  </authCredential>
+                </authen>
+                <accessControl>false</accessControl>
+                <attributes attributeType="all"/>
+              </body>
+            </message>      
+          
+I, [2018-08-31T17:08:06.940778 #12921]  INFO -- : 标记:获取认证原文\n 标题:无\n 详细信息:ZWYzOWFiZjgyNGJjNDllYWEyNjNhZmZmZmZiZGZiZWI=
+I, [2018-08-31T17:08:09.820093 #12921]  INFO -- : 标记:获取认证原文\n 标题:无\n 详细信息:YjRmOWQ4NjRmY2UyNGM5NGEzYmU0ZjkzOWM3NGFhNGI=
+I, [2018-08-31T17:10:35.211802 #12921]  INFO -- : 标记:获取认证原文\n 标题:无\n 详细信息:MDE4NzkzZmVkZmEzNDBkMmI1NWU4M2FhZmJhMDU2ZDE=
+I, [2018-08-31T17:10:57.066360 #12921]  INFO -- : 标记:获取认证原文\n 标题:无\n 详细信息:NzVlMGQ3ZTA1OGI0NGU5OGIxOGQ0YTljNDI0NjMyODU=
+I, [2018-08-31T17:11:42.079490 #12921]  INFO -- : 标记:获取认证原文\n 标题:无\n 详细信息:ZWViMTEwZDY3ODE3NDE5NGE0Nzg2NWI2NmJlNzEyNDI=
+I, [2018-08-31T17:12:00.992809 #12921]  INFO -- : 标记:获取认证原文\n 标题:无\n 详细信息:ZmFiOTM4ZDRjODJhNDczM2I5ZTQ2MDI2NDgwNGU5OWU=
+I, [2018-08-31T17:13:14.820473 #12921]  INFO -- : 标记:获取认证原文\n 标题:无\n 详细信息:ZmMwMWJmZDdlNjcwNDE0N2I3NjMyYzY2YzJmZmUwZjg=
+I, [2018-08-31T17:13:32.467415 #12921]  INFO -- : 标记:请求认证数据\n 标题:无\n 详细信息:
+            <?xml version="1.0" encoding="UTF-8"?>
+            <message>
+              <head>
+                <version>1.0</version>
+                <serviceType>AuthenService</serviceType>
+              </head>
+              <body>
+                <clientInfo>
+                  <clientIP>192.168.1.191</clientIP>
+                </clientInfo>
+                <appId>testApp</appId>
+                <authen>
+                  <authCredential authMode=cert>
+                    <detach>
+                      MIIDTQYKKoEcz1UGAQQCAqCCAz0wggM5AgEBMQwwCgYIKoEcz1UBgxEwDAYKKoEcz1UGAQQCAaCCAgcwggIDMIIBqKADAgECAghdX9025EN5wTAMBggqgRzPVQGDdQUAMIGOMQswCQYDVQQGEwJDTjEPMA0GA1UECAwGU2hhblhpMRAwDgYDVQQHDAdUYWlZdWFuMS0wKwYDVQQKDCRTaGFuWGkgRGlnaXRhbCBDZXJ0aWZpY2F0ZSBBdXRob3JpdHkxLTArBgNVBAMMJFNoYW5YaSBEaWdpdGFsIENlcnRpZmljYXRlIEF1dGhvcml0eTAeFw0xODA2MDYwNjU0NDZaFw0xODA5MDQwNjU0NDZaMGkxCzAJBgNVBAYTAkNOMRIwEAYDVQQIDAnlsbHopb/nnIExEjAQBgNVBAcMCeWkquWOn+W4gjEbMBkGA1UECwwSOU0yNDMzMjAxODAzMDEwMDU5MRUwEwYDVQQDDAzljZXkvY0wMzAxMDIwWTATBgcqhkjOPQIBBggqgRzPVQGCLQNCAAQumrNoY3Si3AFXXX1cyk8aMNEkSbFQ31NAqF+JzidbMBLJphQ4mp1wa1k5eyz3x5qeQ427B9/J9ZaQZdB/2Fl3oxIwEDAOBgNVHQ8BAf8EBAMCBsAwDAYIKoEcz1UBg3UFAANHADBEAiByUhZ8oXRl5dh5NZSvtLAg2lQkJJ0akEcuBwYadavWiQIgXCPcvq1QDrVXXXevOX7M9PSatREYvLHG5hywJdHJTEQxggELMIIBBwIBATCBmzCBjjELMAkGA1UEBhMCQ04xDzANBgNVBAgMBlNoYW5YaTEQMA4GA1UEBwwHVGFpWXVhbjEtMCsGA1UECgwkU2hhblhpIERpZ2l0YWwgQ2VydGlmaWNhdGUgQXV0aG9yaXR5MS0wKwYDVQQDDCRTaGFuWGkgRGlnaXRhbCBDZXJ0aWZpY2F0ZSBBdXRob3JpdHkCCF1f3TbkQ3nBMAwGCCqBHM9VAYMRBQAwDQYJKoEcz1UBgi0BBQAERzBFAiEA5+Zp3XB/7o12p8B1G+rBihZWQQBBvk6wI99wNbuBrggCIHhT2TSbT0UFWi6r7cN8y7PQSUPsVP5BekslzIt6NWAC
+                    </detach>
+                    <original>Wm1Nd01XSm1aRGRsTmpjd05ERTBOMkkzTmpNeVl6WTJZekptWm1Vd1pqZz0=</original>
+                  </authCredential>
+                </authen>
+                <accessControl>false</accessControl>
+                <attributes attributeType="all"/>
+              </body>
+            </message>      
+          
+I, [2018-08-31T17:13:32.790787 #12921]  INFO -- : 标记:获取认证原文\n 标题:无\n 详细信息:NzZjZTVlOGNhMGU0NGI0N2EyMTZhNTM0MGRmOTRkM2I=
+I, [2018-08-31T17:13:34.600256 #12921]  INFO -- : 标记:获取认证原文\n 标题:无\n 详细信息:OWZmMTJjZGE0ZDIwNDYyMGFlYWRiYjBjNDU5ZGIxMWU=
+I, [2018-08-31T18:04:24.026283 #12921]  INFO -- : 标记:获取认证原文\n 标题:无\n 详细信息:NDVhNjk2NmRkNmY0NGM4MzllM2IzNDZiYzdmNDFlZTI=
+I, [2018-08-31T18:05:50.545923 #12921]  INFO -- : 标记:获取认证原文\n 标题:无\n 详细信息:MmQ3ZjEwMWZlYzY0NDI2NmEwMjU3MWFmYTRhM2U2YjM=
+I, [2018-08-31T18:31:40.345567 #12921]  INFO -- : 标记:获取认证原文\n 标题:无\n 详细信息:N2EwNzE4OTFjMjhlNDhkZmJlNTJjMWNjYjM0YjQ3MWQ=
+I, [2018-08-31T18:33:16.202889 #12921]  INFO -- : 标记:获取认证原文\n 标题:无\n 详细信息:OTkwZjJkODNjOWEyNGNkYTg5NDVhMGVlZGE3NTE3M2Q=
+I, [2018-08-31T18:34:12.754271 #12921]  INFO -- : 标记:获取认证原文\n 标题:无\n 详细信息:ZGVjOGZlNTY5ZTdhNDlhNWE5NDJiZDkxYzU0NTcyNGU=
+I, [2018-08-31T18:35:10.137679 #12921]  INFO -- : 标记:获取认证原文\n 标题:无\n 详细信息:OTlmNDVkMzVjMjg1NDU4Y2FkNTg5NjMzY2NjNGE4NWY=
+I, [2018-08-31T18:35:56.532458 #12921]  INFO -- : 标记:获取认证原文\n 标题:无\n 详细信息:YzM1ZTJjODc0MmFkNDNlNDkxMDc3NDhiOTlkODViZjU=
+I, [2018-08-31T18:42:15.791626 #21494]  INFO -- : 标记:获取认证原文\n 标题:无\n 详细信息:OGNmYzg1ZjJlZDQ0NDBlYTgxZDhkM2UwZDEwMzI0M2U=
+I, [2018-08-31T18:46:35.897977 #21494]  INFO -- : 标记:获取认证原文\n 标题:无\n 详细信息:MDkyZWRiYTdiNTFkNGQ3NTk0Y2Y5YWY5ZDNmZTRmODI=
+I, [2018-08-31T18:49:17.883050 #21494]  INFO -- : 标记:获取认证原文\n 标题:无\n 详细信息:NWQzYmFiMmFiYWYzNDhjNGFjNzI5MmM3NDllMmUyNTE=
+I, [2018-08-31T18:52:30.649558 #21494]  INFO -- : 标记:获取认证原文\n 标题:无\n 详细信息:ZjgyYmRhMGEyNDJlNGQyNWI2MWI4Yjk1ZDg1NTRhOGQ=
+I, [2018-08-31T18:56:44.664050 #21494]  INFO -- : 标记:获取认证原文\n 标题:无\n 详细信息:NGE2ZTNjOGQ4NWFiNDhlNTljMzA3NjMwOTFlNmM1Y2I=
+I, [2018-08-31T18:57:44.526384 #21494]  INFO -- : 标记:请求认证数据\n 标题:无\n 详细信息:
+            <?xml version="1.0" encoding="UTF-8"?>
+            <message>
+              <head>
+                <version>1.0</version>
+                <serviceType>AuthenService</serviceType>
+              </head>
+              <body>
+                <clientInfo>
+                  <clientIP>192.168.1.191</clientIP>
+                </clientInfo>
+                <appId>testApp</appId>
+                <authen>
+                  <authCredential authMode=cert>
+                    <detach>
+                      MIIDTQYKKoEcz1UGAQQCAqCCAz0wggM5AgEBMQwwCgYIKoEcz1UBgxEwDAYKKoEcz1UGAQQCAaCCAgcwggIDMIIBqKADAgECAghdX9025EN5wTAMBggqgRzPVQGDdQUAMIGOMQswCQYDVQQGEwJDTjEPMA0GA1UECAwGU2hhblhpMRAwDgYDVQQHDAdUYWlZdWFuMS0wKwYDVQQKDCRTaGFuWGkgRGlnaXRhbCBDZXJ0aWZpY2F0ZSBBdXRob3JpdHkxLTArBgNVBAMMJFNoYW5YaSBEaWdpdGFsIENlcnRpZmljYXRlIEF1dGhvcml0eTAeFw0xODA2MDYwNjU0NDZaFw0xODA5MDQwNjU0NDZaMGkxCzAJBgNVBAYTAkNOMRIwEAYDVQQIDAnlsbHopb/nnIExEjAQBgNVBAcMCeWkquWOn+W4gjEbMBkGA1UECwwSOU0yNDMzMjAxODAzMDEwMDU5MRUwEwYDVQQDDAzljZXkvY0wMzAxMDIwWTATBgcqhkjOPQIBBggqgRzPVQGCLQNCAAQumrNoY3Si3AFXXX1cyk8aMNEkSbFQ31NAqF+JzidbMBLJphQ4mp1wa1k5eyz3x5qeQ427B9/J9ZaQZdB/2Fl3oxIwEDAOBgNVHQ8BAf8EBAMCBsAwDAYIKoEcz1UBg3UFAANHADBEAiByUhZ8oXRl5dh5NZSvtLAg2lQkJJ0akEcuBwYadavWiQIgXCPcvq1QDrVXXXevOX7M9PSatREYvLHG5hywJdHJTEQxggELMIIBBwIBATCBmzCBjjELMAkGA1UEBhMCQ04xDzANBgNVBAgMBlNoYW5YaTEQMA4GA1UEBwwHVGFpWXVhbjEtMCsGA1UECgwkU2hhblhpIERpZ2l0YWwgQ2VydGlmaWNhdGUgQXV0aG9yaXR5MS0wKwYDVQQDDCRTaGFuWGkgRGlnaXRhbCBDZXJ0aWZpY2F0ZSBBdXRob3JpdHkCCF1f3TbkQ3nBMAwGCCqBHM9VAYMRBQAwDQYJKoEcz1UBgi0BBQAERzBFAiA6BbAcyLT0ot7j468GaxsL1Ekbx5FocDlmK9b0o09zHwIhAJMQVCfWjhOGqIYRTP6Tz2eYsalp6y/X+7YvFdEeqdZZ
+                    </detach>
+                    <original>TkdFMlpUTmpPR1E0TldGaU5EaGxOVGxqTXpBM05qTXdPVEZsTm1NMVkyST0=</original>
+                  </authCredential>
+                </authen>
+                <accessControl>false</accessControl>
+                <attributes attributeType="all"/>
+              </body>
+            </message>      
+          
+I, [2018-08-31T19:02:10.883912 #22316]  INFO -- : 标记:获取认证原文\n 标题:无\n 详细信息:NmJkMzRhMGUxYmI4NDVkYjhkNDRiMTI3OTE5NzJkODg=
+I, [2018-08-31T19:03:01.720241 #22316]  INFO -- : 标记:请求认证数据\n 标题:无\n 详细信息:
+            <?xml version="1.0" encoding="UTF-8"?>
+            <message>
+              <head>
+                <version>1.0</version>
+                <serviceType>AuthenService</serviceType>
+              </head>
+              <body>
+                <clientInfo>
+                  <clientIP>192.168.1.191</clientIP>
+                </clientInfo>
+                <appId>testApp</appId>
+                <authen>
+                  <authCredential authMode=cert>
+                    <detach>
+                      MIIDTgYKKoEcz1UGAQQCAqCCAz4wggM6AgEBMQwwCgYIKoEcz1UBgxEwDAYKKoEcz1UGAQQCAaCCAgcwggIDMIIBqKADAgECAghdX9025EN5wTAMBggqgRzPVQGDdQUAMIGOMQswCQYDVQQGEwJDTjEPMA0GA1UECAwGU2hhblhpMRAwDgYDVQQHDAdUYWlZdWFuMS0wKwYDVQQKDCRTaGFuWGkgRGlnaXRhbCBDZXJ0aWZpY2F0ZSBBdXRob3JpdHkxLTArBgNVBAMMJFNoYW5YaSBEaWdpdGFsIENlcnRpZmljYXRlIEF1dGhvcml0eTAeFw0xODA2MDYwNjU0NDZaFw0xODA5MDQwNjU0NDZaMGkxCzAJBgNVBAYTAkNOMRIwEAYDVQQIDAnlsbHopb/nnIExEjAQBgNVBAcMCeWkquWOn+W4gjEbMBkGA1UECwwSOU0yNDMzMjAxODAzMDEwMDU5MRUwEwYDVQQDDAzljZXkvY0wMzAxMDIwWTATBgcqhkjOPQIBBggqgRzPVQGCLQNCAAQumrNoY3Si3AFXXX1cyk8aMNEkSbFQ31NAqF+JzidbMBLJphQ4mp1wa1k5eyz3x5qeQ427B9/J9ZaQZdB/2Fl3oxIwEDAOBgNVHQ8BAf8EBAMCBsAwDAYIKoEcz1UBg3UFAANHADBEAiByUhZ8oXRl5dh5NZSvtLAg2lQkJJ0akEcuBwYadavWiQIgXCPcvq1QDrVXXXevOX7M9PSatREYvLHG5hywJdHJTEQxggEMMIIBCAIBATCBmzCBjjELMAkGA1UEBhMCQ04xDzANBgNVBAgMBlNoYW5YaTEQMA4GA1UEBwwHVGFpWXVhbjEtMCsGA1UECgwkU2hhblhpIERpZ2l0YWwgQ2VydGlmaWNhdGUgQXV0aG9yaXR5MS0wKwYDVQQDDCRTaGFuWGkgRGlnaXRhbCBDZXJ0aWZpY2F0ZSBBdXRob3JpdHkCCF1f3TbkQ3nBMAwGCCqBHM9VAYMRBQAwDQYJKoEcz1UBgi0BBQAESDBGAiEAkGesWBPuIgnCBKLyYaJ9VzwFU/rbOHRhru6H8LotNOUCIQDF25BvTE/pKHfg7Yvdslt81r4MWuvt0TsBTBKNEaBNtw==
+                    </detach>
+                    <original>Tm1Ka016UmhNR1V4WW1JNE5EVmtZamhrTkRSaU1USTNPVEU1TnpKa09EZz0=</original>
+                  </authCredential>
+                </authen>
+                <accessControl>false</accessControl>
+                <attributes attributeType="all"/>
+              </body>
+            </message>      
+          

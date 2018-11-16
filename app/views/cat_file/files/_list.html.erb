@@ -1,0 +1,54 @@
+  <!--列表-->
+  <div id="accordion">
+    <div class="card">
+      
+      <div v-for='(file_name, index) in file_names'>
+        <div class="card-header">
+          <a class="card-link" data-toggle="collapse" v-bind:href="'#card-'+index">
+            {{file_name.title}}
+          </a>
+        </div>
+
+        <div v-bind:id="'card-'+index" class="collapse show" data-parent="#accordion">
+          <div class="card-body">
+
+            <table class='table table-hover'>
+              <thead>
+                <tr>
+                  <th>文件名</th>
+                  <th>操作</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr v-for='name in file_name.names'>
+                  <td>
+                    <!-- <a :href="'files/file_detail/?file_name='+name" data-toggle="modal" data-target="#orders_exception_2018_08_24"> {{name}} </a> -->
+                    <a :href="'files/file_detail/?file_name='+name"> {{name}} </a>
+                  </td>
+                  <td style="width: 10%;">
+                    <div class="dropdown">
+                      <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                        操作
+                      </button>
+                      <div class="dropdown-menu">
+                        <h5 class="dropdown-header">针对该文件...</h5>
+                        <a class="dropdown-item" href="#">下载文件</a>
+                        <a class="dropdown-item" :href="'files/file_detail/?file_name='+name">查看详情</a>
+                        <!-- <a class="dropdown-item" href="#">文件切割</a> -->
+                        <a class="dropdown-item" href="#">复制文件名</a>
+                        <a class="dropdown-item" href="#">重命名</a>
+                      </div>
+                    </div>
+                  </td>
+                  
+                </tr>
+              </tbody>
+            </table>
+
+          </div>
+        </div>
+
+      </div>
+      
+    </div>
+  </div>

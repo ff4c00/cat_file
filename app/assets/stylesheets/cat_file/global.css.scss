@@ -1,0 +1,23 @@
+body { 
+  background-color: #fcf9f9f6; 
+
+  a{ 
+    &:hover {text-decoration: none;} 
+  }
+
+  .container { background-color: #fff;}
+
+  // 异常页面
+  .error-message {
+    h1 { text-align: center;}
+  }
+
+  // 搜索
+  .search {
+    &-no-result {
+      h1, p { text-align: center}
+    }
+  }
+
+
+}

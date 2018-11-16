@@ -1,0 +1,1371 @@
+# Logfile created on 2018-08-10 11:26:48 by logger.rb/56438
+I, [2018-08-10T11:26:48.984588 #12269]  INFO -- : 【2018-08-10 11:26:48】 访问电商接口：http://www.66123123.com:8008/auth2/access_token?username=XDWSCGJYPT&password=Lxwl_xdjy_5541ptcfdf&timestamp=2018-08-10+11%3A26%3A48&sign=3c812bf4860d0fae877d9c0be8f02495
+I, [2018-08-10T11:26:48.984625 #12269]  INFO -- : {失败}EmallResult.new
+I, [2018-08-10T11:26:48.984651 #12269]  INFO -- : 返回：
+I, [2018-08-10T11:26:53.553830 #12269]  INFO -- : 【2018-08-10 11:26:53】 访问电商接口：http://www.66123123.com:8008/auth2/access_token?username=XDWSCGJYPT&password=Lxwl_xdjy_5541ptcfdf&timestamp=2018-08-10+11%3A26%3A53&sign=67497685b40ecc56f5c08dd532d0eb37
+I, [2018-08-10T11:26:53.553897 #12269]  INFO -- : {失败}EmallResult.new
+I, [2018-08-10T11:26:53.553933 #12269]  INFO -- : 返回：
+I, [2018-08-10T11:27:20.673489 #12269]  INFO -- : 【2018-08-10 11:27:20】 访问电商接口：http://www.66123123.com:8008/auth2/access_token?username=XDWSCGJYPT&password=Lxwl_xdjy_5541ptcfdf&timestamp=2018-08-10+11%3A27%3A20&sign=8b1feaae3947a49d80cd28aaf4729277
+I, [2018-08-10T11:27:20.673971 #12269]  INFO -- : {失败}EmallResult.new
+I, [2018-08-10T11:27:20.674289 #12269]  INFO -- : 返回：
+I, [2018-08-10T11:30:22.751834 #12813]  INFO -- : 【2018-08-10 11:30:22】 访问电商接口：http://test.66123123.com:8002/auth2/access_token?username=SXZGSC&password=bGVhZGluZ18yMDE4MDgwOV9zeHpnc2M%3D&timestamp=2018-08-10+11%3A30%3A22&sign=e11837ea53d08026fc60ac974aebd186
+I, [2018-08-10T11:30:22.752168 #12813]  INFO -- : 返回：{
+  "access_token": "bd23df3f-f984-4840-8059-e2e0f7080daa",
+  "expires_at": "2020-08-10 11:30:23",
+  "success": true
+}
+I, [2018-08-10T11:31:08.337215 #12813]  INFO -- : 【2018-08-10 11:31:08】 访问电商接口：http://test.66123123.com:8002/product/get_pools?token=bd23df3f-f984-4840-8059-e2e0f7080daa
+I, [2018-08-10T11:31:08.337376 #12813]  INFO -- : 返回：{"success":true,"result":[{"name":"便携式计算机","id":"sxzg_bxsjsj_45"},{"name":"台式计算机","id":"sxzg_tsjsj_90"}]}
+I, [2018-08-10T11:32:29.802698 #12915]  INFO -- : 【2018-08-10 11:32:29】 访问电商接口：http://test.66123123.com:8002/product/get_pools?token=bd23df3f-f984-4840-8059-e2e0f7080daa
+I, [2018-08-10T11:32:29.802788 #12915]  INFO -- : 返回：{"success":true,"result":[{"name":"便携式计算机","id":"sxzg_bxsjsj_45"},{"name":"台式计算机","id":"sxzg_tsjsj_90"}]}
+I, [2018-08-10T11:32:31.510984 #12915]  INFO -- : 【2018-08-10 11:32:31】 访问电商接口：http://test.66123123.com:8002/product/get_pools?token=bd23df3f-f984-4840-8059-e2e0f7080daa
+I, [2018-08-10T11:32:31.511076 #12915]  INFO -- : 返回：{"success":true,"result":[{"name":"便携式计算机","id":"sxzg_bxsjsj_45"},{"name":"台式计算机","id":"sxzg_tsjsj_90"}]}
+I, [2018-08-10T11:33:12.981027 #12965]  INFO -- : 【2018-08-10 11:33:12】 访问电商接口：http://test.66123123.com:8002/product/get_pools?token=bd23df3f-f984-4840-8059-e2e0f7080daa
+I, [2018-08-10T11:33:12.981306 #12965]  INFO -- : 返回：{"success":true,"result":[{"name":"便携式计算机","id":"sxzg_bxsjsj_45"},{"name":"台式计算机","id":"sxzg_tsjsj_90"}]}
+I, [2018-08-10T11:36:02.989553 #13031]  INFO -- : 【2018-08-10 11:36:02】 访问电商接口：http://test.66123123.com:8002/product/get_pools?token=bd23df3f-f984-4840-8059-e2e0f7080daa
+I, [2018-08-10T11:36:02.989679 #13031]  INFO -- : 返回：{"success":true,"result":[{"name":"便携式计算机","id":"sxzg_bxsjsj_45"},{"name":"台式计算机","id":"sxzg_tsjsj_90"}]}
+I, [2018-08-10T11:36:25.641578 #13031]  INFO -- : 【2018-08-10 11:36:25】 访问电商接口：http://test.66123123.com:8002/product/skus?token=bd23df3f-f984-4840-8059-e2e0f7080daa&catalog_id=sxzg_bxsjsj_45
+I, [2018-08-10T11:36:25.641711 #13031]  INFO -- : 返回：{"success":true,"result":["78107","78108","78109","78110","78179","78186","78188","78190","78193","78527","78528","78529","78530","78531","78532","78533","78534","78535","78540","78591","78771","78772","78773","78775","78777","78781","78783","78785","78787","78788","78789","78790","78791","78792","78793","78794","78795"]}
+I, [2018-08-10T11:36:51.097020 #13091]  INFO -- : 【2018-08-10 11:36:51】 访问电商接口：http://test.66123123.com:8002/product/skus?token=bd23df3f-f984-4840-8059-e2e0f7080daa&catalog_id=sxzg_bxsjsj_45
+I, [2018-08-10T11:36:51.097127 #13091]  INFO -- : 返回：{"success":true,"result":["78107","78108","78109","78110","78179","78186","78188","78190","78193","78527","78528","78529","78530","78531","78532","78533","78534","78535","78540","78591","78771","78772","78773","78775","78777","78781","78783","78785","78787","78788","78789","78790","78791","78792","78793","78794","78795"]}
+I, [2018-08-10T11:38:01.952285 #13283]  INFO -- : 【2018-08-10 11:38:01】 访问电商接口：http://test.66123123.com:8002/product/skus?token=bd23df3f-f984-4840-8059-e2e0f7080daa&catalog_id=sxzg_bxsjsj_45
+I, [2018-08-10T11:38:01.952533 #13283]  INFO -- : 返回：{"success":true,"result":["78107","78108","78109","78110","78179","78186","78188","78190","78193","78527","78528","78529","78530","78531","78532","78533","78534","78535","78540","78591","78771","78772","78773","78775","78777","78781","78783","78785","78787","78788","78789","78790","78791","78792","78793","78794","78795"]}
+I, [2018-08-10T11:38:02.201214 #13283]  INFO -- : 【2018-08-10 11:38:02】 访问电商接口：http://test.66123123.com:8002/product/detail?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=78107
+I, [2018-08-10T11:38:02.201434 #13283]  INFO -- : 返回：{
+  "success": true,
+  "result": {
+    "sku": 78107,
+    "url": "http://www.66123123.com/Goods/GoodsDetail?id=78107",
+    "model": "T460（20FNA01VCD）",
+    "weight": "",
+    "image_path": "http://www.66123123.com/Photos/",
+    "state": "1",
+    "brand_name": "Thinkpad",
+    "name": "Think PAD T460（20FNA01VCD） 14英寸笔记本电脑 i5-6200u/4GB/500GB/2GB独显/指纹",
+    "product_area": "",
+    "upc": "",
+    "unit": "台",
+    "category": "便携式计算机",
+    "categoryId": "sxzg_bxsjsj_45",
+    "service": "",
+    "introduction": "<div><img   src='http://www.66123123.com/Photos/bgyp4/78107_1.jpg' alt='' /></div>",
+    "param": "<table border='1' class='Ptable' ><tr><th colspan='2' class='title'>基本信息</th></tr><tr><td class='name'>系列</td><td class='val'>T460</td></tr><tr><td class='name'>型号</td><td class='val'>20FNA01VCD</td></tr><tr><td class='name'>颜色</td><td class='val'>黑色</td></tr><tr><td class='name'>平台</td><td class='val'>Intel</td></tr><tr><td class='name'>操作系统</td><td class='val'>Windows 10</td></tr><tr><th colspan='2' class='title'>处理器</th></tr><tr><td class='name'>CPU类型</td><td class='val'>酷睿双核i5处理器</td></tr><tr><td class='name'>CPU型号</td><td class='val'>i5-6200U</td></tr><tr><td class='name'>三级缓存</td><td class='val'>3M</td></tr><tr><td class='name'>核心</td><td class='val'>双核</td></tr><tr><th colspan='2' class='title'>内存</th></tr><tr><td class='name'>内存容量</td><td class='val'>4GB</td></tr><tr><td class='name'>内存类型</td><td class='val'>DDR3L 1600</td></tr><tr><td class='name'>插槽数量</td><td class='val'>2 x SO-DIMM</td></tr><tr><td class='name'>最大支持容量</td><td class='val'>16G</td></tr><tr><th colspan='2' class='title'>硬盘</th></tr><tr><td class='name'>硬盘容量</td><td class='val'>500GB</td></tr><tr><td class='name'>转速</td><td class='val'>7200转/分钟</td></tr><tr><td class='name'>接口类型</td><td class='val'>SATA 串行</td></tr><tr><th colspan='2' class='title'>显卡</th></tr><tr><td class='name'>类型</td><td class='val'>独立显卡</td></tr><tr><td class='name'>显示芯片</td><td class='val'>独立2GB</td></tr><tr><th colspan='2' class='title'>光驱</th></tr><tr><td class='name'>光驱类型</td><td class='val'>无光驱</td></tr><tr><th colspan='2' class='title'>显示器</th></tr><tr><td class='name'>屏幕尺寸</td><td class='val'>14英寸</td></tr><tr><td class='name'>屏幕规格</td><td class='val'>14.0英寸</td></tr><tr><td class='name'>显示比例</td><td class='val'>宽屏16：9</td></tr><tr><td class='name'>物理分辨率</td><td class='val'>1366 x 768</td></tr><tr><td class='name'>屏幕类型</td><td class='val'>LED背光</td></tr><tr><th colspan='2' class='title'>通信</th></tr><tr><td class='name'>内置蓝牙</td><td class='val'>有</td></tr><tr><td class='name'>局域网</td><td class='val'>10/100/1000Mbps</td></tr><tr><td class='name'>无线局域网</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>端口</th></tr><tr><td class='name'>音频端口</td><td class='val'>耳机、麦克风二合一接口</td></tr><tr><td class='name'>显示端口</td><td class='val'>HDMI接口</td></tr><tr><td class='name'>RJ45</td><td class='val'>1个</td></tr><tr><th colspan='2' class='title'>音效系统</th></tr><tr><td class='name'>扬声器</td><td class='val'>内置扬声器</td></tr><tr><td class='name'>内置麦克风</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>输入设备</th></tr><tr><td class='name'>键盘</td><td class='val'>全尺寸键盘</td></tr><tr><th colspan='2' class='title'>其它设备</th></tr><tr><td class='name'>网络摄像头</td><td class='val'>有</td></tr><tr><td class='name'>读卡器</td><td class='val'>有</td></tr></table>",
+    "ware": "",
+    "sale_actives": "",
+    "energy": "",
+    "protection": ""
+  }
+}
+I, [2018-08-10T11:38:03.061041 #13283]  INFO -- : 【2018-08-10 11:38:03】 访问电商接口：http://test.66123123.com:8002/product/detail?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=78108
+I, [2018-08-10T11:38:03.061178 #13283]  INFO -- : 返回：{
+  "success": true,
+  "result": {
+    "sku": 78108,
+    "url": "http://www.66123123.com/Goods/GoodsDetail?id=78108",
+    "model": "T460 （20FNA01WCD）",
+    "weight": "",
+    "image_path": "http://www.66123123.com/Photos/",
+    "state": "1",
+    "brand_name": "Thinkpad",
+    "name": "Think PAD T460 （20FNA01WCD） 14.0英寸笔记本电脑",
+    "product_area": "",
+    "upc": "",
+    "unit": "台",
+    "category": "便携式计算机",
+    "categoryId": "sxzg_bxsjsj_45",
+    "service": "",
+    "introduction": "<div><img   src='http://www.66123123.com/Photos/bgyp4/78108_1.jpg' alt='' /></div>",
+    "param": "<table border='1' class='Ptable' ><tr><th colspan='2' class='title'>基本信息</th></tr><tr><td class='name'>系列</td><td class='val'>T 系列</td></tr><tr><td class='name'>型号</td><td class='val'>20FNA01WCD</td></tr><tr><td class='name'>颜色</td><td class='val'>黑色</td></tr><tr><td class='name'>平台</td><td class='val'>Intel</td></tr><tr><td class='name'>操作系统</td><td class='val'>Windows 10</td></tr><tr><th colspan='2' class='title'>处理器</th></tr><tr><td class='name'>CPU类型</td><td class='val'>第六代智能英特尔酷睿i5处理器</td></tr><tr><td class='name'>CPU型号</td><td class='val'>i5-6200U</td></tr><tr><td class='name'>CPU速度</td><td class='val'>2.3GHz睿频至2.8GHz</td></tr><tr><td class='name'>三级缓存</td><td class='val'>3M</td></tr><tr><td class='name'>核心</td><td class='val'>双核</td></tr><tr><th colspan='2' class='title'>内存</th></tr><tr><td class='name'>内存容量</td><td class='val'>4GB</td></tr><tr><td class='name'>内存类型</td><td class='val'>DDR3L 1600</td></tr><tr><td class='name'>插槽数量</td><td class='val'>2 x SO-DIMM</td></tr><tr><th colspan='2' class='title'>硬盘</th></tr><tr><td class='name'>硬盘容量</td><td class='val'>500GB</td></tr><tr><td class='name'>转速</td><td class='val'>5400转/分钟</td></tr><tr><th colspan='2' class='title'>显卡</th></tr><tr><td class='name'>显示芯片</td><td class='val'>NVIDIA GeForce 940MX</td></tr><tr><td class='name'>显存容量</td><td class='val'>独立2GB</td></tr><tr><th colspan='2' class='title'>显示器</th></tr><tr><td class='name'>屏幕尺寸</td><td class='val'>14英寸</td></tr><tr><td class='name'>屏幕规格</td><td class='val'>14.0英寸</td></tr><tr><td class='name'>显示比例</td><td class='val'>宽屏16：9</td></tr><tr><td class='name'>物理分辨率</td><td class='val'>1366 x 768</td></tr><tr><td class='name'>屏幕类型</td><td class='val'>LED背光显示屏</td></tr></table>",
+    "ware": "",
+    "sale_actives": "",
+    "energy": "",
+    "protection": ""
+  }
+}
+I, [2018-08-10T11:38:03.536241 #13283]  INFO -- : 【2018-08-10 11:38:03】 访问电商接口：http://test.66123123.com:8002/product/detail?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=78109
+I, [2018-08-10T11:38:03.536347 #13283]  INFO -- : 返回：{
+  "success": true,
+  "result": {
+    "sku": 78109,
+    "url": "http://www.66123123.com/Goods/GoodsDetail?id=78109",
+    "model": "",
+    "weight": "",
+    "image_path": "http://www.66123123.com/Photos/",
+    "state": "1",
+    "brand_name": "Thinkpad",
+    "name": "Think PADT460（20FN0036CD）笔记本电脑",
+    "product_area": "",
+    "upc": "",
+    "unit": "台",
+    "category": "便携式计算机",
+    "categoryId": "sxzg_bxsjsj_45",
+    "service": "",
+    "introduction": "<div><img   src='http://www.66123123.com/Photos/bgyp4/78109_1.jpg' alt='' /></div>",
+    "param": "<table border='1' class='Ptable' ><tr><th colspan='2' class='title'>基本信息</th></tr><tr><td class='name'>系列</td><td class='val'>T 系列</td></tr><tr><td class='name'>型号</td><td class='val'>20FN0036CD</td></tr><tr><td class='name'>颜色</td><td class='val'>黑色</td></tr><tr><td class='name'>平台</td><td class='val'>Intel</td></tr><tr><td class='name'>操作系统</td><td class='val'>Windows 10 家庭版</td></tr><tr><th colspan='2' class='title'>处理器</th></tr><tr><td class='name'>CPU类型</td><td class='val'>Intel 第6代 酷睿</td></tr><tr><td class='name'>CPU型号</td><td class='val'>i5-6200U</td></tr><tr><td class='name'>CPU速度</td><td class='val'>2.5GHz</td></tr><tr><td class='name'>三级缓存</td><td class='val'>3M</td></tr><tr><td class='name'>核心</td><td class='val'>双核</td></tr><tr><th colspan='2' class='title'>内存</th></tr><tr><td class='name'>内存容量</td><td class='val'>4GB</td></tr><tr><td class='name'>内存类型</td><td class='val'>DDR3L 1600</td></tr><tr><td class='name'>插槽数量</td><td class='val'>2 x SO-DIMM</td></tr><tr><td class='name'>最大支持容量</td><td class='val'>32GB</td></tr><tr><th colspan='2' class='title'>硬盘</th></tr><tr><td class='name'>硬盘容量</td><td class='val'>500G</td></tr><tr><td class='name'>转速</td><td class='val'>5400转/分钟</td></tr><tr><th colspan='2' class='title'>显卡</th></tr><tr><td class='name'>类型</td><td class='val'>独立显卡</td></tr><tr><td class='name'>显存容量</td><td class='val'>独立2GB</td></tr><tr><th colspan='2' class='title'>光驱</th></tr><tr><td class='name'>光驱类型</td><td class='val'>无光驱</td></tr><tr><th colspan='2' class='title'>显示器</th></tr><tr><td class='name'>屏幕尺寸</td><td class='val'>14英寸</td></tr><tr><td class='name'>屏幕规格</td><td class='val'>14.0英寸</td></tr><tr><td class='name'>显示比例</td><td class='val'>宽屏16：9</td></tr><tr><td class='name'>物理分辨率</td><td class='val'>1366 x 768</td></tr><tr><td class='name'>屏幕类型</td><td class='val'>LED背光</td></tr><tr><th colspan='2' class='title'>通信</th></tr><tr><td class='name'>局域网</td><td class='val'>10/100/1000Mbps</td></tr><tr><td class='name'>无线局域网</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>端口</th></tr><tr><td class='name'>音频端口</td><td class='val'>耳机、麦克风二合一接口</td></tr><tr><td class='name'>显示端口</td><td class='val'>HDMI接口</td></tr><tr><td class='name'>RJ45</td><td class='val'>1个</td></tr><tr><td class='name'>USB3.0</td><td class='val'>3个</td></tr><tr><th colspan='2' class='title'>音效系统</th></tr><tr><td class='name'>扬声器</td><td class='val'>内置扬声器</td></tr><tr><td class='name'>内置麦克风</td><td class='val'>支持</td></tr><tr><th colspan='2' class='title'>输入设备</th></tr><tr><td class='name'>键盘</td><td class='val'>背光键盘</td></tr><tr><td class='name'>触摸板</td><td class='val'>多点触控</td></tr><tr><th colspan='2' class='title'>其它设备</th></tr><tr><td class='name'>网络摄像头</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>电源</th></tr><tr><td class='name'>电池</td><td class='val'>内置锂离子电池</td></tr><tr><td class='name'>续航时间</td><td class='val'>2-5小时</td></tr><tr><td class='name'>电源适配器</td><td class='val'>65W AC适配器</td></tr><tr><th colspan='2' class='title'>机器规格</th></tr><tr><td class='name'>净重</td><td class='val'>1.5kg-2kg</td></tr></table>",
+    "ware": "",
+    "sale_actives": "",
+    "energy": "",
+    "protection": ""
+  }
+}
+I, [2018-08-10T11:38:03.859206 #13283]  INFO -- : 【2018-08-10 11:38:03】 访问电商接口：http://test.66123123.com:8002/product/detail?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=78110
+I, [2018-08-10T11:38:03.859323 #13283]  INFO -- : 返回：{
+  "success": true,
+  "result": {
+    "sku": 78110,
+    "url": "http://www.66123123.com/Goods/GoodsDetail?id=78110",
+    "model": "",
+    "weight": "",
+    "image_path": "http://www.66123123.com/Photos/",
+    "state": "1",
+    "brand_name": "Thinkpad",
+    "name": "Think PADT460（20FNA03YCD）笔记本电脑",
+    "product_area": "",
+    "upc": "",
+    "unit": "台",
+    "category": "便携式计算机",
+    "categoryId": "sxzg_bxsjsj_45",
+    "service": "",
+    "introduction": "<div><img   src='http://www.66123123.com/Photos/bgyp4/78110_1.jpg' alt='' /></div>",
+    "param": "<table border='1' class='Ptable' ><tr><th colspan='2' class='title'>基本信息</th></tr><tr><td class='name'>系列</td><td class='val'>T 系列</td></tr><tr><td class='name'>颜色</td><td class='val'>黑色</td></tr><tr><td class='name'>平台</td><td class='val'>Intel</td></tr><tr><td class='name'>操作系统</td><td class='val'>tWindows 10</td></tr><tr><th colspan='2' class='title'>处理器</th></tr><tr><td class='name'>CPU</td><td class='val'>Intel 酷睿 i5-6200U</td></tr><tr><td class='name'>CPU速度</td><td class='val'>2.3GHz</td></tr><tr><td class='name'>三级缓存</td><td class='val'>3M</td></tr><tr><th colspan='2' class='title'>内存</th></tr><tr><td class='name'>内存容量</td><td class='val'>8G</td></tr><tr><td class='name'>内存类型</td><td class='val'>DDR3L 1600</td></tr><tr><td class='name'>插槽数量</td><td class='val'>2 x SO-DIMM</td></tr><tr><th colspan='2' class='title'>硬盘</th></tr><tr><td class='name'>硬盘容量</td><td class='val'>500G</td></tr><tr><td class='name'>转速</td><td class='val'>7200转/分钟</td></tr><tr><td class='name'>接口类型</td><td class='val'>SATA 串行</td></tr><tr><th colspan='2' class='title'>显卡</th></tr><tr><td class='name'>显卡类型</td><td class='val'>独立</td></tr><tr><td class='name'>显示芯片</td><td class='val'>2G</td></tr><tr><th colspan='2' class='title'>光驱</th></tr><tr><td class='name'>光驱类型</td><td class='val'>无光驱</td></tr><tr><th colspan='2' class='title'>显示器</th></tr><tr><td class='name'>显示器尺寸</td><td class='val'>14</td></tr><tr><td class='name'>屏幕规格</td><td class='val'>14.0英寸</td></tr><tr><td class='name'>显示比例</td><td class='val'>宽屏16：9</td></tr><tr><td class='name'>物理分辨率</td><td class='val'>1366 x 768</td></tr><tr><td class='name'>屏幕类型</td><td class='val'>1366 x 768</td></tr><tr><th colspan='2' class='title'>通信</th></tr><tr><td class='name'>内置蓝牙</td><td class='val'>有</td></tr><tr><td class='name'>局域网</td><td class='val'>10/100/1000Mbps</td></tr><tr><td class='name'>无线局域网</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>端口</th></tr><tr><td class='name'>音频端口</td><td class='val'>耳机、麦克风二合一接口</td></tr><tr><td class='name'>显示端口</td><td class='val'>HDMI接口</td></tr><tr><td class='name'>RJ45</td><td class='val'>1个</td></tr><tr><th colspan='2' class='title'>音效系统</th></tr><tr><td class='name'>扬声器</td><td class='val'>内置扬声器</td></tr><tr><td class='name'>内置麦克风</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>输入设备</th></tr><tr><td class='name'>键盘</td><td class='val'>全尺寸键盘</td></tr><tr><td class='name'>触摸板</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>其它设备</th></tr><tr><td class='name'>网络摄像头</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>电源</th></tr><tr><td class='name'>续航时间</td><td class='val'>t>5小时</td></tr><tr><td class='name'>电源适配器</td><td class='val'>t65W AC适配器</td></tr><tr><th colspan='2' class='title'>机器规格</th></tr><tr><td class='name'>净重</td><td class='val'>1.5kg-2kg</td></tr></table>",
+    "ware": "",
+    "sale_actives": "",
+    "energy": "",
+    "protection": ""
+  }
+}
+I, [2018-08-10T11:38:04.232808 #13283]  INFO -- : 【2018-08-10 11:38:04】 访问电商接口：http://test.66123123.com:8002/product/detail?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=78179
+I, [2018-08-10T11:38:04.232988 #13283]  INFO -- : 返回：{
+  "success": true,
+  "result": {
+    "sku": 78179,
+    "url": "http://www.66123123.com/Goods/GoodsDetail?id=78179",
+    "model": "",
+    "weight": "",
+    "image_path": "http://www.66123123.com/Photos/",
+    "state": "1",
+    "brand_name": "Thinkpad",
+    "name": "Think PADT460（20FNA03CCD）笔记本电脑",
+    "product_area": "",
+    "upc": "",
+    "unit": "台",
+    "category": "便携式计算机",
+    "categoryId": "sxzg_bxsjsj_45",
+    "service": "",
+    "introduction": "<div><img   src='http://www.66123123.com/Photos/bgyp4/78179_1.jpg' alt='' /></div>",
+    "param": "<table border='1' class='Ptable' ><tr><th colspan='2' class='title'>基本信息</th></tr><tr><td class='name'>系列</td><td class='val'>T 系列</td></tr><tr><td class='name'>型号</td><td class='val'>黑色</td></tr><tr><td class='name'>颜色</td><td class='val'>tIntel</td></tr><tr><td class='name'>平台</td><td class='val'>全新</td></tr><tr><td class='name'>操作系统</td><td class='val'>tWindows 7 家庭普通版</td></tr><tr><th colspan='2' class='title'>处理器</th></tr><tr><td class='name'>CPU型号</td><td class='val'>ti7-6500</td></tr><tr><td class='name'>CPU速度</td><td class='val'>2.5GHz</td></tr><tr><td class='name'>三级缓存</td><td class='val'>t4M</td></tr><tr><td class='name'>核心</td><td class='val'>双核</td></tr><tr><th colspan='2' class='title'>内存</th></tr><tr><td class='name'>内存容量</td><td class='val'>8GB</td></tr><tr><td class='name'>内存类型</td><td class='val'>DDR3L 1600</td></tr><tr><td class='name'>插槽数量</td><td class='val'>2 x SO-DIMM</td></tr><tr><th colspan='2' class='title'>硬盘</th></tr><tr><td class='name'>硬盘容量</td><td class='val'>500GB</td></tr><tr><td class='name'>转速</td><td class='val'>t5400转/分钟</td></tr><tr><td class='name'>接口类型</td><td class='val'>SATA 串行</td></tr><tr><th colspan='2' class='title'>显卡</th></tr><tr><td class='name'>类型</td><td class='val'>独立显卡</td></tr><tr><td class='name'>显存容量</td><td class='val'>独立2GB</td></tr><tr><th colspan='2' class='title'>光驱</th></tr><tr><td class='name'>光驱类型</td><td class='val'>无光驱</td></tr><tr><th colspan='2' class='title'>显示器</th></tr><tr><td class='name'>屏幕尺寸</td><td class='val'>t14英寸</td></tr><tr><td class='name'>屏幕规格</td><td class='val'>14.0英寸</td></tr><tr><td class='name'>显示比例</td><td class='val'>宽屏16：9</td></tr><tr><td class='name'>物理分辨率</td><td class='val'>t1366 x 768</td></tr><tr><td class='name'>屏幕类型</td><td class='val'>tLED背光</td></tr><tr><th colspan='2' class='title'>通信</th></tr><tr><td class='name'>内置蓝牙</td><td class='val'>有</td></tr><tr><td class='name'>局域网</td><td class='val'>10/100/1000Mbps</td></tr><tr><td class='name'>无线局域网</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>端口</th></tr><tr><td class='name'>音频端口</td><td class='val'>耳机、麦克风二合一接口</td></tr><tr><td class='name'>显示端口</td><td class='val'>HDMI接口</td></tr><tr><td class='name'>RJ45</td><td class='val'>1个</td></tr><tr><th colspan='2' class='title'>音效系统</th></tr><tr><td class='name'>扬声器</td><td class='val'>内置扬声器</td></tr><tr><td class='name'>内置麦克风</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>输入设备</th></tr><tr><td class='name'>键盘</td><td class='val'>全尺寸键盘</td></tr><tr><td class='name'>触摸板</td><td class='val'>多点触控</td></tr><tr><th colspan='2' class='title'>其它设备</th></tr><tr><td class='name'>网络摄像头</td><td class='val'>t有</td></tr><tr><th colspan='2' class='title'>电源</th></tr><tr><td class='name'>续航时间</td><td class='val'>>5小时</td></tr><tr><td class='name'>电源适配器</td><td class='val'>t65W AC适配器</td></tr><tr><th colspan='2' class='title'>机器规格</th></tr><tr><td class='name'>尺寸</td><td class='val'>1.5kg-2kg</td></tr></table>",
+    "ware": "",
+    "sale_actives": "",
+    "energy": "",
+    "protection": ""
+  }
+}
+I, [2018-08-10T11:38:04.941190 #13283]  INFO -- : 【2018-08-10 11:38:04】 访问电商接口：http://test.66123123.com:8002/product/detail?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=78186
+I, [2018-08-10T11:38:04.941545 #13283]  INFO -- : 返回：{
+  "success": true,
+  "result": {
+    "sku": 78186,
+    "url": "http://www.66123123.com/Goods/GoodsDetail?id=78186",
+    "model": "",
+    "weight": "",
+    "image_path": "http://www.66123123.com/Photos/",
+    "state": "1",
+    "brand_name": "Thinkpad",
+    "name": "Think PADT460（20FNA03FCD）笔记本电脑",
+    "product_area": "",
+    "upc": "",
+    "unit": "台",
+    "category": "便携式计算机",
+    "categoryId": "sxzg_bxsjsj_45",
+    "service": "",
+    "introduction": "<div><img   src='http://www.66123123.com/Photos/bgyp4/78186_1.jpg' alt='' /></div>",
+    "param": "<table border='1' class='Ptable' ><tr><th colspan='2' class='title'>基本信息</th></tr><tr><td class='name'>型号</td><td class='val'>T460 20FNA03FCD</td></tr><tr><td class='name'>颜色</td><td class='val'>黑色</td></tr><tr><td class='name'>平台</td><td class='val'>Intel平台</td></tr><tr><td class='name'>操作系统</td><td class='val'>Windows 7</td></tr><tr><th colspan='2' class='title'>处理器</th></tr><tr><td class='name'>CPU型号</td><td class='val'>I7-6500u</td></tr><tr><td class='name'>CPU速度</td><td class='val'>2.5GHz</td></tr><tr><td class='name'>三级缓存</td><td class='val'>4M</td></tr><tr><th colspan='2' class='title'>内存</th></tr><tr><td class='name'>内存容量</td><td class='val'>8GB</td></tr><tr><td class='name'>内存类型</td><td class='val'>DDR3L 1600</td></tr><tr><td class='name'>插槽数量</td><td class='val'>2 x SO-DIMM</td></tr><tr><th colspan='2' class='title'>硬盘</th></tr><tr><td class='name'>硬盘容量</td><td class='val'>512GB SSD</td></tr><tr><th colspan='2' class='title'>显卡</th></tr><tr><td class='name'>类型</td><td class='val'>独立显卡</td></tr><tr><td class='name'>显存容量</td><td class='val'>2G</td></tr><tr><th colspan='2' class='title'>光驱</th></tr><tr><td class='name'>光驱类型</td><td class='val'>t无光驱</td></tr><tr><th colspan='2' class='title'>显示器</th></tr><tr><td class='name'>屏幕尺寸</td><td class='val'>14英寸</td></tr><tr><td class='name'>显示比例</td><td class='val'>t宽屏16：9</td></tr><tr><td class='name'>物理分辨率</td><td class='val'>1920×1080</td></tr><tr><th colspan='2' class='title'>通信</th></tr><tr><td class='name'>内置蓝牙</td><td class='val'>有</td></tr><tr><td class='name'>局域网</td><td class='val'>t10/100/1000Mbps</td></tr><tr><td class='name'>无线局域网</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>端口</th></tr><tr><td class='name'>音频端口</td><td class='val'>耳机、麦克风二合一接口</td></tr><tr><td class='name'>显示端口</td><td class='val'>其它</td></tr><tr><td class='name'>RJ45</td><td class='val'>t1个</td></tr><tr><th colspan='2' class='title'>音效系统</th></tr><tr><td class='name'>扬声器</td><td class='val'>t内置扬声器</td></tr><tr><td class='name'>内置麦克风</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>输入设备</th></tr><tr><td class='name'>键盘</td><td class='val'>t全尺寸键盘</td></tr><tr><td class='name'>触摸板</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>电源</th></tr><tr><td class='name'>续航时间</td><td class='val'>>5小时</td></tr><tr><td class='name'>电源适配器</td><td class='val'>65W AC适配器</td></tr><tr><th colspan='2' class='title'>机器规格</th></tr><tr><td class='name'>净重</td><td class='val'>重t1.5kg-2kg</td></tr></table>",
+    "ware": "",
+    "sale_actives": "",
+    "energy": "",
+    "protection": ""
+  }
+}
+I, [2018-08-10T11:38:10.382564 #13283]  INFO -- : 【2018-08-10 11:38:10】 访问电商接口：http://test.66123123.com:8002/product/detail?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=78188
+I, [2018-08-10T11:38:10.382804 #13283]  INFO -- : 返回：{
+  "success": true,
+  "result": {
+    "sku": 78188,
+    "url": "http://www.66123123.com/Goods/GoodsDetail?id=78188",
+    "model": "T460（20FNA029CD）",
+    "weight": "",
+    "image_path": "http://www.66123123.com/Photos/",
+    "state": "1",
+    "brand_name": "Thinkpad",
+    "name": "Think PAD T460（20FNA029CD） 14英寸笔记本电脑",
+    "product_area": "",
+    "upc": "",
+    "unit": "台",
+    "category": "便携式计算机",
+    "categoryId": "sxzg_bxsjsj_45",
+    "service": "",
+    "introduction": "<div><img   src='http://www.66123123.com/Photos/bgyp4/78188_7.jpg' alt='' /></div>",
+    "param": "<table border='1' class='Ptable' ><tr><th colspan='2' class='title'>基本信息</th></tr><tr><td class='name'>系列</td><td class='val'>T 系列</td></tr><tr><td class='name'>型号</td><td class='val'>20FNA029CD</td></tr><tr><td class='name'>颜色</td><td class='val'>黑色</td></tr><tr><td class='name'>平台</td><td class='val'>Intel</td></tr><tr><td class='name'>操作系统</td><td class='val'>Windows 10</td></tr><tr><th colspan='2' class='title'>处理器</th></tr><tr><td class='name'>CPU</td><td class='val'>Intel 酷睿 i7-6500U</td></tr><tr><td class='name'>CPU速度</td><td class='val'>2.5GHz睿频至3.1GHz</td></tr><tr><td class='name'>三级缓存</td><td class='val'>4M</td></tr><tr><td class='name'>核心</td><td class='val'>t双核</td></tr><tr><th colspan='2' class='title'>内存</th></tr><tr><td class='name'>内存容量</td><td class='val'>8G</td></tr><tr><td class='name'>内存类型</td><td class='val'>DDR3L 1600</td></tr><tr><td class='name'>插槽数量</td><td class='val'>2 x SO-DIMM</td></tr><tr><th colspan='2' class='title'>硬盘</th></tr><tr><td class='name'>硬盘容量</td><td class='val'>500G+8G SSD</td></tr><tr><td class='name'>转速</td><td class='val'>5400转/分钟</td></tr><tr><th colspan='2' class='title'>显卡</th></tr><tr><td class='name'>显卡类型</td><td class='val'>独立</td></tr><tr><td class='name'>显示芯片</td><td class='val'>NVIDIA GeForce 940MX</td></tr><tr><td class='name'>显卡闪存</td><td class='val'>2G</td></tr><tr><th colspan='2' class='title'>光驱</th></tr><tr><td class='name'>光驱类型</td><td class='val'>无光驱</td></tr><tr><th colspan='2' class='title'>显示器</th></tr><tr><td class='name'>显示器尺寸</td><td class='val'>14</td></tr><tr><td class='name'>显示比例</td><td class='val'>宽屏16：9</td></tr><tr><td class='name'>物理分辨率</td><td class='val'>t1366 x 768</td></tr><tr><td class='name'>屏幕类型</td><td class='val'>tLED背光显示屏</td></tr><tr><th colspan='2' class='title'>通信</th></tr><tr><td class='name'>内置蓝牙</td><td class='val'>蓝牙4.1</td></tr><tr><td class='name'>局域网</td><td class='val'>t10/100/1000Mbps</td></tr><tr><td class='name'>无线局域网</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>端口</th></tr><tr><td class='name'>音频端口</td><td class='val'>耳机、麦克风二合一接口</td></tr><tr><td class='name'>显示端口</td><td class='val'>MiniDP/ HDMI</td></tr><tr><td class='name'>RJ45</td><td class='val'>1个</td></tr><tr><td class='name'>USB3.0</td><td class='val'>3个</td></tr><tr><th colspan='2' class='title'>音效系统</th></tr><tr><td class='name'>扬声器</td><td class='val'>内置扬声器</td></tr><tr><td class='name'>内置麦克风</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>其它设备</th></tr><tr><td class='name'>网络摄像头</td><td class='val'>t有</td></tr><tr><td class='name'>读卡器</td><td class='val'>四合一读卡器</td></tr><tr><th colspan='2' class='title'>电源</th></tr><tr><td class='name'>电池</td><td class='val'>3芯+3芯</td></tr><tr><td class='name'>续航时间</td><td class='val'>>5小时</td></tr><tr><td class='name'>电源适配器</td><td class='val'>100-240V自适应交流电源适配器</td></tr><tr><th colspan='2' class='title'>机器规格</th></tr><tr><td class='name'>尺寸</td><td class='val'>t约339mm x 232.5mm x 21mm</td></tr><tr><td class='name'>净重</td><td class='val'>t重约1.78kg</td></tr></table>",
+    "ware": "",
+    "sale_actives": "",
+    "energy": "",
+    "protection": ""
+  }
+}
+I, [2018-08-10T11:38:10.807902 #13283]  INFO -- : 【2018-08-10 11:38:10】 访问电商接口：http://test.66123123.com:8002/product/detail?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=78190
+I, [2018-08-10T11:38:10.808938 #13283]  INFO -- : 返回：{
+  "success": true,
+  "result": {
+    "sku": 78190,
+    "url": "http://www.66123123.com/Goods/GoodsDetail?id=78190",
+    "model": "",
+    "weight": "",
+    "image_path": "http://www.66123123.com/Photos/",
+    "state": "1",
+    "brand_name": "Thinkpad",
+    "name": "Think PADT460（20FNA02DCD）笔记本电脑",
+    "product_area": "",
+    "upc": "",
+    "unit": "台",
+    "category": "便携式计算机",
+    "categoryId": "sxzg_bxsjsj_45",
+    "service": "",
+    "introduction": "<div><img   src='http://www.66123123.com/Photos/bgyp4/78190_1.jpg' alt='' /></div>",
+    "param": "<table border='1' class='Ptable' ><tr><th colspan='2' class='title'>基本信息</th></tr><tr><td class='name'>系列</td><td class='val'>T 系列</td></tr><tr><td class='name'>颜色</td><td class='val'>黑色</td></tr><tr><td class='name'>平台</td><td class='val'>Intel</td></tr><tr><td class='name'>操作系统</td><td class='val'>Windows 10</td></tr><tr><th colspan='2' class='title'>处理器</th></tr><tr><td class='name'>CPU</td><td class='val'>Intel 酷睿 i7-6500U</td></tr><tr><td class='name'>CPU速度</td><td class='val'>2.5GHz</td></tr><tr><td class='name'>三级缓存</td><td class='val'>4M</td></tr><tr><td class='name'>核心</td><td class='val'>双核</td></tr><tr><th colspan='2' class='title'>内存</th></tr><tr><td class='name'>内存容量</td><td class='val'>8G</td></tr><tr><td class='name'>内存类型</td><td class='val'>DDR3L 1600</td></tr><tr><td class='name'>插槽数量</td><td class='val'>2 x SO-DIMM</td></tr><tr><th colspan='2' class='title'>硬盘</th></tr><tr><td class='name'>硬盘容量</td><td class='val'>256G</td></tr><tr><th colspan='2' class='title'>显卡</th></tr><tr><td class='name'>显卡类型</td><td class='val'>独立</td></tr><tr><td class='name'>显卡闪存</td><td class='val'>2G</td></tr><tr><th colspan='2' class='title'>光驱</th></tr><tr><td class='name'>光驱类型</td><td class='val'>无光驱</td></tr><tr><th colspan='2' class='title'>显示器</th></tr><tr><td class='name'>显示器尺寸</td><td class='val'>14</td></tr><tr><td class='name'>显示比例</td><td class='val'>宽屏16：9</td></tr><tr><td class='name'>物理分辨率</td><td class='val'>1920×1080</td></tr><tr><td class='name'>屏幕类型</td><td class='val'>LED背光</td></tr><tr><th colspan='2' class='title'>通信</th></tr><tr><td class='name'>内置蓝牙</td><td class='val'>有</td></tr><tr><td class='name'>局域网</td><td class='val'>t10/100/1000Mbps</td></tr><tr><td class='name'>无线局域网</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>端口</th></tr><tr><td class='name'>音频端口</td><td class='val'>耳机、麦克风二合一接口</td></tr><tr><td class='name'>显示端口</td><td class='val'>HDMI接口</td></tr><tr><td class='name'>RJ45</td><td class='val'>1个</td></tr><tr><th colspan='2' class='title'>音效系统</th></tr><tr><td class='name'>扬声器</td><td class='val'>内置扬声器</td></tr><tr><th colspan='2' class='title'>输入设备</th></tr><tr><td class='name'>键盘</td><td class='val'>背光键盘</td></tr><tr><td class='name'>触摸板</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>其它设备</th></tr><tr><td class='name'>网络摄像头</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>电源</th></tr><tr><td class='name'>续航时间</td><td class='val'>>5小时</td></tr><tr><td class='name'>电源适配器</td><td class='val'>65W AC适配器</td></tr><tr><th colspan='2' class='title'>机器规格</th></tr><tr><td class='name'>净重</td><td class='val'>1.5kg-2kg</td></tr></table>",
+    "ware": "",
+    "sale_actives": "",
+    "energy": "",
+    "protection": ""
+  }
+}
+I, [2018-08-10T11:38:11.210325 #13283]  INFO -- : 【2018-08-10 11:38:11】 访问电商接口：http://test.66123123.com:8002/product/detail?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=78193
+I, [2018-08-10T11:38:11.210434 #13283]  INFO -- : 返回：{
+  "success": true,
+  "result": {
+    "sku": 78193,
+    "url": "http://www.66123123.com/Goods/GoodsDetail?id=78193",
+    "model": "T460P（20FNA02FCD）",
+    "weight": "",
+    "image_path": "http://www.66123123.com/Photos/",
+    "state": "1",
+    "brand_name": "Thinkpad",
+    "name": "Think PAD T460P（20FNA02FCD） 笔记本电脑",
+    "product_area": "",
+    "upc": "",
+    "unit": "台",
+    "category": "便携式计算机",
+    "categoryId": "sxzg_bxsjsj_45",
+    "service": "",
+    "introduction": "<div><img   src='http://www.66123123.com/Photos/bgyp4/78193_7.jpg' alt='' /></div>",
+    "param": "<table border='1' class='Ptable' ><tr><th colspan='2' class='title'>基本信息</th></tr><tr><td class='name'>系列</td><td class='val'>T 系列</td></tr><tr><td class='name'>型号</td><td class='val'>20FNA02FCD</td></tr><tr><td class='name'>颜色</td><td class='val'>黑色</td></tr><tr><td class='name'>平台</td><td class='val'>Intel</td></tr><tr><td class='name'>操作系统</td><td class='val'>Windows 10专业版</td></tr><tr><th colspan='2' class='title'>处理器</th></tr><tr><td class='name'>CPU型号</td><td class='val'>ti7-6500U</td></tr><tr><td class='name'>CPU速度</td><td class='val'>2.5GHz睿频至3.1GHz</td></tr><tr><td class='name'>三级缓存</td><td class='val'>4M</td></tr><tr><td class='name'>核心</td><td class='val'>双核</td></tr><tr><th colspan='2' class='title'>内存</th></tr><tr><td class='name'>内存容量</td><td class='val'>8GB</td></tr><tr><td class='name'>内存类型</td><td class='val'>DDR3L 1600</td></tr><tr><th colspan='2' class='title'>硬盘</th></tr><tr><td class='name'>硬盘容量</td><td class='val'>512GB SSD</td></tr><tr><th colspan='2' class='title'>显卡</th></tr><tr><td class='name'>类型</td><td class='val'>独立显卡</td></tr><tr><td class='name'>显示芯片</td><td class='val'>NVIDIA GeForce 940MX</td></tr><tr><td class='name'>显存容量</td><td class='val'>2GB</td></tr><tr><th colspan='2' class='title'>光驱</th></tr><tr><td class='name'>光驱类型</td><td class='val'>无光驱</td></tr><tr><th colspan='2' class='title'>显示器</th></tr><tr><td class='name'>屏幕尺寸</td><td class='val'>14英寸</td></tr><tr><td class='name'>显示比例</td><td class='val'>宽屏16：9</td></tr><tr><td class='name'>物理分辨率</td><td class='val'>1920×1080</td></tr><tr><td class='name'>屏幕类型</td><td class='val'>LED背光显示屏</td></tr><tr><th colspan='2' class='title'>通信</th></tr><tr><td class='name'>内置蓝牙</td><td class='val'>LED背光显示屏</td></tr><tr><td class='name'>局域网</td><td class='val'>t10/100/1000Mbps</td></tr><tr><td class='name'>无线局域网</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>端口</th></tr><tr><td class='name'>音频端口</td><td class='val'>耳机、麦克风二合一接口</td></tr><tr><td class='name'>显示端口</td><td class='val'>MiniDP/ HDMI</td></tr><tr><td class='name'>RJ45</td><td class='val'>1个</td></tr><tr><td class='name'>USB3.0</td><td class='val'>3个</td></tr><tr><th colspan='2' class='title'>音效系统</th></tr><tr><td class='name'>扬声器</td><td class='val'>内置扬声器</td></tr><tr><td class='name'>内置麦克风</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>输入设备</th></tr><tr><td class='name'>键盘</td><td class='val'>背光键盘</td></tr><tr><td class='name'>触摸板</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>其它设备</th></tr><tr><td class='name'>网络摄像头</td><td class='val'>有</td></tr><tr><td class='name'>读卡器</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>电源</th></tr><tr><td class='name'>电池</td><td class='val'>t3芯+3芯</td></tr><tr><td class='name'>续航时间</td><td class='val'>>5小时</td></tr><tr><td class='name'>电源适配器</td><td class='val'>100-240V自适应交流电源适配器</td></tr><tr><th colspan='2' class='title'>机器规格</th></tr><tr><td class='name'>尺寸</td><td class='val'>约339mm x 232.5mm x 21mm</td></tr><tr><td class='name'>净重</td><td class='val'>约1.78kg</td></tr></table>",
+    "ware": "",
+    "sale_actives": "",
+    "energy": "",
+    "protection": ""
+  }
+}
+I, [2018-08-10T11:38:11.615779 #13283]  INFO -- : 【2018-08-10 11:38:11】 访问电商接口：http://test.66123123.com:8002/product/detail?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=78527
+I, [2018-08-10T11:38:11.615878 #13283]  INFO -- : 返回：{
+  "success": true,
+  "result": {
+    "sku": 78527,
+    "url": "http://www.66123123.com/Goods/GoodsDetail?id=78527",
+    "model": "",
+    "weight": "",
+    "image_path": "http://www.66123123.com/Photos/",
+    "state": "1",
+    "brand_name": "Thinkpad",
+    "name": "Think PADT460P（20FNA02CCD）笔记本电脑",
+    "product_area": "",
+    "upc": "",
+    "unit": "台",
+    "category": "便携式计算机",
+    "categoryId": "sxzg_bxsjsj_45",
+    "service": "",
+    "introduction": "<div><img   src='http://www.66123123.com/Photos/bgyp4/78527_1.jpg' alt='' /></div>",
+    "param": "<table border='1' class='Ptable' ><tr><th colspan='2' class='title'>基本信息</th></tr><tr><td class='name'>型号</td><td class='val'>20FNA02CCD</td></tr><tr><td class='name'>颜色</td><td class='val'>黑色</td></tr><tr><td class='name'>平台</td><td class='val'>Intel</td></tr><tr><td class='name'>操作系统</td><td class='val'>Windows7</td></tr><tr><th colspan='2' class='title'>处理器</th></tr><tr><td class='name'>CPU型号</td><td class='val'>i7-6500U</td></tr><tr><td class='name'>三级缓存</td><td class='val'>4M</td></tr><tr><td class='name'>核心</td><td class='val'>双核</td></tr><tr><th colspan='2' class='title'>内存</th></tr><tr><td class='name'>内存容量</td><td class='val'>8G</td></tr><tr><td class='name'>内存类型</td><td class='val'>DDR3L</td></tr><tr><th colspan='2' class='title'>硬盘</th></tr><tr><td class='name'>硬盘容量</td><td class='val'>含512GSSD</td></tr><tr><th colspan='2' class='title'>显卡</th></tr><tr><td class='name'>类型</td><td class='val'>高性能独显</td></tr><tr><td class='name'>显示芯片</td><td class='val'>NVIDIA GeForce 940MX </td></tr><tr><td class='name'>显存容量</td><td class='val'>2GB</td></tr><tr><th colspan='2' class='title'>光驱</th></tr><tr><td class='name'>光驱类型</td><td class='val'>无</td></tr><tr><th colspan='2' class='title'>显示器</th></tr><tr><td class='name'>屏幕规格</td><td class='val'>14.0英寸</td></tr><tr><td class='name'>显示比例</td><td class='val'>16:9</td></tr><tr><td class='name'>物理分辨率</td><td class='val'>全高清屏（1920×1080）</td></tr><tr><td class='name'>屏幕类型</td><td class='val'>LED</td></tr><tr><th colspan='2' class='title'>通信</th></tr><tr><td class='name'>内置蓝牙</td><td class='val'>蓝牙4.0模块</td></tr><tr><td class='name'>局域网</td><td class='val'>1000Mbps以太网卡</td></tr><tr><td class='name'>无线局域网</td><td class='val'>支持802.11b/g/n无线协议</td></tr><tr><th colspan='2' class='title'>端口</th></tr><tr><td class='name'>音频端口</td><td class='val'>耳机/麦克风二合一接口</td></tr><tr><td class='name'>显示端口</td><td class='val'>HDMI</td></tr><tr><td class='name'>USB3.0</td><td class='val'>3个</td></tr><tr><th colspan='2' class='title'>音效系统</th></tr><tr><td class='name'>扬声器</td><td class='val'>内置</td></tr><tr><td class='name'>内置麦克风</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>输入设备</th></tr><tr><td class='name'>键盘</td><td class='val'>背光键盘</td></tr><tr><td class='name'>触摸板</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>其它设备</th></tr><tr><td class='name'>网络摄像头</td><td class='val'>有</td></tr><tr><td class='name'>读卡器</td><td class='val'>4合1读卡器</td></tr><tr><th colspan='2' class='title'>电源</th></tr><tr><td class='name'>电池</td><td class='val'>内置3芯+外置3芯</td></tr><tr><td class='name'>续航时间</td><td class='val'>具体时间视使用环境而定</td></tr><tr><td class='name'>电源适配器</td><td class='val'>100V-240V 自适应交流电源适配器</td></tr><tr><th colspan='2' class='title'>机器规格</th></tr><tr><td class='name'>尺寸</td><td class='val'>约339mm x 232.5mm x 21mm</td></tr><tr><td class='name'>净重</td><td class='val'>约1.74KG</td></tr></table>",
+    "ware": "",
+    "sale_actives": "",
+    "energy": "",
+    "protection": ""
+  }
+}
+I, [2018-08-10T11:38:13.035966 #13283]  INFO -- : 【2018-08-10 11:38:13】 访问电商接口：http://test.66123123.com:8002/product/detail?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=78528
+I, [2018-08-10T11:38:13.036138 #13283]  INFO -- : 返回：{
+  "success": true,
+  "result": {
+    "sku": 78528,
+    "url": "http://www.66123123.com/Goods/GoodsDetail?id=78528",
+    "model": "T460P（20FWA00QCD）",
+    "weight": "",
+    "image_path": "http://www.66123123.com/Photos/",
+    "state": "1",
+    "brand_name": "Thinkpad",
+    "name": "Think PAD T460P（20FWA00QCD） 14.0英寸笔记本电脑 i5-6300HQ/4GB/500GB/2GB独显",
+    "product_area": "",
+    "upc": "",
+    "unit": "台",
+    "category": "便携式计算机",
+    "categoryId": "sxzg_bxsjsj_45",
+    "service": "",
+    "introduction": "<div><img   src='http://www.66123123.com/Photos/bgyp4/78528_1.jpg' alt='' /></div>",
+    "param": "<table border='1' class='Ptable' ><tr><th colspan='2' class='title'>基本信息</th></tr><tr><td class='name'>系列</td><td class='val'>T 系列</td></tr><tr><td class='name'>型号</td><td class='val'>20FWA00QCD</td></tr><tr><td class='name'>颜色</td><td class='val'>黑色</td></tr><tr><td class='name'>平台</td><td class='val'>tIntel</td></tr><tr><td class='name'>操作系统</td><td class='val'>Windows 10</td></tr><tr><th colspan='2' class='title'>处理器</th></tr><tr><td class='name'>CPU类型</td><td class='val'>酷睿四核</td></tr><tr><td class='name'>CPU型号</td><td class='val'>i5-6300HQ</td></tr><tr><td class='name'>CPU速度</td><td class='val'>2.3GHz</td></tr><tr><td class='name'>三级缓存</td><td class='val'>6M</td></tr><tr><td class='name'>核心</td><td class='val'>四核</td></tr><tr><th colspan='2' class='title'>内存</th></tr><tr><td class='name'>内存容量</td><td class='val'>4GB</td></tr><tr><td class='name'>内存类型</td><td class='val'>DDR4 2133</td></tr><tr><td class='name'>插槽数量</td><td class='val'>2 x SO-DIMM</td></tr><tr><th colspan='2' class='title'>硬盘</th></tr><tr><td class='name'>硬盘容量</td><td class='val'>500GB</td></tr><tr><td class='name'>转速</td><td class='val'>7200转/分钟</td></tr><tr><td class='name'>接口类型</td><td class='val'>SATA 串行</td></tr><tr><th colspan='2' class='title'>显卡</th></tr><tr><td class='name'>类型</td><td class='val'>独立显卡</td></tr><tr><td class='name'>显存容量</td><td class='val'>独立2GB</td></tr><tr><th colspan='2' class='title'>光驱</th></tr><tr><td class='name'>光驱类型</td><td class='val'>无光驱</td></tr><tr><th colspan='2' class='title'>显示器</th></tr><tr><td class='name'>屏幕尺寸</td><td class='val'>14英寸</td></tr><tr><td class='name'>显示比例</td><td class='val'>宽屏16：9</td></tr><tr><td class='name'>物理分辨率</td><td class='val'>1920×1080</td></tr><tr><td class='name'>屏幕类型</td><td class='val'>LED背光</td></tr><tr><th colspan='2' class='title'>通信</th></tr><tr><td class='name'>内置蓝牙</td><td class='val'>有</td></tr><tr><td class='name'>局域网</td><td class='val'>10/100/1000Mbps</td></tr><tr><td class='name'>无线局域网</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>端口</th></tr><tr><td class='name'>音频端口</td><td class='val'>耳机、麦克风二合一接口</td></tr><tr><td class='name'>显示端口</td><td class='val'>tHDMI接口</td></tr><tr><td class='name'>RJ45</td><td class='val'>1个</td></tr><tr><th colspan='2' class='title'>音效系统</th></tr><tr><td class='name'>扬声器</td><td class='val'>内置扬声器</td></tr><tr><td class='name'>内置麦克风</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>输入设备</th></tr><tr><td class='name'>键盘</td><td class='val'>背光键盘</td></tr><tr><td class='name'>触摸板</td><td class='val'>多点触控</td></tr><tr><th colspan='2' class='title'>其它设备</th></tr><tr><td class='name'>网络摄像头</td><td class='val'>有</td></tr><tr><td class='name'>读卡器</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>电源</th></tr><tr><td class='name'>电池</td><td class='val'>6芯 锂离子电池</td></tr><tr><td class='name'>续航时间</td><td class='val'>2-5小时</td></tr><tr><td class='name'>电源适配器</td><td class='val'>100-240V自适应交流电源适配器</td></tr><tr><th colspan='2' class='title'>机器规格</th></tr><tr><td class='name'>净重</td><td class='val'>1.5kg-2kg</td></tr></table>",
+    "ware": "",
+    "sale_actives": "",
+    "energy": "",
+    "protection": ""
+  }
+}
+I, [2018-08-10T11:38:13.581126 #13283]  INFO -- : 【2018-08-10 11:38:13】 访问电商接口：http://test.66123123.com:8002/product/detail?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=78529
+I, [2018-08-10T11:38:13.581292 #13283]  INFO -- : 返回：{
+  "success": true,
+  "result": {
+    "sku": 78529,
+    "url": "http://www.66123123.com/Goods/GoodsDetail?id=78529",
+    "model": "T460P(20FWA00HCD)",
+    "weight": "",
+    "image_path": "http://www.66123123.com/Photos/",
+    "state": "1",
+    "brand_name": "Thinkpad",
+    "name": "Think PAD T460P(20FWA00HCD) 14.0英寸笔记本电脑",
+    "product_area": "",
+    "upc": "",
+    "unit": "台",
+    "category": "便携式计算机",
+    "categoryId": "sxzg_bxsjsj_45",
+    "service": "",
+    "introduction": "<div><img   src='http://www.66123123.com/Photos/bgyp4/78529_1.jpg' alt='' /></div>",
+    "param": "<table border='1' class='Ptable' ><tr><th colspan='2' class='title'>基本信息</th></tr><tr><td class='name'>系列</td><td class='val'>T系列</td></tr><tr><td class='name'>型号</td><td class='val'>20FWA00HCD</td></tr><tr><td class='name'>颜色</td><td class='val'>黑色</td></tr><tr><td class='name'>平台</td><td class='val'>intel</td></tr><tr><td class='name'>操作系统</td><td class='val'>Windows 10</td></tr><tr><th colspan='2' class='title'>处理器</th></tr><tr><td class='name'>CPU型号</td><td class='val'>i5-6300HQ</td></tr><tr><td class='name'>核心</td><td class='val'>四核</td></tr><tr><th colspan='2' class='title'>内存</th></tr><tr><td class='name'>内存容量</td><td class='val'>4GB</td></tr><tr><td class='name'>内存类型</td><td class='val'>DDR4 2133</td></tr><tr><td class='name'>插槽数量</td><td class='val'>2 x SO-DIMM</td></tr><tr><th colspan='2' class='title'>硬盘</th></tr><tr><td class='name'>硬盘容量</td><td class='val'>256G</td></tr><tr><th colspan='2' class='title'>显卡</th></tr><tr><td class='name'>类型</td><td class='val'>独立显卡</td></tr><tr><td class='name'>显存容量</td><td class='val'>2G</td></tr><tr><th colspan='2' class='title'>显示器</th></tr><tr><td class='name'>屏幕尺寸</td><td class='val'>14英寸</td></tr><tr><td class='name'>屏幕规格</td><td class='val'>宽屏16：9</td></tr><tr><td class='name'>显示比例</td><td class='val'>16:9</td></tr><tr><td class='name'>物理分辨率</td><td class='val'>1920×1080</td></tr><tr><th colspan='2' class='title'>通信</th></tr><tr><td class='name'>内置蓝牙</td><td class='val'>有</td></tr><tr><td class='name'>局域网</td><td class='val'>10/100/1000Mbps</td></tr><tr><td class='name'>无线局域网</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>端口</th></tr><tr><td class='name'>音频端口</td><td class='val'>耳机、麦克风二合一接口</td></tr><tr><td class='name'>显示端口</td><td class='val'>HDMI接口</td></tr><tr><td class='name'>RJ45</td><td class='val'>1个</td></tr><tr><th colspan='2' class='title'>音效系统</th></tr><tr><td class='name'>扬声器</td><td class='val'>内置扬声器</td></tr><tr><td class='name'>内置麦克风</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>输入设备</th></tr><tr><td class='name'>键盘</td><td class='val'>有</td></tr><tr><td class='name'>触摸板</td><td class='val'>多点触控</td></tr><tr><th colspan='2' class='title'>其它设备</th></tr><tr><td class='name'>网络摄像头</td><td class='val'>有</td></tr><tr><td class='name'>读卡器</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>电源</th></tr><tr><td class='name'>电池</td><td class='val'>6芯 锂离子电池</td></tr><tr><td class='name'>续航时间</td><td class='val'>t2-5小时</td></tr><tr><td class='name'>电源适配器</td><td class='val'>100-240V自适应交流电源适配器</td></tr><tr><th colspan='2' class='title'>机器规格</th></tr><tr><td class='name'>净重</td><td class='val'>1.5kg-2kg</td></tr></table>",
+    "ware": "",
+    "sale_actives": "",
+    "energy": "",
+    "protection": ""
+  }
+}
+I, [2018-08-10T11:38:15.087126 #13283]  INFO -- : 【2018-08-10 11:38:15】 访问电商接口：http://test.66123123.com:8002/product/detail?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=78530
+I, [2018-08-10T11:38:15.087258 #13283]  INFO -- : 返回：{
+  "success": true,
+  "result": {
+    "sku": 78530,
+    "url": "http://www.66123123.com/Goods/GoodsDetail?id=78530",
+    "model": "T460P(20FW002UCD)",
+    "weight": "",
+    "image_path": "http://www.66123123.com/Photos/",
+    "state": "1",
+    "brand_name": "Thinkpad",
+    "name": "Think PAD T460P(20FW002UCD) 14英寸笔记本电脑",
+    "product_area": "",
+    "upc": "",
+    "unit": "台",
+    "category": "便携式计算机",
+    "categoryId": "sxzg_bxsjsj_45",
+    "service": "",
+    "introduction": "<div><img   src='http://www.66123123.com/Photos/bgyp4/78530_1.jpg' alt='' /></div>",
+    "param": "<table border='1' class='Ptable' ><tr><th colspan='2' class='title'>基本信息</th></tr><tr><td class='name'>系列</td><td class='val'>T 系列</td></tr><tr><td class='name'>型号</td><td class='val'>20FW002UCD</td></tr><tr><td class='name'>颜色</td><td class='val'>黑色</td></tr><tr><td class='name'>平台</td><td class='val'>tIntel</td></tr><tr><td class='name'>操作系统</td><td class='val'>tWindows 10</td></tr><tr><th colspan='2' class='title'>处理器</th></tr><tr><td class='name'>CPU</td><td class='val'>Intel 酷睿 i5-6300HQ</td></tr><tr><td class='name'>核心</td><td class='val'>四核</td></tr><tr><th colspan='2' class='title'>内存</th></tr><tr><td class='name'>内存容量</td><td class='val'>4G</td></tr><tr><td class='name'>内存类型</td><td class='val'>tDDR4 2133</td></tr><tr><td class='name'>插槽数量</td><td class='val'>2 x SO-DIMM</td></tr><tr><th colspan='2' class='title'>硬盘</th></tr><tr><td class='name'>硬盘容量</td><td class='val'>500G</td></tr><tr><th colspan='2' class='title'>显卡</th></tr><tr><td class='name'>显卡类型</td><td class='val'>独立</td></tr><tr><td class='name'>显卡闪存</td><td class='val'>2G</td></tr><tr><th colspan='2' class='title'>光驱</th></tr><tr><td class='name'>光驱类型</td><td class='val'>无光驱</td></tr><tr><th colspan='2' class='title'>显示器</th></tr><tr><td class='name'>显示器尺寸</td><td class='val'>14</td></tr><tr><td class='name'>显示比例</td><td class='val'>t宽屏16：9</td></tr><tr><td class='name'>物理分辨率</td><td class='val'>1920×1080</td></tr><tr><td class='name'>屏幕类型</td><td class='val'>LED背光</td></tr><tr><th colspan='2' class='title'>通信</th></tr><tr><td class='name'>内置蓝牙</td><td class='val'>有</td></tr><tr><td class='name'>局域网</td><td class='val'>10/100/1000Mbps</td></tr><tr><td class='name'>无线局域网</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>端口</th></tr><tr><td class='name'>音频端口</td><td class='val'>耳机、麦克风二合一接口</td></tr><tr><td class='name'>显示端口</td><td class='val'>HDMI接口</td></tr><tr><td class='name'>RJ45</td><td class='val'>1个</td></tr><tr><th colspan='2' class='title'>音效系统</th></tr><tr><td class='name'>扬声器</td><td class='val'>内置扬声器</td></tr><tr><td class='name'>内置麦克风</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>输入设备</th></tr><tr><td class='name'>键盘</td><td class='val'>背光键盘</td></tr><tr><td class='name'>触摸板</td><td class='val'>多点触控</td></tr><tr><th colspan='2' class='title'>其它设备</th></tr><tr><td class='name'>网络摄像头</td><td class='val'>有</td></tr><tr><td class='name'>读卡器</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>电源</th></tr><tr><td class='name'>电池</td><td class='val'>6芯 锂离子电池</td></tr><tr><td class='name'>续航时间</td><td class='val'>2-5小时</td></tr><tr><td class='name'>电源适配器</td><td class='val'>100-240V自适应交流电源适配器</td></tr><tr><th colspan='2' class='title'>机器规格</th></tr><tr><td class='name'>净重</td><td class='val'>1.5kg-2kg</td></tr></table>",
+    "ware": "",
+    "sale_actives": "",
+    "energy": "",
+    "protection": ""
+  }
+}
+I, [2018-08-10T11:38:15.372468 #13283]  INFO -- : 【2018-08-10 11:38:15】 访问电商接口：http://test.66123123.com:8002/product/detail?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=78531
+I, [2018-08-10T11:38:15.372605 #13283]  INFO -- : 返回：{
+  "success": true,
+  "result": {
+    "sku": 78531,
+    "url": "http://www.66123123.com/Goods/GoodsDetail?id=78531",
+    "model": "T460P(20FWA00LCD)",
+    "weight": "",
+    "image_path": "http://www.66123123.com/Photos/",
+    "state": "1",
+    "brand_name": "Thinkpad",
+    "name": "Think PAD T460P(20FWA00LCD) 14.0英寸笔记本电脑",
+    "product_area": "",
+    "upc": "",
+    "unit": "台",
+    "category": "便携式计算机",
+    "categoryId": "sxzg_bxsjsj_45",
+    "service": "",
+    "introduction": "<div><img   src='http://www.66123123.com/Photos/bgyp4/78531_1.jpg' alt='' /></div>",
+    "param": "<table border='1' class='Ptable' ><tr><th colspan='2' class='title'>基本信息</th></tr><tr><td class='name'>型号</td><td class='val'>20FWA00LCD</td></tr><tr><td class='name'>颜色</td><td class='val'>黑色</td></tr><tr><td class='name'>平台</td><td class='val'>Intel</td></tr><tr><td class='name'>操作系统</td><td class='val'>Windows10</td></tr><tr><th colspan='2' class='title'>处理器</th></tr><tr><td class='name'>CPU型号</td><td class='val'>I5-6300HQ</td></tr><tr><td class='name'>三级缓存</td><td class='val'>6MB</td></tr><tr><td class='name'>核心</td><td class='val'>四核</td></tr><tr><th colspan='2' class='title'>内存</th></tr><tr><td class='name'>内存容量</td><td class='val'>8G</td></tr><tr><td class='name'>内存类型</td><td class='val'>DDR4 2133</td></tr><tr><th colspan='2' class='title'>硬盘</th></tr><tr><td class='name'>硬盘容量</td><td class='val'>500G, 混合硬盘, 含128G SSD</td></tr><tr><th colspan='2' class='title'>显卡</th></tr><tr><td class='name'>类型</td><td class='val'>高性能独显</td></tr><tr><td class='name'>显示芯片</td><td class='val'>NVIDIA GeForce 940MX</td></tr><tr><td class='name'>显存容量</td><td class='val'>2G</td></tr><tr><th colspan='2' class='title'>光驱</th></tr><tr><td class='name'>光驱类型</td><td class='val'>无</td></tr><tr><th colspan='2' class='title'>显示器</th></tr><tr><td class='name'>屏幕规格</td><td class='val'>14.0英寸</td></tr><tr><td class='name'>显示比例</td><td class='val'>16：9</td></tr><tr><td class='name'>物理分辨率</td><td class='val'>全高清屏（1920×1080</td></tr><tr><td class='name'>屏幕类型</td><td class='val'>FHD</td></tr><tr><th colspan='2' class='title'>通信</th></tr><tr><td class='name'>内置蓝牙</td><td class='val'>有</td></tr><tr><td class='name'>局域网</td><td class='val'>1000Mbps以太网卡</td></tr><tr><td class='name'>无线局域网</td><td class='val'>支持802.11b/g/n无线协议</td></tr><tr><th colspan='2' class='title'>端口</th></tr><tr><td class='name'>音频端口</td><td class='val'>耳机、麦克风二合一接口</td></tr><tr><td class='name'>显示端口</td><td class='val'>HDMI接口</td></tr><tr><th colspan='2' class='title'>音效系统</th></tr><tr><td class='name'>扬声器</td><td class='val'>内置</td></tr><tr><td class='name'>内置麦克风</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>输入设备</th></tr><tr><td class='name'>键盘</td><td class='val'>悬浮键盘</td></tr><tr><td class='name'>触摸板</td><td class='val'>多点触控</td></tr><tr><th colspan='2' class='title'>其它设备</th></tr><tr><td class='name'>网络摄像头</td><td class='val'>有</td></tr><tr><td class='name'>读卡器</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>电源</th></tr><tr><td class='name'>电池</td><td class='val'>6芯 锂离子电池</td></tr><tr><td class='name'>续航时间</td><td class='val'>2-5小时</td></tr><tr><td class='name'>电源适配器</td><td class='val'>100-240V自适应交流电源适配器</td></tr><tr><th colspan='2' class='title'>机器规格</th></tr><tr><td class='name'>净重</td><td class='val'>1.5kg-2kg</td></tr></table>",
+    "ware": "",
+    "sale_actives": "",
+    "energy": "",
+    "protection": ""
+  }
+}
+I, [2018-08-10T11:38:15.760771 #13283]  INFO -- : 【2018-08-10 11:38:15】 访问电商接口：http://test.66123123.com:8002/product/detail?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=78532
+I, [2018-08-10T11:38:15.761146 #13283]  INFO -- : 返回：{
+  "success": true,
+  "result": {
+    "sku": 78532,
+    "url": "http://www.66123123.com/Goods/GoodsDetail?id=78532",
+    "model": "T460P(20FWA00NCD)",
+    "weight": "",
+    "image_path": "http://www.66123123.com/Photos/",
+    "state": "1",
+    "brand_name": "Thinkpad",
+    "name": "Think PAD T460P(20FWA00NCD) 14.0英寸笔记本电脑",
+    "product_area": "",
+    "upc": "",
+    "unit": "台",
+    "category": "便携式计算机",
+    "categoryId": "sxzg_bxsjsj_45",
+    "service": "",
+    "introduction": "<div><img   src='http://www.66123123.com/Photos/bgyp4/78532_1.jpg' alt='' /></div>",
+    "param": "<table border='1' class='Ptable' ><tr><th colspan='2' class='title'>基本信息</th></tr><tr><td class='name'>系列</td><td class='val'>T 系列</td></tr><tr><td class='name'>型号</td><td class='val'>20FWA00NCD</td></tr><tr><td class='name'>颜色</td><td class='val'>黑色</td></tr><tr><td class='name'>平台</td><td class='val'>Intel</td></tr><tr><td class='name'>操作系统</td><td class='val'>Windows 10</td></tr><tr><th colspan='2' class='title'>处理器</th></tr><tr><td class='name'>CPU型号</td><td class='val'>i5-6300HQ </td></tr><tr><td class='name'>CPU速度</td><td class='val'>Windows 10</td></tr><tr><td class='name'>核心</td><td class='val'>四核</td></tr><tr><th colspan='2' class='title'>内存</th></tr><tr><td class='name'>内存容量</td><td class='val'>四核</td></tr><tr><td class='name'>内存类型</td><td class='val'>DDR4 2133</td></tr><tr><td class='name'>插槽数量</td><td class='val'>2 x SO-DIMM</td></tr><tr><th colspan='2' class='title'>硬盘</th></tr><tr><td class='name'>硬盘容量</td><td class='val'>1T+128G双硬盘</td></tr><tr><th colspan='2' class='title'>显卡</th></tr><tr><td class='name'>类型</td><td class='val'>独立显卡</td></tr><tr><td class='name'>显存容量</td><td class='val'>独立2GB</td></tr><tr><th colspan='2' class='title'>光驱</th></tr><tr><td class='name'>光驱类型</td><td class='val'>无光驱</td></tr><tr><th colspan='2' class='title'>显示器</th></tr><tr><td class='name'>屏幕尺寸</td><td class='val'>14英寸</td></tr><tr><td class='name'>显示比例</td><td class='val'>宽屏16：9</td></tr><tr><td class='name'>物理分辨率</td><td class='val'>1920×1080</td></tr><tr><th colspan='2' class='title'>通信</th></tr><tr><td class='name'>内置蓝牙</td><td class='val'>有</td></tr><tr><td class='name'>局域网</td><td class='val'>10/100/1000Mbps</td></tr><tr><td class='name'>无线局域网</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>端口</th></tr><tr><td class='name'>音频端口</td><td class='val'>耳机、麦克风二合一接口</td></tr><tr><td class='name'>显示端口</td><td class='val'>HDMI接口</td></tr><tr><td class='name'>RJ45</td><td class='val'>1个</td></tr><tr><th colspan='2' class='title'>音效系统</th></tr><tr><td class='name'>扬声器</td><td class='val'>1个</td></tr><tr><td class='name'>内置麦克风</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>输入设备</th></tr><tr><td class='name'>键盘</td><td class='val'>背光键盘</td></tr><tr><td class='name'>触摸板</td><td class='val'>多点触控</td></tr><tr><th colspan='2' class='title'>其它设备</th></tr><tr><td class='name'>网络摄像头</td><td class='val'>有</td></tr><tr><td class='name'>读卡器</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>电源</th></tr><tr><td class='name'>电池</td><td class='val'>6芯 锂离子电池</td></tr><tr><td class='name'>续航时间</td><td class='val'>>5小时</td></tr><tr><th colspan='2' class='title'>机器规格</th></tr><tr><td class='name'>净重</td><td class='val'>2-2.5kg</td></tr></table>",
+    "ware": "",
+    "sale_actives": "",
+    "energy": "",
+    "protection": ""
+  }
+}
+I, [2018-08-10T11:38:16.076776 #13283]  INFO -- : 【2018-08-10 11:38:16】 访问电商接口：http://test.66123123.com:8002/product/detail?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=78533
+I, [2018-08-10T11:38:16.078389 #13283]  INFO -- : 返回：{
+  "success": true,
+  "result": {
+    "sku": 78533,
+    "url": "http://www.66123123.com/Goods/GoodsDetail?id=78533",
+    "model": "T460P(20FWA00MCD)",
+    "weight": "",
+    "image_path": "http://www.66123123.com/Photos/",
+    "state": "1",
+    "brand_name": "Thinkpad",
+    "name": "Think PAD T460P(20FWA00MCD) 14.0英寸笔记本电脑",
+    "product_area": "",
+    "upc": "",
+    "unit": "台",
+    "category": "便携式计算机",
+    "categoryId": "sxzg_bxsjsj_45",
+    "service": "",
+    "introduction": "<div><img   src='http://www.66123123.com/Photos/bgyp4/78533_1.jpg' alt='' /></div>",
+    "param": "<table border='1' class='Ptable' ><tr><th colspan='2' class='title'>基本信息</th></tr><tr><td class='name'>系列</td><td class='val'>T 系列</td></tr><tr><td class='name'>型号</td><td class='val'>20FWA00MCD</td></tr><tr><td class='name'>颜色</td><td class='val'>T 系列</td></tr><tr><td class='name'>平台</td><td class='val'>intel</td></tr><tr><td class='name'>操作系统</td><td class='val'>Windows 10</td></tr><tr><th colspan='2' class='title'>处理器</th></tr><tr><td class='name'>CPU</td><td class='val'>Intel 酷睿 i5-6300HQ</td></tr><tr><td class='name'>CPU速度</td><td class='val'>2.3GHz</td></tr><tr><td class='name'>核心</td><td class='val'>四核</td></tr><tr><th colspan='2' class='title'>内存</th></tr><tr><td class='name'>内存容量</td><td class='val'>8G</td></tr><tr><td class='name'>内存类型</td><td class='val'>DDR4 2133</td></tr><tr><td class='name'>插槽数量</td><td class='val'>2 x SO-DIMM</td></tr><tr><th colspan='2' class='title'>硬盘</th></tr><tr><td class='name'>硬盘容量</td><td class='val'>256G SSD</td></tr><tr><th colspan='2' class='title'>显卡</th></tr><tr><td class='name'>显卡类型</td><td class='val'>独立</td></tr><tr><td class='name'>显卡闪存</td><td class='val'>2G</td></tr><tr><th colspan='2' class='title'>光驱</th></tr><tr><td class='name'>光驱类型</td><td class='val'>无光驱</td></tr><tr><th colspan='2' class='title'>显示器</th></tr><tr><td class='name'>显示器尺寸</td><td class='val'>14</td></tr><tr><td class='name'>显示比例</td><td class='val'>宽屏16：9</td></tr><tr><td class='name'>物理分辨率</td><td class='val'>1920×1080</td></tr><tr><td class='name'>屏幕类型</td><td class='val'>LED背光</td></tr><tr><th colspan='2' class='title'>通信</th></tr><tr><td class='name'>内置蓝牙</td><td class='val'>有</td></tr><tr><td class='name'>局域网</td><td class='val'>10/100/1000Mbps</td></tr><tr><td class='name'>无线局域网</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>端口</th></tr><tr><td class='name'>音频端口</td><td class='val'>耳机、麦克风二合一接口</td></tr><tr><td class='name'>显示端口</td><td class='val'>HDMI接口</td></tr><tr><td class='name'>RJ45</td><td class='val'>1个</td></tr><tr><th colspan='2' class='title'>音效系统</th></tr><tr><td class='name'>扬声器</td><td class='val'>内置扬声器</td></tr><tr><td class='name'>内置麦克风</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>输入设备</th></tr><tr><td class='name'>键盘</td><td class='val'>t背光键盘</td></tr><tr><td class='name'>触摸板</td><td class='val'>多点触控</td></tr><tr><th colspan='2' class='title'>其它设备</th></tr><tr><td class='name'>网络摄像头</td><td class='val'>有</td></tr><tr><td class='name'>读卡器</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>电源</th></tr><tr><td class='name'>电池</td><td class='val'>6芯 锂离子电池</td></tr><tr><td class='name'>续航时间</td><td class='val'>2-5小时</td></tr><tr><td class='name'>电源适配器</td><td class='val'>100-240V自适应交流电源适配器</td></tr><tr><th colspan='2' class='title'>机器规格</th></tr><tr><td class='name'>净重</td><td class='val'>1.5kg-2kg</td></tr></table>",
+    "ware": "",
+    "sale_actives": "",
+    "energy": "",
+    "protection": ""
+  }
+}
+I, [2018-08-10T11:38:16.384706 #13283]  INFO -- : 【2018-08-10 11:38:16】 访问电商接口：http://test.66123123.com:8002/product/detail?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=78534
+I, [2018-08-10T11:38:16.384807 #13283]  INFO -- : 返回：{
+  "success": true,
+  "result": {
+    "sku": 78534,
+    "url": "http://www.66123123.com/Goods/GoodsDetail?id=78534",
+    "model": "",
+    "weight": "",
+    "image_path": "http://www.66123123.com/Photos/",
+    "state": "1",
+    "brand_name": "Thinkpad",
+    "name": "Think PADT460P(20FWA00TCD) 笔记本电脑",
+    "product_area": "",
+    "upc": "",
+    "unit": "台",
+    "category": "便携式计算机",
+    "categoryId": "sxzg_bxsjsj_45",
+    "service": "",
+    "introduction": "<div><img   src='http://www.66123123.com/Photos/bgyp4/78534_1.jpg' alt='' /></div>",
+    "param": "<table border='1' class='Ptable' ><tr><th colspan='2' class='title'>基本信息</th></tr><tr><td class='name'>系列</td><td class='val'>T 系列</td></tr><tr><td class='name'>型号</td><td class='val'>20FWA00TCD</td></tr><tr><td class='name'>颜色</td><td class='val'>黑色</td></tr><tr><td class='name'>平台</td><td class='val'>Intel</td></tr><tr><td class='name'>操作系统</td><td class='val'>Windows 10</td></tr><tr><th colspan='2' class='title'>处理器</th></tr><tr><td class='name'>CPU型号</td><td class='val'>i7-6700HQ</td></tr><tr><td class='name'>核心</td><td class='val'>四核</td></tr><tr><th colspan='2' class='title'>内存</th></tr><tr><td class='name'>内存容量</td><td class='val'>4GB</td></tr><tr><td class='name'>内存类型</td><td class='val'>DDR4 2133</td></tr><tr><td class='name'>插槽数量</td><td class='val'>2 x SO-DIMM</td></tr><tr><th colspan='2' class='title'>硬盘</th></tr><tr><td class='name'>硬盘容量</td><td class='val'>500GB</td></tr><tr><th colspan='2' class='title'>显卡</th></tr><tr><td class='name'>类型</td><td class='val'>独立显卡</td></tr><tr><td class='name'>显存容量</td><td class='val'>2GB</td></tr><tr><th colspan='2' class='title'>光驱</th></tr><tr><td class='name'>光驱类型</td><td class='val'>无光驱</td></tr><tr><th colspan='2' class='title'>显示器</th></tr><tr><td class='name'>屏幕尺寸</td><td class='val'>14英寸</td></tr><tr><td class='name'>显示比例</td><td class='val'>宽屏16：9</td></tr><tr><td class='name'>物理分辨率</td><td class='val'>1920×1080</td></tr><tr><td class='name'>屏幕类型</td><td class='val'>LED背光</td></tr><tr><th colspan='2' class='title'>通信</th></tr><tr><td class='name'>内置蓝牙</td><td class='val'>有</td></tr><tr><td class='name'>局域网</td><td class='val'>10/100/1000Mbps</td></tr><tr><td class='name'>无线局域网</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>端口</th></tr><tr><td class='name'>音频端口</td><td class='val'>耳机、麦克风二合一接口</td></tr><tr><td class='name'>显示端口</td><td class='val'>HDMI接口</td></tr><tr><td class='name'>RJ45</td><td class='val'>1个</td></tr><tr><th colspan='2' class='title'>音效系统</th></tr><tr><td class='name'>扬声器</td><td class='val'>1个</td></tr><tr><td class='name'>内置麦克风</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>输入设备</th></tr><tr><td class='name'>键盘</td><td class='val'>背光键盘</td></tr><tr><td class='name'>触摸板</td><td class='val'>多点触控</td></tr><tr><th colspan='2' class='title'>其它设备</th></tr><tr><td class='name'>网络摄像头</td><td class='val'>有</td></tr><tr><td class='name'>读卡器</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>电源</th></tr><tr><td class='name'>电池</td><td class='val'>6芯 锂离子电池</td></tr><tr><td class='name'>续航时间</td><td class='val'>t2-5小时</td></tr><tr><td class='name'>电源适配器</td><td class='val'>100-240V自适应交流电源适配器</td></tr><tr><th colspan='2' class='title'>机器规格</th></tr><tr><td class='name'>净重</td><td class='val'>1.5kg-2kg</td></tr></table>",
+    "ware": "",
+    "sale_actives": "",
+    "energy": "",
+    "protection": ""
+  }
+}
+I, [2018-08-10T11:38:16.653723 #13283]  INFO -- : 【2018-08-10 11:38:16】 访问电商接口：http://test.66123123.com:8002/product/detail?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=78535
+I, [2018-08-10T11:38:16.654503 #13283]  INFO -- : 返回：{
+  "success": true,
+  "result": {
+    "sku": 78535,
+    "url": "http://www.66123123.com/Goods/GoodsDetail?id=78535",
+    "model": "T460P（20FWA00TCD）",
+    "weight": "",
+    "image_path": "http://www.66123123.com/Photos/",
+    "state": "1",
+    "brand_name": "Thinkpad",
+    "name": "Think PAD T460P（20FWA00TCD） 14.0英寸笔记本电脑",
+    "product_area": "",
+    "upc": "",
+    "unit": "台",
+    "category": "便携式计算机",
+    "categoryId": "sxzg_bxsjsj_45",
+    "service": "",
+    "introduction": "<div><img   src='http://www.66123123.com/Photos/bgyp4/78535_1.jpg' alt='' /></div>",
+    "param": "<table border='1' class='Ptable' ><tr><th colspan='2' class='title'>基本信息</th></tr><tr><td class='name'>系列</td><td class='val'>T 系列</td></tr><tr><td class='name'>型号</td><td class='val'>20FWA00VCD</td></tr><tr><td class='name'>颜色</td><td class='val'>黑色</td></tr><tr><td class='name'>平台</td><td class='val'>tIntel</td></tr><tr><td class='name'>操作系统</td><td class='val'>Windows 10</td></tr><tr><th colspan='2' class='title'>处理器</th></tr><tr><td class='name'>CPU型号</td><td class='val'>i7-6700HQ</td></tr><tr><td class='name'>CPU速度</td><td class='val'>2.6GHz</td></tr><tr><td class='name'>三级缓存</td><td class='val'>6M</td></tr><tr><td class='name'>核心</td><td class='val'>四核</td></tr><tr><th colspan='2' class='title'>内存</th></tr><tr><td class='name'>内存容量</td><td class='val'>8GB</td></tr><tr><td class='name'>内存类型</td><td class='val'>DDR4 2133</td></tr><tr><td class='name'>插槽数量</td><td class='val'>2 x SO-DIMM</td></tr><tr><th colspan='2' class='title'>硬盘</th></tr><tr><td class='name'>硬盘容量</td><td class='val'>128G固态+500G双硬盘</td></tr><tr><td class='name'>转速</td><td class='val'>7200</td></tr><tr><th colspan='2' class='title'>显卡</th></tr><tr><td class='name'>类型</td><td class='val'>独立显卡</td></tr><tr><td class='name'>显存容量</td><td class='val'>2GB</td></tr><tr><th colspan='2' class='title'>光驱</th></tr><tr><td class='name'>光驱类型</td><td class='val'>无</td></tr><tr><th colspan='2' class='title'>显示器</th></tr><tr><td class='name'>屏幕尺寸</td><td class='val'>14英寸</td></tr><tr><td class='name'>显示比例</td><td class='val'>宽屏16：9</td></tr><tr><td class='name'>物理分辨率</td><td class='val'>1920×1080</td></tr><tr><td class='name'>屏幕类型</td><td class='val'>tLED背光</td></tr><tr><th colspan='2' class='title'>通信</th></tr><tr><td class='name'>内置蓝牙</td><td class='val'>有</td></tr><tr><td class='name'>局域网</td><td class='val'>10/100/1000Mbps</td></tr><tr><td class='name'>无线局域网</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>端口</th></tr><tr><td class='name'>音频端口</td><td class='val'>耳机、麦克风二合一接口</td></tr><tr><td class='name'>显示端口</td><td class='val'>HDMI接口</td></tr><tr><td class='name'>RJ45</td><td class='val'>1个</td></tr><tr><th colspan='2' class='title'>音效系统</th></tr><tr><td class='name'>扬声器</td><td class='val'>内置</td></tr><tr><td class='name'>内置麦克风</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>输入设备</th></tr><tr><td class='name'>键盘</td><td class='val'>背光键盘</td></tr><tr><td class='name'>触摸板</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>其它设备</th></tr><tr><td class='name'>网络摄像头</td><td class='val'>有</td></tr><tr><td class='name'>读卡器</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>电源</th></tr><tr><td class='name'>电池</td><td class='val'>6芯 锂离子电池</td></tr><tr><td class='name'>续航时间</td><td class='val'>2-5小时</td></tr><tr><td class='name'>电源适配器</td><td class='val'>t100-240V自适应交流电源适配器</td></tr><tr><th colspan='2' class='title'>机器规格</th></tr><tr><td class='name'>净重</td><td class='val'>2-2.5kg</td></tr></table>",
+    "ware": "",
+    "sale_actives": "",
+    "energy": "",
+    "protection": ""
+  }
+}
+I, [2018-08-10T11:38:16.970487 #13283]  INFO -- : 【2018-08-10 11:38:16】 访问电商接口：http://test.66123123.com:8002/product/detail?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=78540
+I, [2018-08-10T11:38:16.970595 #13283]  INFO -- : 返回：{
+  "success": true,
+  "result": {
+    "sku": 78540,
+    "url": "http://www.66123123.com/Goods/GoodsDetail?id=78540",
+    "model": "T460P(20FWA00WCD)",
+    "weight": "",
+    "image_path": "http://www.66123123.com/Photos/",
+    "state": "1",
+    "brand_name": "Thinkpad",
+    "name": "Think PAD T460P(20FWA00WCD) 14.0笔记本电脑",
+    "product_area": "",
+    "upc": "",
+    "unit": "台",
+    "category": "便携式计算机",
+    "categoryId": "sxzg_bxsjsj_45",
+    "service": "",
+    "introduction": "<div><img   src='http://www.66123123.com/Photos/bgyp4/78540_1.jpg' alt='' /></div>",
+    "param": "<table border='1' class='Ptable' ><tr><th colspan='2' class='title'>基本信息</th></tr><tr><td class='name'>系列</td><td class='val'>T 系列</td></tr><tr><td class='name'>型号</td><td class='val'>20FWA00WCD</td></tr><tr><td class='name'>颜色</td><td class='val'>黑色</td></tr><tr><td class='name'>平台</td><td class='val'>Intel</td></tr><tr><td class='name'>操作系统</td><td class='val'>Windows 10</td></tr><tr><th colspan='2' class='title'>处理器</th></tr><tr><td class='name'>CPU</td><td class='val'>Intel 酷睿 i7-6700HQ</td></tr><tr><td class='name'>CPU速度</td><td class='val'>2.6GHz</td></tr><tr><td class='name'>三级缓存</td><td class='val'>6M</td></tr><tr><td class='name'>核心</td><td class='val'>四核</td></tr><tr><th colspan='2' class='title'>内存</th></tr><tr><td class='name'>内存容量</td><td class='val'>8G</td></tr><tr><td class='name'>内存类型</td><td class='val'>DDR4 2133</td></tr><tr><td class='name'>插槽数量</td><td class='val'>t2 x SO-DIMM</td></tr><tr><th colspan='2' class='title'>硬盘</th></tr><tr><td class='name'>硬盘容量</td><td class='val'>500G</td></tr><tr><td class='name'>转速</td><td class='val'>t7200转/分钟</td></tr><tr><td class='name'>接口类型</td><td class='val'>SATA 串行</td></tr><tr><th colspan='2' class='title'>显卡</th></tr><tr><td class='name'>显卡类型</td><td class='val'>独立</td></tr><tr><td class='name'>显卡闪存</td><td class='val'>2G</td></tr><tr><th colspan='2' class='title'>光驱</th></tr><tr><td class='name'>光驱类型</td><td class='val'>14</td></tr><tr><th colspan='2' class='title'>显示器</th></tr><tr><td class='name'>显示比例</td><td class='val'>宽屏16：9</td></tr><tr><td class='name'>物理分辨率</td><td class='val'>t1920×1080</td></tr><tr><td class='name'>屏幕类型</td><td class='val'>LED背光</td></tr><tr><th colspan='2' class='title'>通信</th></tr><tr><td class='name'>内置蓝牙</td><td class='val'>有</td></tr><tr><td class='name'>局域网</td><td class='val'>10/100/1000Mbps</td></tr><tr><td class='name'>无线局域网</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>端口</th></tr><tr><td class='name'>音频端口</td><td class='val'>耳机、麦克风二合一接口</td></tr><tr><td class='name'>显示端口</td><td class='val'>HDMI接口</td></tr><tr><td class='name'>RJ45</td><td class='val'>1个</td></tr><tr><th colspan='2' class='title'>音效系统</th></tr><tr><td class='name'>扬声器</td><td class='val'>内置扬声器</td></tr><tr><td class='name'>内置麦克风</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>输入设备</th></tr><tr><td class='name'>键盘</td><td class='val'>背光键盘</td></tr><tr><td class='name'>触摸板</td><td class='val'>多点触控</td></tr><tr><th colspan='2' class='title'>其它设备</th></tr><tr><td class='name'>网络摄像头</td><td class='val'>有</td></tr><tr><td class='name'>读卡器</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>电源</th></tr><tr><td class='name'>电池</td><td class='val'>6芯 锂离子电池</td></tr><tr><td class='name'>续航时间</td><td class='val'>t2-5小时</td></tr><tr><td class='name'>电源适配器</td><td class='val'>100-240V自适应交流电源适配器</td></tr><tr><th colspan='2' class='title'>机器规格</th></tr><tr><td class='name'>净重</td><td class='val'>1.5kg-2kg</td></tr></table>",
+    "ware": "",
+    "sale_actives": "",
+    "energy": "",
+    "protection": ""
+  }
+}
+I, [2018-08-10T11:38:17.277993 #13283]  INFO -- : 【2018-08-10 11:38:17】 访问电商接口：http://test.66123123.com:8002/product/detail?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=78591
+I, [2018-08-10T11:38:17.278107 #13283]  INFO -- : 返回：{
+  "success": true,
+  "result": {
+    "sku": 78591,
+    "url": "http://www.66123123.com/Goods/GoodsDetail?id=78591",
+    "model": "",
+    "weight": "",
+    "image_path": "http://www.66123123.com/Photos/",
+    "state": "1",
+    "brand_name": "Thinkpad",
+    "name": "Think PADE560（20EVA05BCD）笔记本电脑",
+    "product_area": "",
+    "upc": "",
+    "unit": "台",
+    "category": "便携式计算机",
+    "categoryId": "sxzg_bxsjsj_45",
+    "service": "",
+    "introduction": "<div><img   src='http://www.66123123.com/Photos/bgyp4/78591_1.jpg' alt='' /></div>",
+    "param": "<table border='1' class='Ptable' ><tr><th colspan='2' class='title'>基本信息</th></tr><tr><td class='name'>型号</td><td class='val'>20EVA05BCD</td></tr><tr><td class='name'>颜色</td><td class='val'>黑色</td></tr><tr><td class='name'>平台</td><td class='val'>Intel</td></tr><tr><td class='name'>操作系统</td><td class='val'>Windows 10</td></tr><tr><th colspan='2' class='title'>处理器</th></tr><tr><td class='name'>CPU</td><td class='val'>Intel 酷睿 i5-6200U</td></tr><tr><td class='name'>CPU速度</td><td class='val'>2.3GHz</td></tr><tr><td class='name'>三级缓存</td><td class='val'>2M</td></tr><tr><td class='name'>核心</td><td class='val'>双核</td></tr><tr><th colspan='2' class='title'>内存</th></tr><tr><td class='name'>内存容量</td><td class='val'>8G</td></tr><tr><td class='name'>内存类型</td><td class='val'>DDR3 1600</td></tr><tr><td class='name'>插槽数量</td><td class='val'>2 x SO-DIMM</td></tr><tr><th colspan='2' class='title'>硬盘</th></tr><tr><td class='name'>硬盘容量</td><td class='val'>192G SSD</td></tr><tr><th colspan='2' class='title'>显卡</th></tr><tr><td class='name'>显卡类型</td><td class='val'>独立</td></tr><tr><td class='name'>显卡闪存</td><td class='val'>2G</td></tr><tr><th colspan='2' class='title'>光驱</th></tr><tr><td class='name'>光驱类型</td><td class='val'>DVD刻录</td></tr><tr><th colspan='2' class='title'>显示器</th></tr><tr><td class='name'>显示器尺寸</td><td class='val'>15.6</td></tr><tr><td class='name'>屏幕规格</td><td class='val'>15.6英寸</td></tr><tr><td class='name'>显示比例</td><td class='val'>宽屏16：9</td></tr><tr><td class='name'>物理分辨率</td><td class='val'>1366 x 768</td></tr><tr><td class='name'>屏幕类型</td><td class='val'>LED背光</td></tr><tr><th colspan='2' class='title'>通信</th></tr><tr><td class='name'>内置蓝牙</td><td class='val'>有</td></tr><tr><td class='name'>局域网</td><td class='val'>10/100/1000Mbps</td></tr><tr><td class='name'>无线局域网</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>端口</th></tr><tr><td class='name'>音频端口</td><td class='val'>耳机、麦克风二合一接口</td></tr><tr><th colspan='2' class='title'>音效系统</th></tr><tr><td class='name'>扬声器</td><td class='val'>内置</td></tr><tr><td class='name'>内置麦克风</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>输入设备</th></tr><tr><td class='name'>键盘</td><td class='val'>全尺寸键盘</td></tr><tr><td class='name'>触摸板</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>其它设备</th></tr><tr><td class='name'>网络摄像头</td><td class='val'>有</td></tr><tr><td class='name'>读卡器</td><td class='val'> 有</td></tr><tr><th colspan='2' class='title'>电源</th></tr><tr><td class='name'>电池</td><td class='val'>6芯 锂离子电池</td></tr><tr><td class='name'>续航时间</td><td class='val'>2-5小时</td></tr><tr><td class='name'>电源适配器</td><td class='val'>100-240V自适应交流电源适配器</td></tr><tr><th colspan='2' class='title'>机器规格</th></tr><tr><td class='name'>净重</td><td class='val'>2-2.5kg</td></tr></table>",
+    "ware": "",
+    "sale_actives": "",
+    "energy": "",
+    "protection": ""
+  }
+}
+I, [2018-08-10T11:38:17.578636 #13283]  INFO -- : 【2018-08-10 11:38:17】 访问电商接口：http://test.66123123.com:8002/product/detail?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=78771
+I, [2018-08-10T11:38:17.579050 #13283]  INFO -- : 返回：{
+  "success": true,
+  "result": {
+    "sku": 78771,
+    "url": "http://www.66123123.com/Goods/GoodsDetail?id=78771",
+    "model": "E560（20EVA05ECD）",
+    "weight": "",
+    "image_path": "http://www.66123123.com/Photos/",
+    "state": "1",
+    "brand_name": "Thinkpad",
+    "name": "Think PAD E560（20EVA05ECD） 笔记本电脑",
+    "product_area": "",
+    "upc": "",
+    "unit": "台",
+    "category": "便携式计算机",
+    "categoryId": "sxzg_bxsjsj_45",
+    "service": "",
+    "introduction": "<div><img   src='http://www.66123123.com/Photos/bgyp4/78771_1.jpg' alt='' /></div>",
+    "param": "<table border='1' class='Ptable' ><tr><th colspan='2' class='title'>基本信息</th></tr><tr><td class='name'>型号</td><td class='val'>20EVA05ECD</td></tr><tr><td class='name'>颜色</td><td class='val'>黑色</td></tr><tr><td class='name'>平台</td><td class='val'>Intel</td></tr><tr><td class='name'>操作系统</td><td class='val'>Windows 10</td></tr><tr><th colspan='2' class='title'>处理器</th></tr><tr><td class='name'>CPU</td><td class='val'>Intel 酷睿 i7-6500U</td></tr><tr><td class='name'>CPU速度</td><td class='val'>2.5GHz</td></tr><tr><td class='name'>三级缓存</td><td class='val'>4M</td></tr><tr><td class='name'>核心</td><td class='val'>双核</td></tr><tr><th colspan='2' class='title'>内存</th></tr><tr><td class='name'>内存容量</td><td class='val'>4G</td></tr><tr><td class='name'>内存类型</td><td class='val'>DDR3L 1600</td></tr><tr><td class='name'>插槽数量</td><td class='val'>2 x SO-DIMM</td></tr><tr><th colspan='2' class='title'>硬盘</th></tr><tr><td class='name'>硬盘容量</td><td class='val'>192G SSD</td></tr><tr><th colspan='2' class='title'>显卡</th></tr><tr><td class='name'>显卡类型</td><td class='val'>独立</td></tr><tr><td class='name'>显卡闪存</td><td class='val'>2G</td></tr><tr><th colspan='2' class='title'>光驱</th></tr><tr><td class='name'>光驱类型</td><td class='val'>无</td></tr><tr><th colspan='2' class='title'>显示器</th></tr><tr><td class='name'>显示器尺寸</td><td class='val'>15.6</td></tr><tr><td class='name'>屏幕规格</td><td class='val'>15.6英寸</td></tr><tr><td class='name'>显示比例</td><td class='val'>宽屏16：9</td></tr><tr><td class='name'>物理分辨率</td><td class='val'>1366 x 768</td></tr><tr><td class='name'>屏幕类型</td><td class='val'>LED背光</td></tr><tr><th colspan='2' class='title'>通信</th></tr><tr><td class='name'>内置蓝牙</td><td class='val'>蓝牙4.0</td></tr><tr><td class='name'>局域网</td><td class='val'>10/100/1000Mbps</td></tr><tr><td class='name'>无线局域网</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>端口</th></tr><tr><td class='name'>音频端口</td><td class='val'>耳机、麦克风二合一接口</td></tr><tr><td class='name'>显示端口</td><td class='val'>HDMI接口</td></tr><tr><td class='name'>RJ45</td><td class='val'>1个</td></tr><tr><td class='name'>USB3.0</td><td class='val'>2个</td></tr><tr><th colspan='2' class='title'>音效系统</th></tr><tr><td class='name'>扬声器</td><td class='val'>内置</td></tr><tr><td class='name'>内置麦克风</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>输入设备</th></tr><tr><td class='name'>键盘</td><td class='val'>全尺寸键盘</td></tr><tr><td class='name'>触摸板</td><td class='val'>多点触控</td></tr><tr><th colspan='2' class='title'>其它设备</th></tr><tr><td class='name'>网络摄像头</td><td class='val'>有</td></tr><tr><td class='name'>读卡器</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>电源</th></tr><tr><td class='name'>电池</td><td class='val'>6芯 锂离子电池</td></tr><tr><td class='name'>续航时间</td><td class='val'>2-5小时</td></tr><tr><td class='name'>电源适配器</td><td class='val'>100-240V自适应交流电源适配器</td></tr><tr><th colspan='2' class='title'>机器规格</th></tr><tr><td class='name'>净重</td><td class='val'>2-2.5kg</td></tr></table>",
+    "ware": "",
+    "sale_actives": "",
+    "energy": "",
+    "protection": ""
+  }
+}
+I, [2018-08-10T11:38:17.844351 #13283]  INFO -- : 【2018-08-10 11:38:17】 访问电商接口：http://test.66123123.com:8002/product/detail?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=78772
+I, [2018-08-10T11:38:17.846387 #13283]  INFO -- : 返回：{
+  "success": true,
+  "result": {
+    "sku": 78772,
+    "url": "http://www.66123123.com/Goods/GoodsDetail?id=78772",
+    "model": "E560（20EVA05CCD）",
+    "weight": "",
+    "image_path": "http://www.66123123.com/Photos/",
+    "state": "1",
+    "brand_name": "Thinkpad",
+    "name": "Think PAD E560（20EVA05CCD） 笔记本电脑",
+    "product_area": "",
+    "upc": "",
+    "unit": "台",
+    "category": "便携式计算机",
+    "categoryId": "sxzg_bxsjsj_45",
+    "service": "",
+    "introduction": "<div><img   src='http://www.66123123.com/Photos/bgyp4/78772_1.jpg' alt='' /></div>",
+    "param": "<table border='1' class='Ptable' ><tr><th colspan='2' class='title'>基本信息</th></tr><tr><td class='name'>型号</td><td class='val'>20EVA05CCD</td></tr><tr><td class='name'>颜色</td><td class='val'>黑色</td></tr><tr><td class='name'>平台</td><td class='val'>Intel</td></tr><tr><td class='name'>操作系统</td><td class='val'>Windows 10</td></tr><tr><th colspan='2' class='title'>处理器</th></tr><tr><td class='name'>CPU</td><td class='val'>Intel 酷睿 i7-6500U</td></tr><tr><td class='name'>CPU速度</td><td class='val'>2.5GHz</td></tr><tr><td class='name'>三级缓存</td><td class='val'>4M</td></tr><tr><td class='name'>核心</td><td class='val'>双核</td></tr><tr><th colspan='2' class='title'>内存</th></tr><tr><td class='name'>内存容量</td><td class='val'>8G</td></tr><tr><td class='name'>内存类型</td><td class='val'>tDDR3L 1600</td></tr><tr><td class='name'>插槽数量</td><td class='val'>t2 x SO-DIMM</td></tr><tr><th colspan='2' class='title'>硬盘</th></tr><tr><td class='name'>硬盘容量</td><td class='val'>192G SSD</td></tr><tr><th colspan='2' class='title'>显卡</th></tr><tr><td class='name'>显卡类型</td><td class='val'>独立</td></tr><tr><td class='name'>显卡闪存</td><td class='val'>2G</td></tr><tr><th colspan='2' class='title'>光驱</th></tr><tr><td class='name'>光驱类型</td><td class='val'>无</td></tr><tr><th colspan='2' class='title'>显示器</th></tr><tr><td class='name'>显示器尺寸</td><td class='val'>15.6</td></tr><tr><td class='name'>屏幕规格</td><td class='val'>15.6英寸</td></tr><tr><td class='name'>显示比例</td><td class='val'>宽屏16：9</td></tr><tr><td class='name'>物理分辨率</td><td class='val'>1366 x 768</td></tr><tr><td class='name'>屏幕类型</td><td class='val'>LED背光</td></tr><tr><th colspan='2' class='title'>通信</th></tr><tr><td class='name'>内置蓝牙</td><td class='val'>蓝牙4.0</td></tr><tr><td class='name'>局域网</td><td class='val'>10/100/1000Mbps</td></tr><tr><td class='name'>无线局域网</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>端口</th></tr><tr><td class='name'>音频端口</td><td class='val'>耳机、麦克风二合一接口</td></tr><tr><td class='name'>显示端口</td><td class='val'>HDMI接口</td></tr><tr><th colspan='2' class='title'>音效系统</th></tr><tr><td class='name'>扬声器</td><td class='val'>内置扬声器</td></tr><tr><td class='name'>内置麦克风</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>输入设备</th></tr><tr><td class='name'>键盘</td><td class='val'>全尺寸键盘</td></tr><tr><td class='name'>触摸板</td><td class='val'>多点触控</td></tr><tr><th colspan='2' class='title'>其它设备</th></tr><tr><td class='name'>网络摄像头</td><td class='val'>有</td></tr><tr><td class='name'>读卡器</td><td class='val'> 有</td></tr><tr><th colspan='2' class='title'>电源</th></tr><tr><td class='name'>电池</td><td class='val'>6芯 锂离子电池</td></tr><tr><td class='name'>续航时间</td><td class='val'>2-5小时</td></tr><tr><td class='name'>电源适配器</td><td class='val'>100-240V自适应交流电源适配器</td></tr><tr><th colspan='2' class='title'>机器规格</th></tr><tr><td class='name'>净重</td><td class='val'>2-2.5kg</td></tr></table>",
+    "ware": "",
+    "sale_actives": "",
+    "energy": "",
+    "protection": ""
+  }
+}
+I, [2018-08-10T11:38:18.230838 #13283]  INFO -- : 【2018-08-10 11:38:18】 访问电商接口：http://test.66123123.com:8002/product/detail?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=78773
+I, [2018-08-10T11:38:18.230973 #13283]  INFO -- : 返回：{
+  "success": true,
+  "result": {
+    "sku": 78773,
+    "url": "http://www.66123123.com/Goods/GoodsDetail?id=78773",
+    "model": "E560（20EVA05DCD）",
+    "weight": "",
+    "image_path": "http://www.66123123.com/Photos/",
+    "state": "1",
+    "brand_name": "Thinkpad",
+    "name": "Think PAD E560（20EVA05DCD） 笔记本电脑",
+    "product_area": "",
+    "upc": "",
+    "unit": "台",
+    "category": "便携式计算机",
+    "categoryId": "sxzg_bxsjsj_45",
+    "service": "",
+    "introduction": "<div><img   src='http://www.66123123.com/Photos/bgyp4/78773_1.jpg' alt='' /></div>",
+    "param": "<table border='1' class='Ptable' ><tr><th colspan='2' class='title'>基本信息</th></tr><tr><td class='name'>型号</td><td class='val'>20EVA05DCD</td></tr><tr><td class='name'>颜色</td><td class='val'>黑色</td></tr><tr><td class='name'>平台</td><td class='val'>Intel</td></tr><tr><td class='name'>操作系统</td><td class='val'>Windows 10</td></tr><tr><th colspan='2' class='title'>处理器</th></tr><tr><td class='name'>CPU型号</td><td class='val'>i7-6500U</td></tr><tr><td class='name'>CPU速度</td><td class='val'>2.5GHz</td></tr><tr><td class='name'>三级缓存</td><td class='val'>4M</td></tr><tr><td class='name'>核心</td><td class='val'>t双核</td></tr><tr><th colspan='2' class='title'>内存</th></tr><tr><td class='name'>内存容量</td><td class='val'>8GB</td></tr><tr><td class='name'>内存类型</td><td class='val'>DDR3L 1600</td></tr><tr><td class='name'>插槽数量</td><td class='val'>2 x SO-DIMM</td></tr><tr><th colspan='2' class='title'>硬盘</th></tr><tr><td class='name'>硬盘容量</td><td class='val'>192GB SSD</td></tr><tr><th colspan='2' class='title'>显卡</th></tr><tr><td class='name'>类型</td><td class='val'>独立显卡</td></tr><tr><td class='name'>显存容量</td><td class='val'>独立2GB</td></tr><tr><th colspan='2' class='title'>光驱</th></tr><tr><td class='name'>光驱类型</td><td class='val'>无</td></tr><tr><th colspan='2' class='title'>显示器</th></tr><tr><td class='name'>屏幕规格</td><td class='val'>15.6英寸</td></tr><tr><td class='name'>显示比例</td><td class='val'>宽屏16：9</td></tr><tr><td class='name'>物理分辨率</td><td class='val'>1366 x 768</td></tr><tr><td class='name'>屏幕类型</td><td class='val'>LED背光</td></tr><tr><th colspan='2' class='title'>通信</th></tr><tr><td class='name'>内置蓝牙</td><td class='val'>蓝牙4.0</td></tr><tr><td class='name'>局域网</td><td class='val'>10/100/1000Mbps</td></tr><tr><td class='name'>无线局域网</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>端口</th></tr><tr><td class='name'>音频端口</td><td class='val'>耳机、麦克风二合一接口</td></tr><tr><td class='name'>显示端口</td><td class='val'>HDMI接口</td></tr><tr><th colspan='2' class='title'>音效系统</th></tr><tr><td class='name'>扬声器</td><td class='val'>内置</td></tr><tr><td class='name'>内置麦克风</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>输入设备</th></tr><tr><td class='name'>键盘</td><td class='val'>全尺寸键盘</td></tr><tr><td class='name'>触摸板</td><td class='val'>多点触控</td></tr><tr><th colspan='2' class='title'>其它设备</th></tr><tr><td class='name'>网络摄像头</td><td class='val'>有</td></tr><tr><td class='name'>读卡器</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>电源</th></tr><tr><td class='name'>电池</td><td class='val'>6芯 锂离子电池</td></tr><tr><td class='name'>续航时间</td><td class='val'>2-5小时</td></tr><tr><td class='name'>电源适配器</td><td class='val'>100-240V自适应交流电源适配器</td></tr><tr><th colspan='2' class='title'>机器规格</th></tr><tr><td class='name'>净重</td><td class='val'>2-2.5kg</td></tr></table>",
+    "ware": "",
+    "sale_actives": "",
+    "energy": "",
+    "protection": ""
+  }
+}
+I, [2018-08-10T11:38:18.480774 #13283]  INFO -- : 【2018-08-10 11:38:18】 访问电商接口：http://test.66123123.com:8002/product/detail?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=78775
+I, [2018-08-10T11:38:18.480883 #13283]  INFO -- : 返回：{
+  "success": true,
+  "result": {
+    "sku": 78775,
+    "url": "http://www.66123123.com/Goods/GoodsDetail?id=78775",
+    "model": "E560（20EVA05GCD）",
+    "weight": "",
+    "image_path": "http://www.66123123.com/Photos/",
+    "state": "1",
+    "brand_name": "Thinkpad",
+    "name": "Think PAD E560（20EVA05GCD） 笔记本电脑",
+    "product_area": "",
+    "upc": "",
+    "unit": "台",
+    "category": "便携式计算机",
+    "categoryId": "sxzg_bxsjsj_45",
+    "service": "",
+    "introduction": "<div><img   src='http://www.66123123.com/Photos/bgyp4/78775_1.jpg' alt='' /></div>",
+    "param": "<table border='1' class='Ptable' ><tr><th colspan='2' class='title'>基本信息</th></tr><tr><td class='name'>型号</td><td class='val'>20EVA05GCD</td></tr><tr><td class='name'>颜色</td><td class='val'>黑色</td></tr><tr><td class='name'>平台</td><td class='val'>Intel</td></tr><tr><td class='name'>操作系统</td><td class='val'>Windows 10</td></tr><tr><th colspan='2' class='title'>处理器</th></tr><tr><td class='name'>CPU</td><td class='val'>Intel 酷睿 i7-6500U</td></tr><tr><td class='name'>CPU速度</td><td class='val'>t2.5GHz</td></tr><tr><td class='name'>三级缓存</td><td class='val'>t3M</td></tr><tr><td class='name'>核心</td><td class='val'>双核</td></tr><tr><th colspan='2' class='title'>内存</th></tr><tr><td class='name'>内存容量</td><td class='val'>8G</td></tr><tr><td class='name'>内存类型</td><td class='val'>DDR3L 1600</td></tr><tr><td class='name'>插槽数量</td><td class='val'>2 x SO-DIMM</td></tr><tr><th colspan='2' class='title'>硬盘</th></tr><tr><td class='name'>硬盘容量</td><td class='val'>1T</td></tr><tr><th colspan='2' class='title'>显卡</th></tr><tr><td class='name'>显卡类型</td><td class='val'>独立</td></tr><tr><td class='name'>显卡闪存</td><td class='val'>2G</td></tr><tr><th colspan='2' class='title'>光驱</th></tr><tr><td class='name'>光驱类型</td><td class='val'>无</td></tr><tr><th colspan='2' class='title'>显示器</th></tr><tr><td class='name'>显示器尺寸</td><td class='val'>15.6</td></tr><tr><td class='name'>屏幕规格</td><td class='val'>15.6英寸</td></tr><tr><td class='name'>显示比例</td><td class='val'>宽屏16：9</td></tr><tr><td class='name'>物理分辨率</td><td class='val'>1366 x 768</td></tr><tr><td class='name'>屏幕类型</td><td class='val'>LED背光</td></tr><tr><th colspan='2' class='title'>通信</th></tr><tr><td class='name'>内置蓝牙</td><td class='val'>蓝牙4.0</td></tr><tr><td class='name'>局域网</td><td class='val'>10/100/1000Mbps</td></tr><tr><td class='name'>无线局域网</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>端口</th></tr><tr><td class='name'>音频端口</td><td class='val'>      耳机、麦克风二合一接口</td></tr><tr><td class='name'>显示端口</td><td class='val'>HDMI接口</td></tr><tr><th colspan='2' class='title'>音效系统</th></tr><tr><td class='name'>扬声器</td><td class='val'>内置</td></tr><tr><td class='name'>内置麦克风</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>输入设备</th></tr><tr><td class='name'>键盘</td><td class='val'>全尺寸键盘</td></tr><tr><td class='name'>触摸板</td><td class='val'>多点触控</td></tr><tr><th colspan='2' class='title'>其它设备</th></tr><tr><td class='name'>网络摄像头</td><td class='val'>有</td></tr><tr><td class='name'>读卡器</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>电源</th></tr><tr><td class='name'>电池</td><td class='val'>6芯 锂离子电池</td></tr><tr><td class='name'>续航时间</td><td class='val'>2-5小时</td></tr><tr><td class='name'>电源适配器</td><td class='val'>100-240V自适应交流电源适配器</td></tr><tr><th colspan='2' class='title'>机器规格</th></tr><tr><td class='name'>净重</td><td class='val'>2-2.5kg</td></tr></table>",
+    "ware": "",
+    "sale_actives": "",
+    "energy": "",
+    "protection": ""
+  }
+}
+I, [2018-08-10T11:38:18.724066 #13283]  INFO -- : 【2018-08-10 11:38:18】 访问电商接口：http://test.66123123.com:8002/product/detail?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=78777
+I, [2018-08-10T11:38:18.724181 #13283]  INFO -- : 返回：{
+  "success": true,
+  "result": {
+    "sku": 78777,
+    "url": "http://www.66123123.com/Goods/GoodsDetail?id=78777",
+    "model": "",
+    "weight": "",
+    "image_path": "http://www.66123123.com/Photos/",
+    "state": "1",
+    "brand_name": "Thinkpad",
+    "name": "Think PADE465（20EX000HCD）笔记本电脑",
+    "product_area": "",
+    "upc": "",
+    "unit": "台",
+    "category": "便携式计算机",
+    "categoryId": "sxzg_bxsjsj_45",
+    "service": "",
+    "introduction": "<div><img   src='http://www.66123123.com/Photos/bgyp4/78777_5.jpg' alt='' /></div>",
+    "param": "<table border='1' class='Ptable' ><tr><th colspan='2' class='title'>基本信息</th></tr><tr><td class='name'>型号</td><td class='val'>20EX000HCD</td></tr><tr><td class='name'>颜色</td><td class='val'>黑色</td></tr><tr><td class='name'>平台</td><td class='val'>Intel</td></tr><tr><td class='name'>操作系统</td><td class='val'>Windows 10</td></tr><tr><th colspan='2' class='title'>处理器</th></tr><tr><td class='name'>CPU类型</td><td class='val'>AMD 双核处理器</td></tr><tr><td class='name'>CPU型号</td><td class='val'>A6-8500P</td></tr><tr><td class='name'>CPU速度</td><td class='val'>t2.2GHz</td></tr><tr><td class='name'>三级缓存</td><td class='val'>4M</td></tr><tr><th colspan='2' class='title'>内存</th></tr><tr><td class='name'>内存容量</td><td class='val'>4GB</td></tr><tr><td class='name'>内存类型</td><td class='val'>DDR3 1333</td></tr><tr><td class='name'>插槽数量</td><td class='val'>2 x SO-DIMM</td></tr><tr><th colspan='2' class='title'>硬盘</th></tr><tr><td class='name'>硬盘容量</td><td class='val'>t500GB</td></tr><tr><th colspan='2' class='title'>显卡</th></tr><tr><td class='name'>类型</td><td class='val'>独立显卡</td></tr><tr><td class='name'>显存容量</td><td class='val'>2GB</td></tr><tr><th colspan='2' class='title'>光驱</th></tr><tr><td class='name'>光驱类型</td><td class='val'>无</td></tr><tr><th colspan='2' class='title'>显示器</th></tr><tr><td class='name'>屏幕尺寸</td><td class='val'>14英寸</td></tr><tr><td class='name'>显示比例</td><td class='val'>宽屏16：9</td></tr><tr><td class='name'>物理分辨率</td><td class='val'>1366 x 768</td></tr><tr><td class='name'>屏幕类型</td><td class='val'>LED背光</td></tr><tr><th colspan='2' class='title'>通信</th></tr><tr><td class='name'>内置蓝牙</td><td class='val'>有</td></tr><tr><td class='name'>局域网</td><td class='val'>10/100/1000Mbps</td></tr><tr><td class='name'>无线局域网</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>端口</th></tr><tr><td class='name'>音频端口</td><td class='val'>耳机、麦克风二合一接口</td></tr><tr><td class='name'>RJ45</td><td class='val'>1个</td></tr><tr><td class='name'>USB3.0</td><td class='val'>2个</td></tr><tr><th colspan='2' class='title'>音效系统</th></tr><tr><td class='name'>扬声器</td><td class='val'>内置</td></tr><tr><td class='name'>内置麦克风</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>输入设备</th></tr><tr><td class='name'>键盘</td><td class='val'>全尺寸键盘</td></tr><tr><th colspan='2' class='title'>其它设备</th></tr><tr><td class='name'>网络摄像头</td><td class='val'>有</td></tr><tr><td class='name'>读卡器</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>电源</th></tr><tr><td class='name'>续航时间</td><td class='val'>2-5小时</td></tr><tr><td class='name'>电源适配器</td><td class='val'>100-240V自适应交流电源适配器</td></tr><tr><th colspan='2' class='title'>机器规格</th></tr><tr><td class='name'>净重</td><td class='val'>1.5kg-2kg</td></tr></table>",
+    "ware": "",
+    "sale_actives": "",
+    "energy": "",
+    "protection": ""
+  }
+}
+I, [2018-08-10T11:38:18.973167 #13283]  INFO -- : 【2018-08-10 11:38:18】 访问电商接口：http://test.66123123.com:8002/product/detail?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=78781
+I, [2018-08-10T11:38:18.974689 #13283]  INFO -- : 返回：{
+  "success": true,
+  "result": {
+    "sku": 78781,
+    "url": "http://www.66123123.com/Goods/GoodsDetail?id=78781",
+    "model": "",
+    "weight": "",
+    "image_path": "http://www.66123123.com/Photos/",
+    "state": "1",
+    "brand_name": "Thinkpad",
+    "name": "Think PADE465（20EXA00JCD）笔记本电脑",
+    "product_area": "",
+    "upc": "",
+    "unit": "台",
+    "category": "便携式计算机",
+    "categoryId": "sxzg_bxsjsj_45",
+    "service": "",
+    "introduction": "<div><img   src='http://www.66123123.com/Photos/bgyp4/78781_1.jpg' alt='' /></div>",
+    "param": "<table border='1' class='Ptable' ><tr><th colspan='2' class='title'>基本信息</th></tr><tr><td class='name'>型号</td><td class='val'>20EXA00JCD</td></tr><tr><td class='name'>颜色</td><td class='val'>黑色</td></tr><tr><td class='name'>平台</td><td class='val'>AMD</td></tr><tr><td class='name'>操作系统</td><td class='val'>Windows 10</td></tr><tr><th colspan='2' class='title'>处理器</th></tr><tr><td class='name'>CPU型号</td><td class='val'>A6-8500P</td></tr><tr><td class='name'>CPU速度</td><td class='val'>1.6GHz</td></tr><tr><td class='name'>三级缓存</td><td class='val'>3M</td></tr><tr><th colspan='2' class='title'>内存</th></tr><tr><td class='name'>内存容量</td><td class='val'>4GB</td></tr><tr><td class='name'>内存类型</td><td class='val'>DDR3L 1600</td></tr><tr><th colspan='2' class='title'>硬盘</th></tr><tr><td class='name'>硬盘容量</td><td class='val'>192GB SSD</td></tr><tr><th colspan='2' class='title'>显卡</th></tr><tr><td class='name'>类型</td><td class='val'>共享系统内存（集成）</td></tr><tr><th colspan='2' class='title'>光驱</th></tr><tr><td class='name'>光驱类型</td><td class='val'>无</td></tr><tr><th colspan='2' class='title'>显示器</th></tr><tr><td class='name'>屏幕规格</td><td class='val'>14.0英寸</td></tr><tr><td class='name'>显示比例</td><td class='val'>宽屏16：9</td></tr><tr><td class='name'>物理分辨率</td><td class='val'>1366 x 768</td></tr><tr><td class='name'>屏幕类型</td><td class='val'>LED背光</td></tr><tr><th colspan='2' class='title'>通信</th></tr><tr><td class='name'>内置蓝牙</td><td class='val'>有</td></tr><tr><td class='name'>局域网</td><td class='val'>10/100/1000Mbps</td></tr><tr><td class='name'>无线局域网</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>端口</th></tr><tr><td class='name'>音频端口</td><td class='val'>耳机、麦克风二合一接口</td></tr><tr><td class='name'>显示端口</td><td class='val'>HDMI接口</td></tr><tr><td class='name'>RJ45</td><td class='val'>1个</td></tr><tr><td class='name'>USB3.0</td><td class='val'>2个</td></tr><tr><th colspan='2' class='title'>音效系统</th></tr><tr><td class='name'>扬声器</td><td class='val'>内置</td></tr><tr><td class='name'>内置麦克风</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>输入设备</th></tr><tr><td class='name'>键盘</td><td class='val'>悬浮键盘</td></tr><tr><td class='name'>触摸板</td><td class='val'>多点触控</td></tr><tr><th colspan='2' class='title'>其它设备</th></tr><tr><td class='name'>网络摄像头</td><td class='val'>有</td></tr><tr><td class='name'>读卡器</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>电源</th></tr><tr><td class='name'>电池</td><td class='val'>6芯 锂离子电池</td></tr><tr><td class='name'>续航时间</td><td class='val'>2-5小时</td></tr><tr><td class='name'>电源适配器</td><td class='val'>100-240V自适应交流电源适配器</td></tr><tr><th colspan='2' class='title'>机器规格</th></tr><tr><td class='name'>净重</td><td class='val'>1.5kg-2kg</td></tr></table>",
+    "ware": "",
+    "sale_actives": "",
+    "energy": "",
+    "protection": ""
+  }
+}
+I, [2018-08-10T11:38:19.316098 #13283]  INFO -- : 【2018-08-10 11:38:19】 访问电商接口：http://test.66123123.com:8002/product/detail?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=78783
+I, [2018-08-10T11:38:19.316280 #13283]  INFO -- : 返回：{
+  "success": true,
+  "result": {
+    "sku": 78783,
+    "url": "http://www.66123123.com/Goods/GoodsDetail?id=78783",
+    "model": "",
+    "weight": "",
+    "image_path": "http://www.66123123.com/Photos/",
+    "state": "1",
+    "brand_name": "Thinkpad",
+    "name": "Think PADE465（20EX000MCD）笔记本电脑",
+    "product_area": "",
+    "upc": "",
+    "unit": "台",
+    "category": "便携式计算机",
+    "categoryId": "sxzg_bxsjsj_45",
+    "service": "",
+    "introduction": "<div><img   src='http://www.66123123.com/Photos/bgyp4/78783_5.jpg' alt='' /></div>",
+    "param": "<table border='1' class='Ptable' ><tr><th colspan='2' class='title'>基本信息</th></tr><tr><td class='name'>型号</td><td class='val'>20EX000MCD</td></tr><tr><td class='name'>颜色</td><td class='val'>黑色</td></tr><tr><td class='name'>平台</td><td class='val'>AMD</td></tr><tr><td class='name'>操作系统</td><td class='val'>Windows 10</td></tr><tr><th colspan='2' class='title'>处理器</th></tr><tr><td class='name'>CPU类型</td><td class='val'>AMD 四核处理器</td></tr><tr><td class='name'>CPU型号</td><td class='val'>A8-8600P</td></tr><tr><td class='name'>核心</td><td class='val'>四核</td></tr><tr><th colspan='2' class='title'>内存</th></tr><tr><td class='name'>内存容量</td><td class='val'>4GB</td></tr><tr><td class='name'>内存类型</td><td class='val'>DDR3 1600</td></tr><tr><th colspan='2' class='title'>硬盘</th></tr><tr><td class='name'>硬盘容量</td><td class='val'>500GB</td></tr><tr><td class='name'>转速</td><td class='val'>5400转/分钟</td></tr><tr><td class='name'>接口类型</td><td class='val'>SATA 串行</td></tr><tr><th colspan='2' class='title'>显卡</th></tr><tr><td class='name'>类型</td><td class='val'>独立显卡</td></tr><tr><td class='name'>显存容量</td><td class='val'>独立2GB</td></tr><tr><th colspan='2' class='title'>光驱</th></tr><tr><td class='name'>光驱类型</td><td class='val'>无</td></tr><tr><th colspan='2' class='title'>显示器</th></tr><tr><td class='name'>屏幕规格</td><td class='val'>14.0英寸</td></tr><tr><td class='name'>显示比例</td><td class='val'>宽屏16：9</td></tr><tr><td class='name'>物理分辨率</td><td class='val'>1366 x 768</td></tr><tr><td class='name'>屏幕类型</td><td class='val'>LED背光</td></tr><tr><th colspan='2' class='title'>通信</th></tr><tr><td class='name'>内置蓝牙</td><td class='val'>有</td></tr><tr><td class='name'>局域网</td><td class='val'>10/100/1000Mbps</td></tr><tr><td class='name'>无线局域网</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>端口</th></tr><tr><td class='name'>音频端口</td><td class='val'>10/100/1000Mbps</td></tr><tr><td class='name'>显示端口</td><td class='val'>HDMI接口</td></tr><tr><th colspan='2' class='title'>音效系统</th></tr><tr><td class='name'>扬声器</td><td class='val'>内置</td></tr><tr><td class='name'>内置麦克风</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>输入设备</th></tr><tr><td class='name'>键盘</td><td class='val'>全尺寸键盘</td></tr><tr><th colspan='2' class='title'>其它设备</th></tr><tr><td class='name'>网络摄像头</td><td class='val'>有</td></tr><tr><td class='name'>读卡器</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>电源</th></tr><tr><td class='name'>续航时间</td><td class='val'>2-3小时, 具体时间视使用环境而定</td></tr><tr><td class='name'>电源适配器</td><td class='val'>100-240V自适应交流电源适配器</td></tr><tr><th colspan='2' class='title'>机器规格</th></tr><tr><td class='name'>净重</td><td class='val'>2-2.5kg</td></tr></table>",
+    "ware": "",
+    "sale_actives": "",
+    "energy": "",
+    "protection": ""
+  }
+}
+I, [2018-08-10T11:38:19.572001 #13283]  INFO -- : 【2018-08-10 11:38:19】 访问电商接口：http://test.66123123.com:8002/product/detail?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=78785
+I, [2018-08-10T11:38:19.572112 #13283]  INFO -- : 返回：{
+  "success": true,
+  "result": {
+    "sku": 78785,
+    "url": "http://www.66123123.com/Goods/GoodsDetail?id=78785",
+    "model": "",
+    "weight": "",
+    "image_path": "http://www.66123123.com/Photos/",
+    "state": "1",
+    "brand_name": "Thinkpad",
+    "name": "Think PADE465（20EXA00ACD）笔记本电脑",
+    "product_area": "",
+    "upc": "",
+    "unit": "台",
+    "category": "便携式计算机",
+    "categoryId": "sxzg_bxsjsj_45",
+    "service": "",
+    "introduction": "<div><img   src='http://www.66123123.com/Photos/bgyp4/78785_1.jpg' alt='' /></div>",
+    "param": "<table border='1' class='Ptable' ><tr><th colspan='2' class='title'>基本信息</th></tr><tr><td class='name'>型号</td><td class='val'>20EXA00ACD</td></tr><tr><td class='name'>颜色</td><td class='val'>黑色</td></tr><tr><td class='name'>平台</td><td class='val'>AMD</td></tr><tr><td class='name'>操作系统</td><td class='val'>Windows 10</td></tr><tr><th colspan='2' class='title'>处理器</th></tr><tr><td class='name'>CPU类型</td><td class='val'>AMD 四核处理器</td></tr><tr><td class='name'>CPU型号</td><td class='val'>A8-8600P</td></tr><tr><td class='name'>CPU速度</td><td class='val'>1.6GHz</td></tr><tr><td class='name'>三级缓存</td><td class='val'>3M</td></tr><tr><td class='name'>核心</td><td class='val'>四核</td></tr><tr><th colspan='2' class='title'>内存</th></tr><tr><td class='name'>内存容量</td><td class='val'>4GB</td></tr><tr><td class='name'>内存类型</td><td class='val'>DDR3 1600</td></tr><tr><td class='name'>插槽数量</td><td class='val'>2 x SO-DIMM</td></tr><tr><th colspan='2' class='title'>硬盘</th></tr><tr><td class='name'>硬盘容量</td><td class='val'>500GB</td></tr><tr><td class='name'>转速</td><td class='val'>5400转/分钟</td></tr><tr><td class='name'>接口类型</td><td class='val'>SATA 串行</td></tr><tr><th colspan='2' class='title'>显卡</th></tr><tr><td class='name'>类型</td><td class='val'>独立显卡</td></tr><tr><td class='name'>显存容量</td><td class='val'>独立2GB</td></tr><tr><th colspan='2' class='title'>光驱</th></tr><tr><td class='name'>光驱类型</td><td class='val'>无</td></tr><tr><th colspan='2' class='title'>显示器</th></tr><tr><td class='name'>屏幕尺寸</td><td class='val'>14英寸</td></tr><tr><td class='name'>显示比例</td><td class='val'>宽屏16：9</td></tr><tr><td class='name'>物理分辨率</td><td class='val'>1366 x 768</td></tr><tr><td class='name'>屏幕类型</td><td class='val'>LED背光</td></tr><tr><th colspan='2' class='title'>通信</th></tr><tr><td class='name'>内置蓝牙</td><td class='val'>有</td></tr><tr><td class='name'>局域网</td><td class='val'>10/100/1000Mbps</td></tr><tr><td class='name'>无线局域网</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>端口</th></tr><tr><td class='name'>音频端口</td><td class='val'>耳机、麦克风二合一接口</td></tr><tr><td class='name'>显示端口</td><td class='val'>HDMI接口</td></tr><tr><td class='name'>RJ45</td><td class='val'>1个</td></tr><tr><td class='name'>USB3.0</td><td class='val'>2个</td></tr><tr><th colspan='2' class='title'>音效系统</th></tr><tr><td class='name'>扬声器</td><td class='val'>内置</td></tr><tr><td class='name'>内置麦克风</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>输入设备</th></tr><tr><td class='name'>键盘</td><td class='val'>全尺寸键盘</td></tr><tr><td class='name'>触摸板</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>其它设备</th></tr><tr><td class='name'>网络摄像头</td><td class='val'>有</td></tr><tr><td class='name'>读卡器</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>电源</th></tr><tr><td class='name'>电池</td><td class='val'>6芯 锂离子电池</td></tr><tr><td class='name'>续航时间</td><td class='val'>2-5小时</td></tr><tr><td class='name'>电源适配器</td><td class='val'>100-240V自适应交流电源适配器</td></tr><tr><th colspan='2' class='title'>机器规格</th></tr><tr><td class='name'>净重</td><td class='val'>1.5kg-2kg</td></tr></table>",
+    "ware": "",
+    "sale_actives": "",
+    "energy": "",
+    "protection": ""
+  }
+}
+I, [2018-08-10T11:38:19.855070 #13283]  INFO -- : 【2018-08-10 11:38:19】 访问电商接口：http://test.66123123.com:8002/product/detail?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=78787
+I, [2018-08-10T11:38:19.855327 #13283]  INFO -- : 返回：{
+  "success": true,
+  "result": {
+    "sku": 78787,
+    "url": "http://www.66123123.com/Goods/GoodsDetail?id=78787",
+    "model": "",
+    "weight": "",
+    "image_path": "http://www.66123123.com/Photos/",
+    "state": "1",
+    "brand_name": "Thinkpad",
+    "name": "Think PADE465（20EXA004CD）笔记本电脑",
+    "product_area": "",
+    "upc": "",
+    "unit": "台",
+    "category": "便携式计算机",
+    "categoryId": "sxzg_bxsjsj_45",
+    "service": "",
+    "introduction": "<div><img   src='http://www.66123123.com/Photos/bgyp4/78787_1.jpg' alt='' /></div>",
+    "param": "<table border='1' class='Ptable' ><tr><th colspan='2' class='title'>基本信息</th></tr><tr><td class='name'>型号</td><td class='val'>20EXA004CD</td></tr><tr><td class='name'>颜色</td><td class='val'>黑色</td></tr><tr><td class='name'>平台</td><td class='val'>AMD</td></tr><tr><td class='name'>操作系统</td><td class='val'>Windows 10</td></tr><tr><th colspan='2' class='title'>处理器</th></tr><tr><td class='name'>CPU类型</td><td class='val'>AMD 四核处理器</td></tr><tr><td class='name'>CPU型号</td><td class='val'>A8-8600P</td></tr><tr><td class='name'>核心</td><td class='val'>四核</td></tr><tr><th colspan='2' class='title'>内存</th></tr><tr><td class='name'>内存容量</td><td class='val'>4GB</td></tr><tr><td class='name'>内存类型</td><td class='val'>DDR3L 1600</td></tr><tr><td class='name'>插槽数量</td><td class='val'>2 x SO-DIMM</td></tr><tr><th colspan='2' class='title'>硬盘</th></tr><tr><td class='name'>硬盘容量</td><td class='val'>500GB</td></tr><tr><td class='name'>转速</td><td class='val'>5400转</td></tr><tr><th colspan='2' class='title'>显卡</th></tr><tr><td class='name'>类型</td><td class='val'>独立显卡</td></tr><tr><td class='name'>显存容量</td><td class='val'>独立2GB</td></tr><tr><th colspan='2' class='title'>光驱</th></tr><tr><td class='name'>光驱类型</td><td class='val'>无</td></tr><tr><th colspan='2' class='title'>显示器</th></tr><tr><td class='name'>屏幕尺寸</td><td class='val'>14英寸</td></tr><tr><td class='name'>显示比例</td><td class='val'>宽屏16：9</td></tr><tr><td class='name'>物理分辨率</td><td class='val'>1366 x 768</td></tr><tr><td class='name'>屏幕类型</td><td class='val'>tLED背光</td></tr><tr><th colspan='2' class='title'>通信</th></tr><tr><td class='name'>内置蓝牙</td><td class='val'>有</td></tr><tr><td class='name'>局域网</td><td class='val'>10/100/1000Mbps</td></tr><tr><td class='name'>无线局域网</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>端口</th></tr><tr><td class='name'>音频端口</td><td class='val'>耳机、麦克风二合一接口</td></tr><tr><td class='name'>显示端口</td><td class='val'>HDMI接口</td></tr><tr><td class='name'>USB3.0</td><td class='val'>2个</td></tr><tr><th colspan='2' class='title'>音效系统</th></tr><tr><td class='name'>扬声器</td><td class='val'>内置</td></tr><tr><td class='name'>内置麦克风</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>输入设备</th></tr><tr><td class='name'>键盘</td><td class='val'>全尺寸键盘</td></tr><tr><td class='name'>触摸板</td><td class='val'>多点触控</td></tr><tr><th colspan='2' class='title'>其它设备</th></tr><tr><td class='name'>网络摄像头</td><td class='val'>有</td></tr><tr><td class='name'>读卡器</td><td class='val'> 有</td></tr><tr><th colspan='2' class='title'>电源</th></tr><tr><td class='name'>电池</td><td class='val'>6芯 锂离子电池</td></tr><tr><td class='name'>续航时间</td><td class='val'>>5小时</td></tr><tr><td class='name'>电源适配器</td><td class='val'>100-240V自适应交流电源适配器</td></tr><tr><th colspan='2' class='title'>机器规格</th></tr><tr><td class='name'>净重</td><td class='val'>1.5kg-2kg</td></tr></table>",
+    "ware": "",
+    "sale_actives": "",
+    "energy": "",
+    "protection": ""
+  }
+}
+I, [2018-08-10T11:38:20.208931 #13283]  INFO -- : 【2018-08-10 11:38:20】 访问电商接口：http://test.66123123.com:8002/product/detail?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=78788
+I, [2018-08-10T11:38:20.209228 #13283]  INFO -- : 返回：{
+  "success": true,
+  "result": {
+    "sku": 78788,
+    "url": "http://www.66123123.com/Goods/GoodsDetail?id=78788",
+    "model": "",
+    "weight": "",
+    "image_path": "http://www.66123123.com/Photos/",
+    "state": "1",
+    "brand_name": "Thinkpad",
+    "name": "Think PADE465（20EXA005CD）笔记本电脑",
+    "product_area": "",
+    "upc": "",
+    "unit": "台",
+    "category": "便携式计算机",
+    "categoryId": "sxzg_bxsjsj_45",
+    "service": "",
+    "introduction": "<div><img   src='http://www.66123123.com/Photos/bgyp4/78788_1.jpg' alt='' /></div>",
+    "param": "<table border='1' class='Ptable' ><tr><th colspan='2' class='title'>基本信息</th></tr><tr><td class='name'>型号</td><td class='val'>20EXA005CD</td></tr><tr><td class='name'>颜色</td><td class='val'>黑色</td></tr><tr><td class='name'>平台</td><td class='val'>AMD</td></tr><tr><td class='name'>操作系统</td><td class='val'>Windows 10</td></tr><tr><th colspan='2' class='title'>处理器</th></tr><tr><td class='name'>CPU类型</td><td class='val'>AMD 四核处理器</td></tr><tr><td class='name'>CPU型号</td><td class='val'>A8-8600P</td></tr><tr><td class='name'>核心</td><td class='val'>四核</td></tr><tr><th colspan='2' class='title'>内存</th></tr><tr><td class='name'>内存容量</td><td class='val'>4GB</td></tr><tr><td class='name'>内存类型</td><td class='val'>DDR3L 1600</td></tr><tr><th colspan='2' class='title'>硬盘</th></tr><tr><td class='name'>硬盘容量</td><td class='val'>192G SSD</td></tr><tr><th colspan='2' class='title'>显卡</th></tr><tr><td class='name'>类型</td><td class='val'>独立显卡</td></tr><tr><td class='name'>显存容量</td><td class='val'>独立2GB</td></tr><tr><th colspan='2' class='title'>光驱</th></tr><tr><td class='name'>光驱类型</td><td class='val'>无</td></tr><tr><th colspan='2' class='title'>显示器</th></tr><tr><td class='name'>屏幕尺寸</td><td class='val'>14英寸</td></tr><tr><td class='name'>显示比例</td><td class='val'>宽屏16：9</td></tr><tr><td class='name'>物理分辨率</td><td class='val'>1366 x 768</td></tr><tr><td class='name'>屏幕类型</td><td class='val'>LED背光</td></tr><tr><th colspan='2' class='title'>通信</th></tr><tr><td class='name'>内置蓝牙</td><td class='val'>有</td></tr><tr><td class='name'>局域网</td><td class='val'>10/100/1000Mbps</td></tr><tr><td class='name'>无线局域网</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>端口</th></tr><tr><td class='name'>音频端口</td><td class='val'>耳机、麦克风二合一接口</td></tr><tr><td class='name'>显示端口</td><td class='val'>HDMI接口</td></tr><tr><td class='name'>RJ45</td><td class='val'>1个</td></tr><tr><td class='name'>USB3.0</td><td class='val'>2个</td></tr><tr><th colspan='2' class='title'>音效系统</th></tr><tr><td class='name'>扬声器</td><td class='val'>内置</td></tr><tr><td class='name'>内置麦克风</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>输入设备</th></tr><tr><td class='name'>键盘</td><td class='val'>全尺寸键盘</td></tr><tr><td class='name'>触摸板</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>其它设备</th></tr><tr><td class='name'>网络摄像头</td><td class='val'>有</td></tr><tr><td class='name'>读卡器</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>电源</th></tr><tr><td class='name'>电池</td><td class='val'>6芯 锂离子电池</td></tr><tr><td class='name'>续航时间</td><td class='val'>>5小时</td></tr><tr><td class='name'>电源适配器</td><td class='val'>100-240V自适应交流电源适配器</td></tr><tr><th colspan='2' class='title'>机器规格</th></tr><tr><td class='name'>净重</td><td class='val'>1.5kg-2kg</td></tr></table>",
+    "ware": "",
+    "sale_actives": "",
+    "energy": "",
+    "protection": ""
+  }
+}
+I, [2018-08-10T11:38:20.456349 #13283]  INFO -- : 【2018-08-10 11:38:20】 访问电商接口：http://test.66123123.com:8002/product/detail?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=78789
+I, [2018-08-10T11:38:20.456447 #13283]  INFO -- : 返回：{
+  "success": true,
+  "result": {
+    "sku": 78789,
+    "url": "http://www.66123123.com/Goods/GoodsDetail?id=78789",
+    "model": "",
+    "weight": "",
+    "image_path": "http://www.66123123.com/Photos/",
+    "state": "1",
+    "brand_name": "Thinkpad",
+    "name": "Think PADE465（20EXA006CD）笔记本电脑",
+    "product_area": "",
+    "upc": "",
+    "unit": "台",
+    "category": "便携式计算机",
+    "categoryId": "sxzg_bxsjsj_45",
+    "service": "",
+    "introduction": "<div><img   src='http://www.66123123.com/Photos/bgyp4/78789_1.jpg' alt='' /></div>",
+    "param": "<table border='1' class='Ptable' ><tr><th colspan='2' class='title'>基本信息</th></tr><tr><td class='name'>型号</td><td class='val'>20EXA006CD</td></tr><tr><td class='name'>颜色</td><td class='val'>黑色</td></tr><tr><td class='name'>平台</td><td class='val'>ADM</td></tr><tr><td class='name'>操作系统</td><td class='val'>Windows 10</td></tr><tr><th colspan='2' class='title'>处理器</th></tr><tr><td class='name'>CPU类型</td><td class='val'>AMD 四核处理器</td></tr><tr><td class='name'>CPU型号</td><td class='val'>A8-8600P</td></tr><tr><td class='name'>三级缓存</td><td class='val'>四核</td></tr><tr><th colspan='2' class='title'>内存</th></tr><tr><td class='name'>内存容量</td><td class='val'>8GB</td></tr><tr><td class='name'>内存类型</td><td class='val'>DDR3L 1600</td></tr><tr><th colspan='2' class='title'>硬盘</th></tr><tr><td class='name'>硬盘容量</td><td class='val'>192GB SSD</td></tr><tr><th colspan='2' class='title'>显卡</th></tr><tr><td class='name'>类型</td><td class='val'>独立显卡</td></tr><tr><td class='name'>显存容量</td><td class='val'>独立2GB</td></tr><tr><th colspan='2' class='title'>光驱</th></tr><tr><td class='name'>光驱类型</td><td class='val'>无</td></tr><tr><th colspan='2' class='title'>显示器</th></tr><tr><td class='name'>屏幕尺寸</td><td class='val'>14英寸</td></tr><tr><td class='name'>显示比例</td><td class='val'>宽屏16：9</td></tr><tr><td class='name'>物理分辨率</td><td class='val'>1366 x 768</td></tr><tr><td class='name'>屏幕类型</td><td class='val'>LED背光</td></tr><tr><th colspan='2' class='title'>通信</th></tr><tr><td class='name'>内置蓝牙</td><td class='val'>有</td></tr><tr><td class='name'>局域网</td><td class='val'>10/100/1000Mbps</td></tr><tr><td class='name'>无线局域网</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>端口</th></tr><tr><td class='name'>音频端口</td><td class='val'>耳机、麦克风二合一接口</td></tr><tr><td class='name'>显示端口</td><td class='val'>HDMI接口</td></tr><tr><td class='name'>RJ45</td><td class='val'>1个</td></tr><tr><td class='name'>USB3.0</td><td class='val'>2个</td></tr><tr><th colspan='2' class='title'>音效系统</th></tr><tr><td class='name'>扬声器</td><td class='val'>内置</td></tr><tr><td class='name'>内置麦克风</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>输入设备</th></tr><tr><td class='name'>键盘</td><td class='val'>全尺寸键盘</td></tr><tr><td class='name'>触摸板</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>其它设备</th></tr><tr><td class='name'>网络摄像头</td><td class='val'>有</td></tr><tr><td class='name'>读卡器</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>电源</th></tr><tr><td class='name'>电池</td><td class='val'>6芯 锂离子电池</td></tr><tr><td class='name'>续航时间</td><td class='val'>2-5小时</td></tr><tr><td class='name'>电源适配器</td><td class='val'>100-240V自适应交流电源适配器</td></tr><tr><th colspan='2' class='title'>机器规格</th></tr><tr><td class='name'>净重</td><td class='val'>1.5kg-2kg</td></tr></table>",
+    "ware": "",
+    "sale_actives": "",
+    "energy": "",
+    "protection": ""
+  }
+}
+I, [2018-08-10T11:38:20.712527 #13283]  INFO -- : 【2018-08-10 11:38:20】 访问电商接口：http://test.66123123.com:8002/product/detail?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=78790
+I, [2018-08-10T11:38:20.712642 #13283]  INFO -- : 返回：{
+  "success": true,
+  "result": {
+    "sku": 78790,
+    "url": "http://www.66123123.com/Goods/GoodsDetail?id=78790",
+    "model": "",
+    "weight": "",
+    "image_path": "http://www.66123123.com/Photos/",
+    "state": "1",
+    "brand_name": "Thinkpad",
+    "name": "Think PADE465（20EXA00BCD）笔记本电脑",
+    "product_area": "",
+    "upc": "",
+    "unit": "台",
+    "category": "便携式计算机",
+    "categoryId": "sxzg_bxsjsj_45",
+    "service": "",
+    "introduction": "",
+    "param": "<table border='1' class='Ptable' ><tr><th colspan='2' class='title'>基本信息</th></tr><tr><td class='name'>型号</td><td class='val'>20EXA00BCD</td></tr><tr><td class='name'>颜色</td><td class='val'>黑色</td></tr><tr><td class='name'>平台</td><td class='val'>AMD</td></tr><tr><th colspan='2' class='title'>处理器</th></tr><tr><td class='name'>CPU型号</td><td class='val'>A8-8600P</td></tr><tr><td class='name'>CPU速度</td><td class='val'>1.6GHz</td></tr><tr><td class='name'>核心</td><td class='val'>四核</td></tr><tr><th colspan='2' class='title'>内存</th></tr><tr><td class='name'>内存容量</td><td class='val'>8GB</td></tr><tr><td class='name'>内存类型</td><td class='val'>DDR3 1600</td></tr><tr><td class='name'>插槽数量</td><td class='val'>2 x SO-DIMM</td></tr><tr><th colspan='2' class='title'>硬盘</th></tr><tr><td class='name'>硬盘容量</td><td class='val'>500GB</td></tr><tr><td class='name'>转速</td><td class='val'>5400转/分钟</td></tr><tr><th colspan='2' class='title'>显卡</th></tr><tr><td class='name'>类型</td><td class='val'>独立显卡</td></tr><tr><td class='name'>显存容量</td><td class='val'>独立2GB</td></tr><tr><th colspan='2' class='title'>光驱</th></tr><tr><td class='name'>光驱类型</td><td class='val'>无</td></tr><tr><th colspan='2' class='title'>显示器</th></tr><tr><td class='name'>屏幕尺寸</td><td class='val'>14英寸</td></tr><tr><td class='name'>显示比例</td><td class='val'>宽屏16：9</td></tr><tr><td class='name'>物理分辨率</td><td class='val'>1366 x 768</td></tr><tr><td class='name'>屏幕类型</td><td class='val'>LED背光</td></tr><tr><th colspan='2' class='title'>通信</th></tr><tr><td class='name'>内置蓝牙</td><td class='val'>有</td></tr><tr><td class='name'>局域网</td><td class='val'>10/100/1000Mbps</td></tr><tr><td class='name'>无线局域网</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>端口</th></tr><tr><td class='name'>音频端口</td><td class='val'>耳机、麦克风二合一接口</td></tr><tr><td class='name'>显示端口</td><td class='val'>HDMI接口</td></tr><tr><td class='name'>RJ45</td><td class='val'>1个</td></tr><tr><td class='name'>USB3.0</td><td class='val'>2个</td></tr><tr><th colspan='2' class='title'>音效系统</th></tr><tr><td class='name'>扬声器</td><td class='val'>内置</td></tr><tr><td class='name'>内置麦克风</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>输入设备</th></tr><tr><td class='name'>键盘</td><td class='val'>全尺寸键盘</td></tr><tr><td class='name'>触摸板</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>其它设备</th></tr><tr><td class='name'>网络摄像头</td><td class='val'>有</td></tr><tr><td class='name'>读卡器</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>电源</th></tr><tr><td class='name'>电池</td><td class='val'>6芯 锂离子电池</td></tr><tr><td class='name'>续航时间</td><td class='val'>2-5小时</td></tr><tr><td class='name'>电源适配器</td><td class='val'>100-240V自适应交流电源适配器</td></tr><tr><th colspan='2' class='title'>机器规格</th></tr><tr><td class='name'>净重</td><td class='val'>2-2.5kg</td></tr></table>",
+    "ware": "",
+    "sale_actives": "",
+    "energy": "",
+    "protection": ""
+  }
+}
+I, [2018-08-10T11:38:21.017553 #13283]  INFO -- : 【2018-08-10 11:38:21】 访问电商接口：http://test.66123123.com:8002/product/detail?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=78791
+I, [2018-08-10T11:38:21.017773 #13283]  INFO -- : 返回：{
+  "success": true,
+  "result": {
+    "sku": 78791,
+    "url": "http://www.66123123.com/Goods/GoodsDetail?id=78791",
+    "model": "",
+    "weight": "",
+    "image_path": "http://www.66123123.com/Photos/",
+    "state": "1",
+    "brand_name": "Thinkpad",
+    "name": "Think PADE465（20EXA00CCD）笔记本电脑",
+    "product_area": "",
+    "upc": "",
+    "unit": "台",
+    "category": "便携式计算机",
+    "categoryId": "sxzg_bxsjsj_45",
+    "service": "",
+    "introduction": "<div><img   src='http://www.66123123.com/Photos/bgyp4/78791_1.jpg' alt='' /></div>",
+    "param": "<table border='1' class='Ptable' ><tr><th colspan='2' class='title'>基本信息</th></tr><tr><td class='name'>型号</td><td class='val'>20EXA00CCD</td></tr><tr><td class='name'>颜色</td><td class='val'>黑色</td></tr><tr><td class='name'>平台</td><td class='val'>AMD</td></tr><tr><td class='name'>操作系统</td><td class='val'>Windows 10</td></tr><tr><th colspan='2' class='title'>处理器</th></tr><tr><td class='name'>CPU类型</td><td class='val'>AMD 四核处理器</td></tr><tr><td class='name'>CPU型号</td><td class='val'>A8-8600P</td></tr><tr><td class='name'>CPU速度</td><td class='val'>1.6GHz</td></tr><tr><td class='name'>三级缓存</td><td class='val'>3M</td></tr><tr><th colspan='2' class='title'>内存</th></tr><tr><td class='name'>内存容量</td><td class='val'>4GB</td></tr><tr><td class='name'>内存类型</td><td class='val'>DDR3L 1600</td></tr><tr><td class='name'>插槽数量</td><td class='val'>2 x SO-DIMM</td></tr><tr><td class='name'>最大支持容量</td><td class='val'>16GB</td></tr><tr><th colspan='2' class='title'>硬盘</th></tr><tr><td class='name'>硬盘容量</td><td class='val'>16GB</td></tr><tr><th colspan='2' class='title'>显卡</th></tr><tr><td class='name'>类型</td><td class='val'>独立显卡</td></tr><tr><td class='name'>显存容量</td><td class='val'>独立2GB</td></tr><tr><th colspan='2' class='title'>光驱</th></tr><tr><td class='name'>光驱类型</td><td class='val'>无</td></tr><tr><th colspan='2' class='title'>显示器</th></tr><tr><td class='name'>屏幕尺寸</td><td class='val'>14英寸</td></tr><tr><td class='name'>显示比例</td><td class='val'>宽屏16：9</td></tr><tr><td class='name'>物理分辨率</td><td class='val'>1366 x 768</td></tr><tr><td class='name'>屏幕类型</td><td class='val'>LED背光</td></tr><tr><th colspan='2' class='title'>通信</th></tr><tr><td class='name'>内置蓝牙</td><td class='val'>有</td></tr><tr><td class='name'>局域网</td><td class='val'>10/100/1000Mbps</td></tr><tr><td class='name'>无线局域网</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>端口</th></tr><tr><td class='name'>音频端口</td><td class='val'>耳机、麦克风二合一接口</td></tr><tr><td class='name'>显示端口</td><td class='val'>HDMI接口</td></tr><tr><td class='name'>RJ45</td><td class='val'>1个</td></tr><tr><td class='name'>USB3.0</td><td class='val'>2个</td></tr><tr><th colspan='2' class='title'>音效系统</th></tr><tr><td class='name'>扬声器</td><td class='val'>内置</td></tr><tr><td class='name'>内置麦克风</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>输入设备</th></tr><tr><td class='name'>键盘</td><td class='val'>巧克力键盘</td></tr><tr><td class='name'>触摸板</td><td class='val'>多点触控</td></tr><tr><th colspan='2' class='title'>其它设备</th></tr><tr><td class='name'>网络摄像头</td><td class='val'>有</td></tr><tr><td class='name'>读卡器</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>电源</th></tr><tr><td class='name'>电池</td><td class='val'>6芯 锂离子电池</td></tr><tr><td class='name'>续航时间</td><td class='val'>2-5小时</td></tr><tr><td class='name'>电源适配器</td><td class='val'>100-240V自适应交流电源适配器</td></tr><tr><th colspan='2' class='title'>机器规格</th></tr><tr><td class='name'>净重</td><td class='val'>1.5kg-2kg</td></tr></table>",
+    "ware": "",
+    "sale_actives": "",
+    "energy": "",
+    "protection": ""
+  }
+}
+I, [2018-08-10T11:38:21.545304 #13283]  INFO -- : 【2018-08-10 11:38:21】 访问电商接口：http://test.66123123.com:8002/product/detail?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=78792
+I, [2018-08-10T11:38:21.545527 #13283]  INFO -- : 返回：{
+  "success": true,
+  "result": {
+    "sku": 78792,
+    "url": "http://www.66123123.com/Goods/GoodsDetail?id=78792",
+    "model": "",
+    "weight": "",
+    "image_path": "http://www.66123123.com/Photos/",
+    "state": "1",
+    "brand_name": "Thinkpad",
+    "name": "ThinkpadE465（20EXA00GCD）笔记本电脑",
+    "product_area": "",
+    "upc": "",
+    "unit": "台",
+    "category": "便携式计算机",
+    "categoryId": "sxzg_bxsjsj_45",
+    "service": "",
+    "introduction": "<div><img   src='http://www.66123123.com/Photos/bgyp4/78792_1.jpg' alt='' /></div>",
+    "param": "<table border='1' class='Ptable' ><tr><th colspan='2' class='title'>基本信息</th></tr><tr><td class='name'>型号</td><td class='val'>20EXA00GCD</td></tr><tr><td class='name'>颜色</td><td class='val'>黑色</td></tr><tr><td class='name'>平台</td><td class='val'>AMD</td></tr><tr><td class='name'>操作系统</td><td class='val'>Windows 10</td></tr><tr><th colspan='2' class='title'>处理器</th></tr><tr><td class='name'>CPU型号</td><td class='val'>A8-8600P</td></tr><tr><td class='name'>CPU速度</td><td class='val'>1.6GHz</td></tr><tr><td class='name'>三级缓存</td><td class='val'>3M</td></tr><tr><td class='name'>核心</td><td class='val'>四核</td></tr><tr><th colspan='2' class='title'>内存</th></tr><tr><td class='name'>内存容量</td><td class='val'>4GB</td></tr><tr><td class='name'>内存类型</td><td class='val'>DDR3L 1600</td></tr><tr><td class='name'>插槽数量</td><td class='val'>2 x SO-DIMM</td></tr><tr><th colspan='2' class='title'>硬盘</th></tr><tr><td class='name'>硬盘容量</td><td class='val'>500GB</td></tr><tr><td class='name'>转速</td><td class='val'>5400转/分钟</td></tr><tr><td class='name'>接口类型</td><td class='val'>SATA 串行</td></tr><tr><th colspan='2' class='title'>显卡</th></tr><tr><td class='name'>类型</td><td class='val'>独立显卡</td></tr><tr><td class='name'>显存容量</td><td class='val'>独立2GB</td></tr><tr><th colspan='2' class='title'>光驱</th></tr><tr><td class='name'>光驱类型</td><td class='val'>无</td></tr><tr><th colspan='2' class='title'>显示器</th></tr><tr><td class='name'>屏幕规格</td><td class='val'>14.0英寸</td></tr><tr><td class='name'>显示比例</td><td class='val'>宽屏16：9</td></tr><tr><td class='name'>物理分辨率</td><td class='val'>1366 x 768</td></tr><tr><td class='name'>屏幕类型</td><td class='val'>LED背光</td></tr><tr><th colspan='2' class='title'>通信</th></tr><tr><td class='name'>内置蓝牙</td><td class='val'>蓝牙4.0</td></tr><tr><td class='name'>局域网</td><td class='val'>10/100/1000Mbps</td></tr><tr><td class='name'>无线局域网</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>端口</th></tr><tr><td class='name'>音频端口</td><td class='val'>耳机、麦克风二合一接口</td></tr><tr><td class='name'>显示端口</td><td class='val'>HDMI接口</td></tr><tr><td class='name'>RJ45</td><td class='val'>1个</td></tr><tr><td class='name'>USB3.0</td><td class='val'>2个</td></tr><tr><th colspan='2' class='title'>音效系统</th></tr><tr><td class='name'>扬声器</td><td class='val'>内置</td></tr><tr><td class='name'>内置麦克风</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>输入设备</th></tr><tr><td class='name'>键盘</td><td class='val'>全尺寸键盘</td></tr><tr><td class='name'>触摸板</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>其它设备</th></tr><tr><td class='name'>网络摄像头</td><td class='val'>有</td></tr><tr><td class='name'>读卡器</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>电源</th></tr><tr><td class='name'>电池</td><td class='val'>6芯 锂离子电池</td></tr><tr><td class='name'>续航时间</td><td class='val'>2-5小时</td></tr><tr><td class='name'>电源适配器</td><td class='val'>100-240V自适应交流电源适配器</td></tr><tr><th colspan='2' class='title'>机器规格</th></tr><tr><td class='name'>净重</td><td class='val'>1.5kg-2kg</td></tr></table>",
+    "ware": "",
+    "sale_actives": "",
+    "energy": "",
+    "protection": ""
+  }
+}
+I, [2018-08-10T11:38:22.132303 #13283]  INFO -- : 【2018-08-10 11:38:22】 访问电商接口：http://test.66123123.com:8002/product/detail?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=78793
+I, [2018-08-10T11:38:22.132445 #13283]  INFO -- : 返回：{
+  "success": true,
+  "result": {
+    "sku": 78793,
+    "url": "http://www.66123123.com/Goods/GoodsDetail?id=78793",
+    "model": "",
+    "weight": "",
+    "image_path": "http://www.66123123.com/Photos/",
+    "state": "1",
+    "brand_name": "Thinkpad",
+    "name": "Think PADE465（20EXA00DCD）笔记本电脑",
+    "product_area": "",
+    "upc": "",
+    "unit": "台",
+    "category": "便携式计算机",
+    "categoryId": "sxzg_bxsjsj_45",
+    "service": "",
+    "introduction": "<div><img   src='http://www.66123123.com/Photos/bgyp4/78793_1.jpg' alt='' /></div>",
+    "param": "<table border='1' class='Ptable' ><tr><th colspan='2' class='title'>基本信息</th></tr><tr><td class='name'>型号</td><td class='val'>20EXA00DCD</td></tr><tr><td class='name'>颜色</td><td class='val'>黑色</td></tr><tr><td class='name'>平台</td><td class='val'>AMD</td></tr><tr><td class='name'>操作系统</td><td class='val'>黑色</td></tr><tr><th colspan='2' class='title'>处理器</th></tr><tr><td class='name'>CPU型号</td><td class='val'>A8-8600</td></tr><tr><td class='name'>三级缓存</td><td class='val'>4MB</td></tr><tr><td class='name'>核心</td><td class='val'>四核</td></tr><tr><th colspan='2' class='title'>内存</th></tr><tr><td class='name'>内存容量</td><td class='val'>4G</td></tr><tr><td class='name'>内存类型</td><td class='val'>DDR3L 1600Mhz</td></tr><tr><th colspan='2' class='title'>硬盘</th></tr><tr><td class='name'>硬盘容量</td><td class='val'>192G固态</td></tr><tr><th colspan='2' class='title'>显卡</th></tr><tr><td class='name'>类型</td><td class='val'>高性能独显</td></tr><tr><td class='name'>显存容量</td><td class='val'>2GB</td></tr><tr><th colspan='2' class='title'>光驱</th></tr><tr><td class='name'>光驱类型</td><td class='val'>无</td></tr><tr><th colspan='2' class='title'>显示器</th></tr><tr><td class='name'>屏幕规格</td><td class='val'>14.0英寸</td></tr><tr><td class='name'>显示比例</td><td class='val'>宽屏16:9</td></tr><tr><td class='name'>物理分辨率</td><td class='val'>普通屏（1366×768）</td></tr><tr><td class='name'>屏幕类型</td><td class='val'>LED背光</td></tr><tr><th colspan='2' class='title'>通信</th></tr><tr><td class='name'>内置蓝牙</td><td class='val'>蓝牙4.0模块</td></tr><tr><td class='name'>局域网</td><td class='val'>1000Mbps以太网卡</td></tr><tr><td class='name'>无线局域网</td><td class='val'>支持802.11b/g/n无线协议</td></tr><tr><th colspan='2' class='title'>端口</th></tr><tr><td class='name'>音频端口</td><td class='val'>麦克风/耳机 二合一接口</td></tr><tr><th colspan='2' class='title'>音效系统</th></tr><tr><td class='name'>扬声器</td><td class='val'>内置</td></tr><tr><td class='name'>内置麦克风</td><td class='val'>多合一读卡器</td></tr><tr><th colspan='2' class='title'>输入设备</th></tr><tr><td class='name'>键盘</td><td class='val'>全尺寸键盘</td></tr><tr><td class='name'>触摸板</td><td class='val'>多点触摸板</td></tr><tr><th colspan='2' class='title'>其它设备</th></tr><tr><td class='name'>网络摄像头</td><td class='val'>有</td></tr><tr><td class='name'>读卡器</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>电源</th></tr><tr><td class='name'>电池</td><td class='val'>6芯锂电池</td></tr><tr><td class='name'>续航时间</td><td class='val'>2-5小时，具体时间视使用环境而定</td></tr><tr><td class='name'>电源适配器</td><td class='val'>100-240V自适应交流电源适配器</td></tr><tr><th colspan='2' class='title'>机器规格</th></tr><tr><td class='name'>尺寸</td><td class='val'>长度 339mm 宽度 239mm 厚度 22mm</td></tr><tr><td class='name'>净重</td><td class='val'>1.81Kg</td></tr></table>",
+    "ware": "",
+    "sale_actives": "",
+    "energy": "",
+    "protection": ""
+  }
+}
+I, [2018-08-10T11:38:22.612897 #13283]  INFO -- : 【2018-08-10 11:38:22】 访问电商接口：http://test.66123123.com:8002/product/detail?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=78794
+I, [2018-08-10T11:38:22.614546 #13283]  INFO -- : 返回：{
+  "success": true,
+  "result": {
+    "sku": 78794,
+    "url": "http://www.66123123.com/Goods/GoodsDetail?id=78794",
+    "model": "",
+    "weight": "",
+    "image_path": "http://www.66123123.com/Photos/",
+    "state": "1",
+    "brand_name": "Thinkpad",
+    "name": "Think PADE465（20EXA00ECD）笔记本电脑",
+    "product_area": "",
+    "upc": "",
+    "unit": "台",
+    "category": "便携式计算机",
+    "categoryId": "sxzg_bxsjsj_45",
+    "service": "",
+    "introduction": "<div><img   src='http://www.66123123.com/Photos/bgyp4/78794_1.jpg' alt='' /></div>",
+    "param": "<table border='1' class='Ptable' ><tr><th colspan='2' class='title'>基本信息</th></tr><tr><td class='name'>型号</td><td class='val'>20EXA00ECD</td></tr><tr><td class='name'>颜色</td><td class='val'>黑色</td></tr><tr><td class='name'>平台</td><td class='val'>AMD</td></tr><tr><td class='name'>操作系统</td><td class='val'>Windows 10</td></tr><tr><th colspan='2' class='title'>处理器</th></tr><tr><td class='name'>CPU类型</td><td class='val'>AMD 四核处理器</td></tr><tr><td class='name'>CPU型号</td><td class='val'>A8-8600P</td></tr><tr><td class='name'>CPU速度</td><td class='val'>1.6GHz</td></tr><tr><td class='name'>三级缓存</td><td class='val'>3M</td></tr><tr><th colspan='2' class='title'>内存</th></tr><tr><td class='name'>内存容量</td><td class='val'>t8GB</td></tr><tr><td class='name'>内存类型</td><td class='val'>DDR3L 1600</td></tr><tr><th colspan='2' class='title'>硬盘</th></tr><tr><td class='name'>硬盘容量</td><td class='val'>1T</td></tr><tr><th colspan='2' class='title'>显卡</th></tr><tr><td class='name'>类型</td><td class='val'>独立显卡</td></tr><tr><td class='name'>显存容量</td><td class='val'>2GB</td></tr><tr><th colspan='2' class='title'>光驱</th></tr><tr><td class='name'>光驱类型</td><td class='val'>W无</td></tr><tr><th colspan='2' class='title'>显示器</th></tr><tr><td class='name'>屏幕尺寸</td><td class='val'>14英寸</td></tr><tr><td class='name'>显示比例</td><td class='val'>宽屏16：9</td></tr><tr><td class='name'>物理分辨率</td><td class='val'>1366 x 768</td></tr><tr><td class='name'>屏幕类型</td><td class='val'>LED背光</td></tr><tr><th colspan='2' class='title'>通信</th></tr><tr><td class='name'>内置蓝牙</td><td class='val'>有</td></tr><tr><td class='name'>局域网</td><td class='val'>10/100/1000Mbps</td></tr><tr><td class='name'>无线局域网</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>端口</th></tr><tr><td class='name'>音频端口</td><td class='val'>耳机、麦克风二合一接口</td></tr><tr><td class='name'>显示端口</td><td class='val'>HDMI接口</td></tr><tr><td class='name'>RJ45</td><td class='val'>1个</td></tr><tr><td class='name'>USB3.0</td><td class='val'>2个</td></tr><tr><th colspan='2' class='title'>音效系统</th></tr><tr><td class='name'>扬声器</td><td class='val'>内置</td></tr><tr><td class='name'>内置麦克风</td><td class='val'>有 </td></tr><tr><th colspan='2' class='title'>输入设备</th></tr><tr><td class='name'>键盘</td><td class='val'>悬浮键盘</td></tr><tr><td class='name'>触摸板</td><td class='val'>多点触控</td></tr><tr><th colspan='2' class='title'>其它设备</th></tr><tr><td class='name'>网络摄像头</td><td class='val'>有</td></tr><tr><td class='name'>读卡器</td><td class='val'>y</td></tr><tr><th colspan='2' class='title'>电源</th></tr><tr><td class='name'>电池</td><td class='val'>6芯 锂离子电池</td></tr><tr><td class='name'>续航时间</td><td class='val'>2-5小时</td></tr><tr><td class='name'>电源适配器</td><td class='val'>100-240V自适应交流电源适配器</td></tr><tr><th colspan='2' class='title'>机器规格</th></tr><tr><td class='name'>净重</td><td class='val'>1.5kg-2kg</td></tr></table>",
+    "ware": "",
+    "sale_actives": "",
+    "energy": "",
+    "protection": ""
+  }
+}
+I, [2018-08-10T11:38:23.051855 #13283]  INFO -- : 【2018-08-10 11:38:23】 访问电商接口：http://test.66123123.com:8002/product/detail?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=78795
+I, [2018-08-10T11:38:23.052016 #13283]  INFO -- : 返回：{
+  "success": true,
+  "result": {
+    "sku": 78795,
+    "url": "http://www.66123123.com/Goods/GoodsDetail?id=78795",
+    "model": "",
+    "weight": "",
+    "image_path": "http://www.66123123.com/Photos/",
+    "state": "1",
+    "brand_name": "Thinkpad",
+    "name": "ThinkpadE465（20EXA00HCD）笔记本电脑",
+    "product_area": "",
+    "upc": "",
+    "unit": "台",
+    "category": "便携式计算机",
+    "categoryId": "sxzg_bxsjsj_45",
+    "service": "",
+    "introduction": "<div><img   src='http://www.66123123.com/Photos/bgyp4/78795_1.jpg' alt='' /></div>",
+    "param": "<table border='1' class='Ptable' ><tr><th colspan='2' class='title'>基本信息</th></tr><tr><td class='name'>系列</td><td class='val'>E系列</td></tr><tr><td class='name'>型号</td><td class='val'>20EXA00HCD</td></tr><tr><td class='name'>颜色</td><td class='val'>黑色</td></tr><tr><td class='name'>平台</td><td class='val'>AMD</td></tr><tr><td class='name'>操作系统</td><td class='val'>Windows 10</td></tr><tr><th colspan='2' class='title'>处理器</th></tr><tr><td class='name'>CPU类型</td><td class='val'>AMD 四核处理器</td></tr><tr><td class='name'>CPU型号</td><td class='val'>A8-8600P</td></tr><tr><td class='name'>CPU速度</td><td class='val'>1.7GHz</td></tr><tr><td class='name'>三级缓存</td><td class='val'>3M</td></tr><tr><th colspan='2' class='title'>内存</th></tr><tr><td class='name'>内存容量</td><td class='val'>4GB</td></tr><tr><td class='name'>内存类型</td><td class='val'>DDR3L 1600</td></tr><tr><th colspan='2' class='title'>硬盘</th></tr><tr><td class='name'>硬盘容量</td><td class='val'>1T</td></tr><tr><td class='name'>转速</td><td class='val'>5400转</td></tr><tr><th colspan='2' class='title'>显卡</th></tr><tr><td class='name'>类型</td><td class='val'>独立显卡</td></tr><tr><td class='name'>显示芯片</td><td class='val'>独立2GB</td></tr><tr><th colspan='2' class='title'>光驱</th></tr><tr><td class='name'>光驱类型</td><td class='val'>无</td></tr><tr><th colspan='2' class='title'>显示器</th></tr><tr><td class='name'>屏幕尺寸</td><td class='val'>14英寸</td></tr><tr><td class='name'>显示比例</td><td class='val'>宽屏16：9</td></tr><tr><td class='name'>物理分辨率</td><td class='val'>1920×1080</td></tr><tr><td class='name'>屏幕类型</td><td class='val'>LED背光</td></tr><tr><th colspan='2' class='title'>通信</th></tr><tr><td class='name'>内置蓝牙</td><td class='val'>有</td></tr><tr><td class='name'>局域网</td><td class='val'>10/100/1000Mbps</td></tr><tr><td class='name'>无线局域网</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>端口</th></tr><tr><td class='name'>音频端口</td><td class='val'>耳机、麦克风二合一接口</td></tr><tr><td class='name'>显示端口</td><td class='val'>HDMI接口</td></tr><tr><td class='name'>RJ45</td><td class='val'>1个</td></tr><tr><td class='name'>USB3.0</td><td class='val'>2个</td></tr><tr><th colspan='2' class='title'>音效系统</th></tr><tr><td class='name'>扬声器</td><td class='val'>内置</td></tr><tr><td class='name'>内置麦克风</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>输入设备</th></tr><tr><td class='name'>键盘</td><td class='val'>悬浮键盘</td></tr><tr><td class='name'>触摸板</td><td class='val'>多点触控</td></tr><tr><th colspan='2' class='title'>其它设备</th></tr><tr><td class='name'>网络摄像头</td><td class='val'>有</td></tr><tr><td class='name'>读卡器</td><td class='val'>有</td></tr><tr><th colspan='2' class='title'>电源</th></tr><tr><td class='name'>电池</td><td class='val'>6芯 锂离子电池</td></tr><tr><td class='name'>续航时间</td><td class='val'>2-5小时</td></tr><tr><td class='name'>电源适配器</td><td class='val'>100-240V自适应交流电源适配器</td></tr><tr><th colspan='2' class='title'>机器规格</th></tr><tr><td class='name'>净重</td><td class='val'>100-240V自适应交流电源适配器</td></tr></table>",
+    "ware": "",
+    "sale_actives": "",
+    "energy": "",
+    "protection": ""
+  }
+}
+I, [2018-08-10T11:38:23.316361 #13283]  INFO -- : 【2018-08-10 11:38:23】 访问电商接口：http://test.66123123.com:8002/product/skus?token=bd23df3f-f984-4840-8059-e2e0f7080daa&catalog_id=sxzg_tsjsj_90
+I, [2018-08-10T11:38:23.316454 #13283]  INFO -- : 返回：{"success":true,"result":["129560","129561","129562","129563","129564","129565","129568"]}
+I, [2018-08-10T11:38:23.361474 #13283]  INFO -- : 【2018-08-10 11:38:23】 访问电商接口：http://test.66123123.com:8002/product/detail?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=129560
+I, [2018-08-10T11:38:23.361752 #13283]  INFO -- : 返回：{
+  "success": true,
+  "result": {
+    "sku": 129560,
+    "url": "http://www.66123123.com/Goods/GoodsDetail?id=129560",
+    "model": "扬天T4900c-21",
+    "weight": "",
+    "image_path": "http://www.66123123.com/Photos/",
+    "state": "1",
+    "brand_name": "联想",
+    "name": "联想企事业办公台式机T4900C G3260 4G内存 1T硬盘 1G独显RA(win7）系统+19.5寸显示器",
+    "product_area": "",
+    "upc": "",
+    "unit": "套",
+    "category": "台式计算机",
+    "categoryId": "sxzg_tsjsj_90",
+    "service": "",
+    "introduction": "<div><img   src='http://www.66123123.com/Photos/bgyp5/28835_detail_0.jpg' alt='' /><img   src='http://www.66123123.com/Photos/bgyp5/28835_detail_1.png' alt='' /></div>",
+    "param": "<table border='1' class='Ptable' ><tr><th colspan='2' class='title'>后面接口</th></tr><tr><td class='name'>是否节能</td><td class='val'>是</td></tr><tr><td class='name'>是否环保</td><td class='val'>否</td></tr></table>",
+    "ware": "",
+    "sale_actives": "",
+    "energy": "是",
+    "protection": "否"
+  }
+}
+I, [2018-08-10T11:38:23.710350 #13283]  INFO -- : 【2018-08-10 11:38:23】 访问电商接口：http://test.66123123.com:8002/product/detail?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=129561
+I, [2018-08-10T11:38:23.710468 #13283]  INFO -- : 返回：{
+  "success": true,
+  "result": {
+    "sku": 129561,
+    "url": "http://www.66123123.com/Goods/GoodsDetail?id=129561",
+    "model": "扬天T4900c-27",
+    "weight": "",
+    "image_path": "http://www.66123123.com/Photos/",
+    "state": "1",
+    "brand_name": "联想",
+    "name": "联想企事业商用台式机T4900c I5-4590 4G内存 1T硬盘 集成显卡(win7)+23寸显示器",
+    "product_area": "",
+    "upc": "",
+    "unit": "套",
+    "category": "台式计算机",
+    "categoryId": "sxzg_tsjsj_90",
+    "service": "",
+    "introduction": "",
+    "param": "<table border='1' class='Ptable' ><tr><th colspan='2' class='title'>后面接口</th></tr><tr><td class='name'>是否节能</td><td class='val'>是</td></tr><tr><td class='name'>是否环保</td><td class='val'>否</td></tr></table>",
+    "ware": "",
+    "sale_actives": "",
+    "energy": "是",
+    "protection": "否"
+  }
+}
+I, [2018-08-10T11:38:23.990388 #13283]  INFO -- : 【2018-08-10 11:38:23】 访问电商接口：http://test.66123123.com:8002/product/detail?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=129562
+I, [2018-08-10T11:38:23.990619 #13283]  INFO -- : 返回：{
+  "success": true,
+  "result": {
+    "sku": 129562,
+    "url": "http://www.66123123.com/Goods/GoodsDetail?id=129562",
+    "model": "扬天T4900c-24",
+    "weight": "",
+    "image_path": "http://www.66123123.com/Photos/",
+    "state": "1",
+    "brand_name": "联想",
+    "name": "联想企事业商用台式机T4900c I5-4590 4G内存 1T硬盘 集成显卡(win7)+19.5寸显示器",
+    "product_area": "",
+    "upc": "",
+    "unit": "套",
+    "category": "台式计算机",
+    "categoryId": "sxzg_tsjsj_90",
+    "service": "",
+    "introduction": "<div><img   src='http://www.66123123.com/Photos/bgyp5/28845_detail_0.jpg' alt='' /><img   src='http://www.66123123.com/Photos/bgyp5/28845_detail_1.png' alt='' /></div>",
+    "param": "<table border='1' class='Ptable' ><tr><th colspan='2' class='title'>基本信息</th></tr><tr><td class='name'>型号</td><td class='val'>T4900c</td></tr><tr><td class='name'>操作系统</td><td class='val'>win7 Home</td></tr><tr><th colspan='2' class='title'>CPU</th></tr><tr><td class='name'>CPU型号</td><td class='val'>I5-4590</td></tr><tr><th colspan='2' class='title'>内存</th></tr><tr><td class='name'>内存容量</td><td class='val'>4G</td></tr><tr><th colspan='2' class='title'>硬盘</th></tr><tr><td class='name'>硬盘容量</td><td class='val'>1T</td></tr><tr><th colspan='2' class='title'>显示器</th></tr><tr><td class='name'>尺寸</td><td class='val'>19.5寸</td></tr><tr><th colspan='2' class='title'>后面接口</th></tr><tr><td class='name'>是否节能</td><td class='val'>是</td></tr><tr><td class='name'>是否环保</td><td class='val'>否</td></tr></table>",
+    "ware": "",
+    "sale_actives": "",
+    "energy": "是",
+    "protection": "否"
+  }
+}
+I, [2018-08-10T11:38:24.266751 #13283]  INFO -- : 【2018-08-10 11:38:24】 访问电商接口：http://test.66123123.com:8002/product/detail?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=129563
+I, [2018-08-10T11:38:24.266911 #13283]  INFO -- : 返回：{
+  "success": true,
+  "result": {
+    "sku": 129563,
+    "url": "http://www.66123123.com/Goods/GoodsDetail?id=129563",
+    "model": "扬天T4900c-03",
+    "weight": "",
+    "image_path": "http://www.66123123.com/Photos/",
+    "state": "1",
+    "brand_name": "联想",
+    "name": "联想企事业商用台式机T4900c I3-4170 4G内存 500G硬盘 集成显卡DVD(win7)+19.5寸显示器",
+    "product_area": "",
+    "upc": "",
+    "unit": "套",
+    "category": "台式计算机",
+    "categoryId": "sxzg_tsjsj_90",
+    "service": "",
+    "introduction": "",
+    "param": "<table border='1' class='Ptable' ><tr><th colspan='2' class='title'>后面接口</th></tr><tr><td class='name'>是否节能</td><td class='val'>是</td></tr><tr><td class='name'>是否环保</td><td class='val'>否</td></tr></table>",
+    "ware": "",
+    "sale_actives": "",
+    "energy": "是",
+    "protection": "否"
+  }
+}
+I, [2018-08-10T11:38:24.486975 #13283]  INFO -- : 【2018-08-10 11:38:24】 访问电商接口：http://test.66123123.com:8002/product/detail?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=129564
+I, [2018-08-10T11:38:24.487110 #13283]  INFO -- : 返回：{
+  "success": true,
+  "result": {
+    "sku": 129564,
+    "url": "http://www.66123123.com/Goods/GoodsDetail?id=129564",
+    "model": "扬天M4900C-04",
+    "weight": "",
+    "image_path": "http://www.66123123.com/Photos/",
+    "state": "1",
+    "brand_name": "联想",
+    "name": "联想扬天台式机M4900C I5-6500 4G内存 500G硬盘+23寸显示器 三年延保",
+    "product_area": "",
+    "upc": "",
+    "unit": "套",
+    "category": "台式计算机",
+    "categoryId": "sxzg_tsjsj_90",
+    "service": "",
+    "introduction": "",
+    "param": "<table border='1' class='Ptable' ><tr><th colspan='2' class='title'>后面接口</th></tr><tr><td class='name'>是否节能</td><td class='val'>是</td></tr><tr><td class='name'>是否环保</td><td class='val'>是</td></tr></table>",
+    "ware": "",
+    "sale_actives": "",
+    "energy": "是",
+    "protection": "是"
+  }
+}
+I, [2018-08-10T11:38:24.828026 #13283]  INFO -- : 【2018-08-10 11:38:24】 访问电商接口：http://test.66123123.com:8002/product/detail?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=129565
+I, [2018-08-10T11:38:24.828460 #13283]  INFO -- : 返回：{
+  "success": true,
+  "result": {
+    "sku": 129565,
+    "url": "http://www.66123123.com/Goods/GoodsDetail?id=129565",
+    "model": "扬天M4900C-07",
+    "weight": "",
+    "image_path": "http://www.66123123.com/Photos/",
+    "state": "1",
+    "brand_name": "联想",
+    "name": "联想商用台式机M4900C I5-6500 4G内存 1T硬盘 DVD刻录 win7系统+21.5显示器",
+    "product_area": "",
+    "upc": "",
+    "unit": "套",
+    "category": "台式计算机",
+    "categoryId": "sxzg_tsjsj_90",
+    "service": "",
+    "introduction": "",
+    "param": "<table border='1' class='Ptable' ><tr><th colspan='2' class='title'>后面接口</th></tr><tr><td class='name'>是否节能</td><td class='val'>是</td></tr><tr><td class='name'>是否环保</td><td class='val'>是</td></tr></table>",
+    "ware": "",
+    "sale_actives": "",
+    "energy": "是",
+    "protection": "是"
+  }
+}
+I, [2018-08-10T11:38:25.323565 #13283]  INFO -- : 【2018-08-10 11:38:25】 访问电商接口：http://test.66123123.com:8002/product/detail?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=129568
+I, [2018-08-10T11:38:25.323759 #13283]  INFO -- : {失败}EmallResult.new
+I, [2018-08-10T11:38:25.323978 #13283]  INFO -- : 返回：<!DOCTYPE html>
+<html>
+    <head>
+        <title>Unterminated string. Expected delimiter: &quot;. Path '[3]', line 1, position 255.</title>
+        <meta name="viewport" content="width=device-width" />
+        <style>
+         body {font-family:"Verdana";font-weight:normal;font-size: .7em;color:black;} 
+         p {font-family:"Verdana";font-weight:normal;color:black;margin-top: -5px}
+         b {font-family:"Verdana";font-weight:bold;color:black;margin-top: -5px}
+         H1 { font-family:"Verdana";font-weight:normal;font-size:18pt;color:red }
+         H2 { font-family:"Verdana";font-weight:normal;font-size:14pt;color:maroon }
+         pre {font-family:"Consolas","Lucida Console",Monospace;font-size:11pt;margin:0;padding:0.5em;line-height:14pt}
+         .marker {font-weight: bold; color: black;text-decoration: none;}
+         .version {color: gray;}
+         .error {margin-bottom: 10px;}
+         .expandable { text-decoration:underline; font-weight:bold; color:navy; cursor:hand; }
+         @media screen and (max-width: 639px) {
+          pre { width: 440px; overflow: auto; white-space: pre-wrap; word-wrap: break-word; }
+         }
+         @media screen and (max-width: 479px) {
+          pre { width: 280px; }
+         }
+        </style>
+    </head>
+
+    <body bgcolor="white">
+
+            <span><H1>“/”应用程序中的服务器错误。<hr width=100% size=1 color=silver></H1>
+
+            <h2> <i>Unterminated string. Expected delimiter: &quot;. Path '[3]', line 1, position 255.</i> </h2></span>
+
+            <font face="Arial, Helvetica, Geneva, SunSans-Regular, sans-serif ">
+
+            <b> 说明: </b>执行当前 Web 请求期间，出现未经处理的异常。请检查堆栈跟踪信息，以了解有关该错误以及代码中导致错误的出处的详细信息。
+
+            <br><br>
+
+            <b> 异常详细信息: </b>Newtonsoft.Json.JsonReaderException: Unterminated string. Expected delimiter: &quot;. Path '[3]', line 1, position 255.<br><br>
+
+            <b>源错误:</b> <br><br>
+
+            <table width=100% bgcolor="#ffffcc">
+               <tr>
+                  <td>
+                      <code>
+
+执行当前 Web 请求期间生成了未经处理的异常。可以使用下面的异常堆栈跟踪信息确定有关异常原因和发生位置的信息。</code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+            <b>堆栈跟踪:</b> <br><br>
+
+            <table width=100% bgcolor="#ffffcc">
+               <tr>
+                  <td>
+                      <code><pre>
+
+[JsonReaderException: Unterminated string. Expected delimiter: &quot;. Path &#39;[3]&#39;, line 1, position 255.]
+   Newtonsoft.Json.JsonTextReader.ReadStringIntoBuffer(Char quote) +1720
+   Newtonsoft.Json.JsonTextReader.ParseProperty() +68
+   Newtonsoft.Json.JsonTextReader.Read() +26
+   Newtonsoft.Json.JsonWriter.WriteToken(JsonReader reader, Int32 initialDepth, Boolean writeChildren, Boolean writeDateConstructorAsDate) +1473
+   Newtonsoft.Json.JsonWriter.WriteToken(JsonReader reader, Boolean writeChildren, Boolean writeDateConstructorAsDate) +128
+   Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateJToken(JsonReader reader, JsonContract contract) +140
+   Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id) +88
+   Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent) +701
+   Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType) +853
+   Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings) +147
+   AllInterface.Controllers.CommonToolsController.GetEnergy(String Description, String Type) in E:\code\API\AllInterface\trunk\Controllers\CommonToolsController.cs:855
+   AllInterface.Controllers.GoodsDetailsController.detail(String token, String sku) in E:\code\API\AllInterface\trunk\Controllers\GoodsDetailsController.cs:278
+   lambda_method(Closure , ControllerBase , Object[] ) +386
+   System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters) +253
+   System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters) +35
+   System.Web.Mvc.Async.&lt;&gt;c__DisplayClass42.&lt;BeginInvokeSynchronousActionMethod&gt;b__41() +34
+   System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult) +57
+   System.Web.Mvc.Async.&lt;&gt;c__DisplayClass39.&lt;BeginInvokeActionMethodWithFilters&gt;b__33() +77
+   System.Web.Mvc.Async.&lt;&gt;c__DisplayClass4f.&lt;InvokeActionMethodFilterAsynchronously&gt;b__49() +370
+   System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult) +57
+   System.Web.Mvc.Async.&lt;&gt;c__DisplayClass2a.&lt;BeginInvokeAction&gt;b__20() +32
+   System.Web.Mvc.Async.&lt;&gt;c__DisplayClass25.&lt;BeginInvokeAction&gt;b__22(IAsyncResult asyncResult) +184
+   System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult) +50
+   System.Web.Mvc.&lt;&gt;c__DisplayClass1d.&lt;BeginExecuteCore&gt;b__18(IAsyncResult asyncResult) +24
+   System.Web.Mvc.Async.&lt;&gt;c__DisplayClass4.&lt;MakeVoidDelegate&gt;b__3(IAsyncResult ar) +22
+   System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult) +64
+   System.Web.Mvc.Async.&lt;&gt;c__DisplayClass4.&lt;MakeVoidDelegate&gt;b__3(IAsyncResult ar) +22
+   System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult) +50
+   System.Web.Mvc.&lt;&gt;c__DisplayClass8.&lt;BeginProcessRequest&gt;b__3(IAsyncResult asyncResult) +38
+   System.Web.Mvc.Async.&lt;&gt;c__DisplayClass4.&lt;MakeVoidDelegate&gt;b__3(IAsyncResult ar) +22
+   System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult) +50
+   System.Web.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute() +607
+   System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean&amp; completedSynchronously) +134
+</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+            <hr width=100% size=1 color=silver>
+
+            <b>版本信息:</b>&nbsp;Microsoft .NET Framework 版本:4.0.30319; ASP.NET 版本:4.7.2114.0
+
+            </font>
+
+    </body>
+</html>
+<!-- 
+[JsonReaderException]: Unterminated string. Expected delimiter: &quot;. Path &#39;[3]&#39;, line 1, position 255.
+   在 Newtonsoft.Json.JsonTextReader.ReadStringIntoBuffer(Char quote)
+   在 Newtonsoft.Json.JsonTextReader.ParseProperty()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.JsonWriter.WriteToken(JsonReader reader, Int32 initialDepth, Boolean writeChildren, Boolean writeDateConstructorAsDate)
+   在 Newtonsoft.Json.JsonWriter.WriteToken(JsonReader reader, Boolean writeChildren, Boolean writeDateConstructorAsDate)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateJToken(JsonReader reader, JsonContract contract)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 AllInterface.Controllers.CommonToolsController.GetEnergy(String Description, String Type) 位置 E:\code\API\AllInterface\trunk\Controllers\CommonToolsController.cs:行号 855
+   在 AllInterface.Controllers.GoodsDetailsController.detail(String token, String sku) 位置 E:\code\API\AllInterface\trunk\Controllers\GoodsDetailsController.cs:行号 278
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass42.<BeginInvokeSynchronousActionMethod>b__41()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<BeginInvokeActionMethodWithFilters>b__33()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+--><!-- 
+此错误页可能包含敏感信息，因为 ASP.NET 通过 &lt;customErrors mode="Off"/&gt; 被配置为显示详细错误消息。请考虑在生产环境中使用 &lt;customErrors mode="On"/&gt; 或 &lt;customErrors mode="RemoteOnly"/&gt;。-->
+I, [2018-08-10T11:40:02.967981 #13283]  INFO -- : 【2018-08-10 11:40:02】 访问电商接口：http://test.66123123.com:8002/product/prices?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=78107%2C78108%2C78109%2C78110%2C78179%2C78186%2C78188%2C78190%2C78193%2C78527%2C78528%2C78529%2C78530%2C78531%2C78532%2C78533%2C78534%2C78535%2C78540%2C78591%2C78771%2C78772%2C78773%2C78775%2C78777%2C78781%2C78783%2C78785%2C78787%2C78788%2C78789%2C78790%2C78791%2C78792%2C78793%2C78794%2C78795%2C129560%2C129561%2C129562%2C129563%2C129564%2C129565
+I, [2018-08-10T11:40:02.968387 #13283]  INFO -- : 返回：{"success":true,"result":[{"sku":78107,"price":6499.0000,"mall_price":6499.00},{"sku":78108,"price":7099.0000,"mall_price":7099.00},{"sku":78109,"price":7199.0000,"mall_price":7199.00},{"sku":78110,"price":7399.0000,"mall_price":7399.00},{"sku":78179,"price":9299.0000,"mall_price":9299.00},{"sku":78186,"price":11990.0000,"mall_price":11990.00},{"sku":78188,"price":9999.0000,"mall_price":9999.00},{"sku":78190,"price":11390.0000,"mall_price":11390.00},{"sku":78193,"price":12999.0000,"mall_price":12999.00},{"sku":78527,"price":13399.0000,"mall_price":13399.00},{"sku":78528,"price":7799.0000,"mall_price":7799.00},{"sku":78529,"price":8390.0000,"mall_price":8390.00},{"sku":78530,"price":8490.0000,"mall_price":8490.00},{"sku":78531,"price":8899.0000,"mall_price":8899.00},{"sku":78532,"price":9200.0000,"mall_price":9200.00},{"sku":78533,"price":9300.0000,"mall_price":9300.00},{"sku":78534,"price":9200.0000,"mall_price":9200.00},{"sku":78535,"price":11999.0000,"mall_price":11999.00},{"sku":78540,"price":13990.0000,"mall_price":13990.00},{"sku":78591,"price":5450.0000,"mall_price":5450.00},{"sku":78771,"price":6750.0000,"mall_price":6750.00},{"sku":78772,"price":7099.0000,"mall_price":7099.00},{"sku":78773,"price":7199.0000,"mall_price":7199.00},{"sku":78775,"price":7399.0000,"mall_price":7399.00},{"sku":78777,"price":3499.0000,"mall_price":3499.00},{"sku":78781,"price":3599.0000,"mall_price":3599.00},{"sku":78783,"price":3499.0000,"mall_price":3499.00},{"sku":78785,"price":3899.0000,"mall_price":3899.00},{"sku":78787,"price":3899.0000,"mall_price":3899.00},{"sku":78788,"price":3999.0000,"mall_price":3999.00},{"sku":78789,"price":3999.0000,"mall_price":3999.00},{"sku":78790,"price":3999.0000,"mall_price":3999.00},{"sku":78791,"price":4099.0000,"mall_price":4099.00},{"sku":78792,"price":4099.0000,"mall_price":4099.00},{"sku":78793,"price":4099.0000,"mall_price":4099.00},{"sku":78794,"price":4399.0000,"mall_price":4399.00},{"sku":78795,"price":4399.0000,"mall_price":4399.00},{"sku":129560,"price":4049.6800,"mall_price":4049.68},{"sku":129561,"price":5398.8300,"mall_price":5398.83},{"sku":129562,"price":4870.3200,"mall_price":4870.32},{"sku":129563,"price":3931.4900,"mall_price":3931.49},{"sku":129564,"price":5339.7400,"mall_price":5339.74},{"sku":129565,"price":5199.2500,"mall_price":5199.25}]}
+I, [2018-08-10T11:40:12.292628 #13283]  INFO -- : 【2018-08-10 11:40:12】 访问电商接口：http://test.66123123.com:8002/product/shelf_states?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=78107%2C78108%2C78109%2C78110%2C78179%2C78186%2C78188%2C78190%2C78193%2C78527%2C78528%2C78529%2C78530%2C78531%2C78532%2C78533%2C78534%2C78535%2C78540%2C78591%2C78771%2C78772%2C78773%2C78775%2C78777%2C78781%2C78783%2C78785%2C78787%2C78788%2C78789%2C78790%2C78791%2C78792%2C78793%2C78794%2C78795%2C129560%2C129561%2C129562%2C129563%2C129564%2C129565
+I, [2018-08-10T11:40:12.292812 #13283]  INFO -- : 返回：{"success":true,"result":[{"sku":78107,"state":1},{"sku":78108,"state":1},{"sku":78109,"state":1},{"sku":78110,"state":1},{"sku":78179,"state":1},{"sku":78186,"state":1},{"sku":78188,"state":1},{"sku":78190,"state":1},{"sku":78193,"state":1},{"sku":78527,"state":1},{"sku":78528,"state":1},{"sku":78529,"state":1},{"sku":78530,"state":1},{"sku":78531,"state":1},{"sku":78532,"state":1},{"sku":78533,"state":1},{"sku":78534,"state":1},{"sku":78535,"state":1},{"sku":78540,"state":1},{"sku":78591,"state":1},{"sku":78771,"state":1},{"sku":78772,"state":1},{"sku":78773,"state":1},{"sku":78775,"state":1},{"sku":78777,"state":1},{"sku":78781,"state":1},{"sku":78783,"state":1},{"sku":78785,"state":1},{"sku":78787,"state":1},{"sku":78788,"state":1},{"sku":78789,"state":1},{"sku":78790,"state":1},{"sku":78791,"state":1},{"sku":78792,"state":1},{"sku":78793,"state":1},{"sku":78794,"state":1},{"sku":78795,"state":1},{"sku":129560,"state":1},{"sku":129561,"state":1},{"sku":129562,"state":1},{"sku":129563,"state":1},{"sku":129564,"state":1},{"sku":129565,"state":1}]}
+I, [2018-08-10T11:40:19.112865 #13283]  INFO -- : 【2018-08-10 11:40:19】 访问电商接口：http://test.66123123.com:8002/product/images?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=78107%2C78108%2C78109%2C78110%2C78179%2C78186%2C78188%2C78190%2C78193%2C78527%2C78528%2C78529%2C78530%2C78531%2C78532%2C78533%2C78534%2C78535%2C78540%2C78591%2C78771%2C78772%2C78773%2C78775%2C78777%2C78781%2C78783%2C78785%2C78787%2C78788%2C78789%2C78790%2C78791%2C78792%2C78793%2C78794%2C78795%2C129560%2C129561%2C129562%2C129563%2C129564%2C129565
+I, [2018-08-10T11:40:19.114886 #13283]  INFO -- : 返回：{"success":true,"result":[{"sku":78107,"images":[{"path":"http://www.66123123.com/Photos/bgyp4/78107_5.jpg","order":1},{"path":"http://www.66123123.com/Photos/bgyp4/78107_4.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78107_3.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78107_2.jpg","order":0}]},{"sku":78108,"images":[{"path":"http://www.66123123.com/Photos/bgyp4/78108_5.jpg","order":1},{"path":"http://www.66123123.com/Photos/bgyp4/78108_4.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78108_3.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78108_2.jpg","order":0}]},{"sku":78109,"images":[{"path":"http://www.66123123.com/Photos/bgyp4/78109_5.jpg","order":1},{"path":"http://www.66123123.com/Photos/bgyp4/78109_4.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78109_3.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78109_2.jpg","order":0}]},{"sku":78110,"images":[{"path":"http://www.66123123.com/Photos/bgyp4/78110_5.jpg","order":1},{"path":"http://www.66123123.com/Photos/bgyp4/78110_4.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78110_3.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78110_2.jpg","order":0}]},{"sku":78179,"images":[{"path":"http://www.66123123.com/Photos/bgyp4/78179_5.jpg","order":1},{"path":"http://www.66123123.com/Photos/bgyp4/78179_4.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78179_3.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78179_2.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78179_6.jpg","order":0}]},{"sku":78186,"images":[{"path":"http://www.66123123.com/Photos/bgyp4/78186_6.jpg","order":1},{"path":"http://www.66123123.com/Photos/bgyp4/78186_5.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78186_4.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78186_3.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78186_2.jpg","order":0}]},{"sku":78190,"images":[{"path":"http://www.66123123.com/Photos/bgyp4/78190_6.jpg","order":1},{"path":"http://www.66123123.com/Photos/bgyp4/78190_5.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78190_4.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78190_3.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78190_2.jpg","order":0}]},{"sku":78527,"images":[{"path":"http://www.66123123.com/Photos/bgyp4/78527_5.jpg","order":1},{"path":"http://www.66123123.com/Photos/bgyp4/78527_4.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78527_3.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78527_2.jpg","order":0}]},{"sku":78528,"images":[{"path":"http://www.66123123.com/Photos/bgyp4/78528_5.jpg","order":1},{"path":"http://www.66123123.com/Photos/bgyp4/78528_4.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78528_3.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78528_2.jpg","order":0}]},{"sku":78529,"images":[{"path":"http://www.66123123.com/Photos/bgyp4/78529_5.jpg","order":1},{"path":"http://www.66123123.com/Photos/bgyp4/78529_4.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78529_3.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78529_2.jpg","order":0}]},{"sku":78530,"images":[{"path":"http://www.66123123.com/Photos/bgyp4/78530_5.jpg","order":1},{"path":"http://www.66123123.com/Photos/bgyp4/78530_4.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78530_3.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78530_2.jpg","order":0}]},{"sku":78531,"images":[{"path":"http://www.66123123.com/Photos/bgyp4/78531_5.jpg","order":1},{"path":"http://www.66123123.com/Photos/bgyp4/78531_4.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78531_3.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78531_2.jpg","order":0}]},{"sku":78532,"images":[{"path":"http://www.66123123.com/Photos/bgyp4/78532_5.jpg","order":1},{"path":"http://www.66123123.com/Photos/bgyp4/78532_4.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78532_3.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78532_2.jpg","order":0}]},{"sku":78533,"images":[{"path":"http://www.66123123.com/Photos/bgyp4/78533_5.jpg","order":1},{"path":"http://www.66123123.com/Photos/bgyp4/78533_4.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78533_3.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78533_2.jpg","order":0}]},{"sku":78534,"images":[{"path":"http://www.66123123.com/Photos/bgyp4/78534_5.jpg","order":1},{"path":"http://www.66123123.com/Photos/bgyp4/78534_4.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78534_3.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78534_2.jpg","order":0}]},{"sku":78535,"images":[{"path":"http://www.66123123.com/Photos/bgyp4/78535_5.jpg","order":1},{"path":"http://www.66123123.com/Photos/bgyp4/78535_4.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78535_3.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78535_2.jpg","order":0}]},{"sku":78540,"images":[{"path":"http://www.66123123.com/Photos/bgyp4/78540_5.jpg","order":1},{"path":"http://www.66123123.com/Photos/bgyp4/78540_4.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78540_3.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78540_2.jpg","order":0}]},{"sku":78591,"images":[{"path":"http://www.66123123.com/Photos/bgyp4/78591_6.jpg","order":1},{"path":"http://www.66123123.com/Photos/bgyp4/78591_5.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78591_4.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78591_3.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78591_2.jpg","order":0}]},{"sku":78772,"images":[{"path":"http://www.66123123.com/Photos/bgyp4/78772_6.jpg","order":1},{"path":"http://www.66123123.com/Photos/bgyp4/78772_5.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78772_4.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78772_3.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78772_2.jpg","order":0}]},{"sku":78773,"images":[{"path":"http://www.66123123.com/Photos/bgyp4/78773_2.jpg","order":1},{"path":"http://www.66123123.com/Photos/bgyp4/78773_3.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78773_4.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78773_5.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78773_6.jpg","order":0}]},{"sku":78771,"images":[{"path":"http://www.66123123.com/Photos/bgyp4/78771_6.jpg","order":1},{"path":"http://www.66123123.com/Photos/bgyp4/78771_5.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78771_4.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78771_3.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78771_2.jpg","order":0}]},{"sku":78775,"images":[{"path":"http://www.66123123.com/Photos/bgyp4/78775_3.jpg","order":1},{"path":"http://www.66123123.com/Photos/bgyp4/78775_5.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78775_4.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78775_2.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78775_6.jpg","order":0}]},{"sku":78188,"images":[{"path":"http://www.66123123.com/Photos/bgyp4/78188_8.jpg","order":1},{"path":"http://www.66123123.com/Photos/bgyp4/78188_10.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78188_11.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78188_9.jpg","order":0}]},{"sku":78193,"images":[{"path":"http://www.66123123.com/Photos/bgyp4/78193_6.jpg","order":1},{"path":"http://www.66123123.com/Photos/bgyp4/78193_5.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78193_4.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78193_3.jpg","order":0}]},{"sku":78777,"images":[{"path":"http://www.66123123.com/Photos/bgyp4/78777_3.jpg","order":1},{"path":"http://www.66123123.com/Photos/bgyp4/78777_4.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78777_2.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78777_1.jpg","order":0}]},{"sku":78781,"images":[{"path":"http://www.66123123.com/Photos/bgyp4/78781_3.jpg","order":1},{"path":"http://www.66123123.com/Photos/bgyp4/78781_2.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78781_4.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78781_5.jpg","order":0}]},{"sku":78783,"images":[{"path":"http://www.66123123.com/Photos/bgyp4/78783_1.jpg","order":1},{"path":"http://www.66123123.com/Photos/bgyp4/78783_2.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78783_3.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78783_4.jpg","order":0}]},{"sku":78785,"images":[{"path":"http://www.66123123.com/Photos/bgyp4/78785_5.jpg","order":1},{"path":"http://www.66123123.com/Photos/bgyp4/78785_4.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78785_3.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78785_2.jpg","order":0}]},{"sku":78787,"images":[{"path":"http://www.66123123.com/Photos/bgyp4/78787_5.jpg","order":1},{"path":"http://www.66123123.com/Photos/bgyp4/78787_4.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78787_3.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78787_2.jpg","order":0}]},{"sku":78788,"images":[{"path":"http://www.66123123.com/Photos/bgyp4/78788_3.jpg","order":1},{"path":"http://www.66123123.com/Photos/bgyp4/78788_2.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78788_5.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78788_4.jpg","order":0}]},{"sku":78789,"images":[{"path":"http://www.66123123.com/Photos/bgyp4/78789_4.jpg","order":1},{"path":"http://www.66123123.com/Photos/bgyp4/78789_5.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78789_3.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78789_2.jpg","order":0}]},{"sku":78791,"images":[{"path":"http://www.66123123.com/Photos/bgyp4/78791_2.jpg","order":1},{"path":"http://www.66123123.com/Photos/bgyp4/78791_3.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78791_4.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78791_5.jpg","order":0}]},{"sku":78792,"images":[{"path":"http://www.66123123.com/Photos/bgyp4/78792_5.jpg","order":1},{"path":"http://www.66123123.com/Photos/bgyp4/78792_4.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78792_3.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78792_2.jpg","order":0}]},{"sku":78793,"images":[{"path":"http://www.66123123.com/Photos/bgyp4/78793_5.jpg","order":1},{"path":"http://www.66123123.com/Photos/bgyp4/78793_4.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78793_3.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78793_2.jpg","order":0}]},{"sku":78794,"images":[{"path":"http://www.66123123.com/Photos/bgyp4/78794_3.jpg","order":1},{"path":"http://www.66123123.com/Photos/bgyp4/78794_5.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78794_4.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78794_2.jpg","order":0}]},{"sku":78795,"images":[{"path":"http://www.66123123.com/Photos/bgyp4/78795_5.jpg","order":1},{"path":"http://www.66123123.com/Photos/bgyp4/78795_4.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78795_2.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp4/78795_3.jpg","order":0}]},{"sku":129563,"images":[{"path":"http://www.66123123.com/Photos/bgyp5/28848_detail_0.jpg","order":1},{"path":"http://www.66123123.com/Photos/bgyp5/28848_detail_1.png","order":1},{"path":"http://www.66123123.com/Photos/bgyp5/28848_0.jpg","order":1},{"path":"http://www.66123123.com/Photos/bgyp5/28848_1.jpg","order":1},{"path":"http://www.66123123.com/Photos/bgyp5/28848_2.jpg","order":1},{"path":"http://www.66123123.com/Photos/bgyp5/28848_3.jpg","order":1},{"path":"http://www.66123123.com/Photos/bgyp5/28848_4.jpg","order":1}]},{"sku":129564,"images":[{"path":"http://www.66123123.com/Photos/bgyp5/28857_detail_0.jpg","order":1},{"path":"http://www.66123123.com/Photos/bgyp5/28857_0.png","order":1},{"path":"http://www.66123123.com/Photos/bgyp5/28857_1.png","order":1},{"path":"http://www.66123123.com/Photos/bgyp5/28857_2.png","order":1},{"path":"http://www.66123123.com/Photos/bgyp5/28857_3.png","order":1},{"path":"http://www.66123123.com/Photos/bgyp5/28857_4.png","order":1}]},{"sku":129565,"images":[{"path":"http://www.66123123.com/Photos/bgyp5/28861_detail_0.jpg","order":1},{"path":"http://www.66123123.com/Photos/bgyp5/28861_0.png","order":1},{"path":"http://www.66123123.com/Photos/bgyp5/28861_1.png","order":1},{"path":"http://www.66123123.com/Photos/bgyp5/28861_2.png","order":1},{"path":"http://www.66123123.com/Photos/bgyp5/28861_3.png","order":1},{"path":"http://www.66123123.com/Photos/bgyp5/28861_4.png","order":1}]},{"sku":129561,"images":[{"path":"http://www.66123123.com/Photos/bgyp5/28844_detail_0.png","order":1},{"path":"http://www.66123123.com/Photos/bgyp5/28844_detail_1.jpg","order":1},{"path":"http://www.66123123.com/Photos/bgyp5/28844_0.jpg","order":1},{"path":"http://www.66123123.com/Photos/bgyp5/28844_1.jpg","order":1},{"path":"http://www.66123123.com/Photos/bgyp5/28844_2.jpg","order":1},{"path":"http://www.66123123.com/Photos/bgyp5/28844_3.jpg","order":1},{"path":"http://www.66123123.com/Photos/bgyp5/28844_4.jpg","order":1}]},{"sku":129560,"images":[{"path":"http://www.66123123.com/Photos/bgyp5/28835_0.jpg","order":1},{"path":"http://www.66123123.com/Photos/bgyp5/28835_1.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp5/28835_2.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp5/28835_3.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp5/28835_4.jpg","order":0}]},{"sku":129562,"images":[{"path":"http://www.66123123.com/Photos/bgyp5/28845_0.jpg","order":1},{"path":"http://www.66123123.com/Photos/bgyp5/28845_1.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp5/28845_2.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp5/28845_3.jpg","order":0},{"path":"http://www.66123123.com/Photos/bgyp5/28845_4.jpg","order":0}]}]}
+I, [2018-08-10T11:42:58.300772 #13697]  INFO -- : 【2018-08-10 11:42:58】 访问电商接口：http://test.66123123.com:8002/product/prices?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=78107
+I, [2018-08-10T11:42:58.301054 #13697]  INFO -- : 返回：{"success":true,"result":[{"sku":78107,"price":6499.0000,"mall_price":6499.00}]}
+I, [2018-08-10T11:49:06.121559 #13697]  INFO -- : 【2018-08-10 11:49:06】 访问电商接口：http://test.66123123.com:8002/product/prices?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=78107
+I, [2018-08-10T11:49:06.121919 #13697]  INFO -- : 返回：{"success":true,"result":[{"sku":78107,"price":6499.0000,"mall_price":6499.00}]}
+I, [2018-08-10T11:49:30.911395 #13283]  INFO -- : 【2018-08-10 11:49:30】 访问电商接口：http://test.66123123.com:8002/product/prices?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=78107%2C78108%2C78109%2C78110%2C78179%2C78186%2C78188%2C78190%2C78193%2C78527%2C78528%2C78529%2C78530%2C78531%2C78532%2C78533%2C78534%2C78535%2C78540%2C78591%2C78771%2C78772%2C78773%2C78775%2C78777%2C78781%2C78783%2C78785%2C78787%2C78788%2C78789%2C78790%2C78791%2C78792%2C78793%2C78794%2C78795%2C129560%2C129561%2C129562%2C129563%2C129564%2C129565
+I, [2018-08-10T11:49:30.911543 #13283]  INFO -- : 返回：{"success":true,"result":[{"sku":78107,"price":6499.0000,"mall_price":6499.00},{"sku":78108,"price":7099.0000,"mall_price":7099.00},{"sku":78109,"price":7199.0000,"mall_price":7199.00},{"sku":78110,"price":7399.0000,"mall_price":7399.00},{"sku":78179,"price":9299.0000,"mall_price":9299.00},{"sku":78186,"price":11990.0000,"mall_price":11990.00},{"sku":78188,"price":9999.0000,"mall_price":9999.00},{"sku":78190,"price":11390.0000,"mall_price":11390.00},{"sku":78193,"price":12999.0000,"mall_price":12999.00},{"sku":78527,"price":13399.0000,"mall_price":13399.00},{"sku":78528,"price":7799.0000,"mall_price":7799.00},{"sku":78529,"price":8390.0000,"mall_price":8390.00},{"sku":78530,"price":8490.0000,"mall_price":8490.00},{"sku":78531,"price":8899.0000,"mall_price":8899.00},{"sku":78532,"price":9200.0000,"mall_price":9200.00},{"sku":78533,"price":9300.0000,"mall_price":9300.00},{"sku":78534,"price":9200.0000,"mall_price":9200.00},{"sku":78535,"price":11999.0000,"mall_price":11999.00},{"sku":78540,"price":13990.0000,"mall_price":13990.00},{"sku":78591,"price":5450.0000,"mall_price":5450.00},{"sku":78771,"price":6750.0000,"mall_price":6750.00},{"sku":78772,"price":7099.0000,"mall_price":7099.00},{"sku":78773,"price":7199.0000,"mall_price":7199.00},{"sku":78775,"price":7399.0000,"mall_price":7399.00},{"sku":78777,"price":3499.0000,"mall_price":3499.00},{"sku":78781,"price":3599.0000,"mall_price":3599.00},{"sku":78783,"price":3499.0000,"mall_price":3499.00},{"sku":78785,"price":3899.0000,"mall_price":3899.00},{"sku":78787,"price":3899.0000,"mall_price":3899.00},{"sku":78788,"price":3999.0000,"mall_price":3999.00},{"sku":78789,"price":3999.0000,"mall_price":3999.00},{"sku":78790,"price":3999.0000,"mall_price":3999.00},{"sku":78791,"price":4099.0000,"mall_price":4099.00},{"sku":78792,"price":4099.0000,"mall_price":4099.00},{"sku":78793,"price":4099.0000,"mall_price":4099.00},{"sku":78794,"price":4399.0000,"mall_price":4399.00},{"sku":78795,"price":4399.0000,"mall_price":4399.00},{"sku":129560,"price":4049.6800,"mall_price":4049.68},{"sku":129561,"price":5398.8300,"mall_price":5398.83},{"sku":129562,"price":4870.3200,"mall_price":4870.32},{"sku":129563,"price":3931.4900,"mall_price":3931.49},{"sku":129564,"price":5339.7400,"mall_price":5339.74},{"sku":129565,"price":5199.2500,"mall_price":5199.25}]}
+I, [2018-08-10T11:49:46.984468 #13697]  INFO -- : 【2018-08-10 11:49:46】 访问电商接口：http://test.66123123.com:8002/product/prices?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=78108
+I, [2018-08-10T11:49:46.984542 #13697]  INFO -- : 返回：{"success":true,"result":[{"sku":78108,"price":7099.0000,"mall_price":7099.00}]}
+I, [2018-08-10T11:49:57.979088 #13697]  INFO -- : 【2018-08-10 11:49:57】 访问电商接口：http://test.66123123.com:8002/product/shelf_states?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=78107
+I, [2018-08-10T11:49:57.979169 #13697]  INFO -- : 返回：{"success":true,"result":[{"sku":78107,"state":1}]}
+I, [2018-08-10T11:50:20.558228 #13697]  INFO -- : 【2018-08-10 11:50:20】 访问电商接口：http://test.66123123.com:8002/product/prices?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=129563
+I, [2018-08-10T11:50:20.558329 #13697]  INFO -- : 返回：{"success":true,"result":[{"sku":129563,"price":3931.4900,"mall_price":3931.49}]}
+I, [2018-08-10T11:50:23.899473 #13697]  INFO -- : 【2018-08-10 11:50:23】 访问电商接口：http://test.66123123.com:8002/product/shelf_states?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=129563
+I, [2018-08-10T11:50:23.900057 #13697]  INFO -- : 返回：{"success":true,"result":[{"sku":129563,"state":1}]}
+I, [2018-08-10T11:50:23.948747 #13697]  INFO -- : 【2018-08-10 11:50:23】 访问电商接口：http://test.66123123.com:8002/product/shelf_states?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=129564
+I, [2018-08-10T11:50:23.948839 #13697]  INFO -- : 返回：{"success":true,"result":[{"sku":129564,"state":1}]}
+I, [2018-08-10T11:50:23.978016 #13697]  INFO -- : 【2018-08-10 11:50:23】 访问电商接口：http://test.66123123.com:8002/product/shelf_states?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=129565
+I, [2018-08-10T11:50:23.978089 #13697]  INFO -- : 返回：{"success":true,"result":[{"sku":129565,"state":1}]}
+I, [2018-08-10T11:50:23.986371 #13697]  INFO -- : 【2018-08-10 11:50:23】 访问电商接口：http://test.66123123.com:8002/product/prices?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=129564
+I, [2018-08-10T11:50:23.986456 #13697]  INFO -- : 返回：{"success":true,"result":[{"sku":129564,"price":5339.7400,"mall_price":5339.74}]}
+I, [2018-08-10T11:50:23.997691 #13697]  INFO -- : 【2018-08-10 11:50:23】 访问电商接口：http://test.66123123.com:8002/product/prices?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=129563
+I, [2018-08-10T11:50:23.998127 #13697]  INFO -- : 返回：{"success":true,"result":[{"sku":129563,"price":3931.4900,"mall_price":3931.49}]}
+I, [2018-08-10T11:50:24.011905 #13697]  INFO -- : 【2018-08-10 11:50:24】 访问电商接口：http://test.66123123.com:8002/product/prices?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=129565
+I, [2018-08-10T11:50:24.011987 #13697]  INFO -- : 返回：{"success":true,"result":[{"sku":129565,"price":5199.2500,"mall_price":5199.25}]}
+I, [2018-08-10T11:50:25.835182 #13697]  INFO -- : 【2018-08-10 11:50:25】 访问电商接口：http://test.66123123.com:8002/product/shelf_states?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=129563
+I, [2018-08-10T11:50:25.835263 #13697]  INFO -- : 返回：{"success":true,"result":[{"sku":129563,"state":1}]}
+I, [2018-08-10T11:50:31.505850 #13697]  INFO -- : 【2018-08-10 11:50:31】 访问电商接口：http://test.66123123.com:8002/product/shelf_states?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=129565
+I, [2018-08-10T11:50:31.505958 #13697]  INFO -- : 返回：{"success":true,"result":[{"sku":129565,"state":1}]}
+I, [2018-08-10T11:50:31.580703 #13697]  INFO -- : 【2018-08-10 11:50:31】 访问电商接口：http://test.66123123.com:8002/product/shelf_states?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=129564
+I, [2018-08-10T11:50:31.580801 #13697]  INFO -- : 返回：{"success":true,"result":[{"sku":129564,"state":1}]}
+I, [2018-08-10T11:50:31.906684 #13697]  INFO -- : 【2018-08-10 11:50:31】 访问电商接口：http://test.66123123.com:8002/product/prices?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=129565
+I, [2018-08-10T11:50:31.923969 #13697]  INFO -- : 返回：{"success":true,"result":[{"sku":129565,"price":5199.2500,"mall_price":5199.25}]}
+I, [2018-08-10T11:50:31.946729 #13697]  INFO -- : 【2018-08-10 11:50:31】 访问电商接口：http://test.66123123.com:8002/product/prices?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=129564
+I, [2018-08-10T11:50:31.946832 #13697]  INFO -- : 返回：{"success":true,"result":[{"sku":129564,"price":5339.7400,"mall_price":5339.74}]}
+I, [2018-08-10T11:50:37.396056 #13697]  INFO -- : 【2018-08-10 11:50:37】 访问电商接口：http://test.66123123.com:8002/product/stocks?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=129563&area=
+I, [2018-08-10T11:50:37.396153 #13697]  INFO -- : 返回：{"success":true,"result":[{"area":"","desc":"有货","sku":129563,"num":38}]}
+I, [2018-08-10T11:50:37.568621 #13697]  INFO -- : 【2018-08-10 11:50:37】 访问电商接口：http://test.66123123.com:8002/product/prices?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=129563
+I, [2018-08-10T11:50:37.568741 #13697]  INFO -- : 返回：{"success":true,"result":[{"sku":129563,"price":3931.4900,"mall_price":3931.49}]}
+I, [2018-08-10T11:50:42.439125 #13697]  INFO -- : 【2018-08-10 11:50:42】 访问电商接口：http://test.66123123.com:8002/product/stocks?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=129563&area=
+I, [2018-08-10T11:50:42.439228 #13697]  INFO -- : 返回：{"success":true,"result":[{"area":"","desc":"有货","sku":129563,"num":38}]}
+I, [2018-08-10T11:53:32.083319 #13697]  INFO -- : 【2018-08-10 11:53:32】 访问电商接口：http://test.66123123.com:8002/product/stocks?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=129563&area=
+I, [2018-08-10T11:53:32.083515 #13697]  INFO -- : 返回：{"success":true,"result":[{"area":"","desc":"有货","sku":129563,"num":38}]}
+I, [2018-08-10T11:53:32.283068 #13697]  INFO -- : 【2018-08-10 11:53:32】 访问电商接口：http://test.66123123.com:8002/product/prices?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=129563
+I, [2018-08-10T11:53:32.283166 #13697]  INFO -- : 返回：{"success":true,"result":[{"sku":129563,"price":3931.4900,"mall_price":3931.49}]}
+I, [2018-08-10T11:54:21.836867 #13283]  INFO -- : 【2018-08-10 11:54:21】 访问电商接口：http://test.66123123.com:8002/area/provinces?token=bd23df3f-f984-4840-8059-e2e0f7080daa
+I, [2018-08-10T11:54:21.837279 #13283]  INFO -- : 返回：{"result":{"北京":"1","黑龙江":"10","内蒙古":"11","江苏":"12","山东":"13","安徽":"14","浙江":"15","福建":"16","湖北":"17","湖南":"18","广东":"19","上海":"2","广西":"20","江西":"21","四川":"22","海南":"23","贵州":"24","云南":"25","西藏":"26","陕西":"27","甘肃":"28","青海":"29","天津":"3","宁夏":"30","新疆":"31","台湾":"32","重庆":"4","香港":"42","澳门":"43","河北":"5","山西":"6","河南":"7","辽宁":"8","钓鱼岛":"84","吉林":"9"},"success":true,"desc":""}
+I, [2018-08-10T11:54:21.888357 #13283]  INFO -- : 【2018-08-10 11:54:21】 访问电商接口：http://test.66123123.com:8002/area/cities?token=bd23df3f-f984-4840-8059-e2e0f7080daa&id=6
+I, [2018-08-10T11:54:21.888733 #13283]  INFO -- : 返回：{"result":{"太原市":"303","长治市":"3074","大同市":"309","阳泉市":"318","晋城市":"325","朔州市":"330","晋中市":"336","忻州市":"350","吕梁市":"368","临汾市":"379","运城市":"398"},"success":true,"desc":""}
+I, [2018-08-10T11:54:21.935826 #13283]  INFO -- : 【2018-08-10 11:54:21】 访问电商接口：http://test.66123123.com:8002/area/getCounty?token=bd23df3f-f984-4840-8059-e2e0f7080daa&id=303
+I, [2018-08-10T11:54:21.936050 #13283]  INFO -- : 返回：{"result":{"阳曲县":"304","古交市":"305","娄烦县":"306","清徐县":"307","小店区":"36780","迎泽区":"36781","晋源区":"36782","万柏林区":"36783","尖草坪区":"36784","杏花岭区":"36785"},"success":true,"desc":""}
+I, [2018-08-10T11:55:06.637051 #13697]  INFO -- : 【2018-08-10 11:55:06】 访问电商接口：http://test.66123123.com:8002/product/stocks?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=129563&area=6_303_36780
+I, [2018-08-10T11:55:06.637279 #13697]  INFO -- : 返回：{"success":true,"result":[{"area":"6_303_36780","desc":"有货","sku":129563,"num":38}]}
+I, [2018-08-10T11:55:07.806178 #13697]  INFO -- : 【2018-08-10 11:55:07】 访问电商接口：http://test.66123123.com:8002/product/prices?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=129563
+I, [2018-08-10T11:55:07.806267 #13697]  INFO -- : 返回：{"success":true,"result":[{"sku":129563,"price":3931.4900,"mall_price":3931.49}]}
+I, [2018-08-10T11:58:38.153838 #13697]  INFO -- : 【2018-08-10 11:58:38】 访问电商接口：http://test.66123123.com:8002/product/prices?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=129563
+I, [2018-08-10T11:58:38.154242 #13697]  INFO -- : 返回：{"success":true,"result":[{"sku":129563,"price":3931.4900,"mall_price":3931.49}]}
+I, [2018-08-10T11:58:39.137585 #13697]  INFO -- : 【2018-08-10 11:58:39】 访问电商接口：http://test.66123123.com:8002/product/stocks?token=bd23df3f-f984-4840-8059-e2e0f7080daa&sku=129563&area=6_303_36780
+I, [2018-08-10T11:58:39.137727 #13697]  INFO -- : 返回：{"success":true,"result":[{"area":"6_303_36780","desc":"有货","sku":129563,"num":38}]}
+I, [2018-08-10T11:58:44.881101 #13697]  INFO -- : 【2018-08-10 11:58:44】 访问电商接口：http://test.66123123.com:8002/order/submit?token=bd23df3f-f984-4840-8059-e2e0f7080daa&yggc_order=ab9f1d2c7d&sku=%5B%7B%22sku%22%3A%22129563%22%2C%22num%22%3A1%2C%22price%22%3A3931.49%7D%5D&name=%E6%B5%8B%E8%AF%95%E8%AE%A2%E5%8D%95&province=6&city=303&county=36780&address=%E5%B1%B1%E8%A5%BF+%E5%A4%AA%E5%8E%9F%E5%B8%82+%E5%B0%8F%E5%BA%97%E5%8C%BA+%E6%B5%8B%E8%AF%95%E8%AE%A2%E5%8D%95&zip=510000&phone=&mobile=15930153606&email=cgr123%40qq.com&remark=&invoice_type=1&invoice_title=%E6%99%AE%E9%80%9A%E5%8F%91%E7%A5%A8%E6%8A%AC%E5%A4%B4%E4%BC%A0%E5%80%BC&payment=1&order_price=3931.49&freight=0&mode=1&invoice_org_code=913401007509937266&dep_name=test&invoice_mobile=&invoice_receipt_address=
+I, [2018-08-10T11:58:44.881400 #13697]  INFO -- : 返回：{"success":true,"result":{"mall_order_id":380048,"sku":[{"sku":129563,"num":1,"price":3931.4900}],"orderPrice":3931.49,"freight":0}}
+I, [2018-08-10T13:31:55.365238 #13697]  INFO -- : 【2018-08-10 13:31:55】 访问电商接口：http://test.66123123.com:8002/order/confirm?token=bd23df3f-f984-4840-8059-e2e0f7080daa&order_id=380048
+I, [2018-08-10T13:31:55.366518 #13697]  INFO -- : {失败}EmallResult.new
+I, [2018-08-10T13:31:55.366640 #13697]  INFO -- : 返回：

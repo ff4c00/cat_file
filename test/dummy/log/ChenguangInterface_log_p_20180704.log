@@ -1,0 +1,63 @@
+# Logfile created on 2018-07-04 14:11:48 by logger.rb/56438
+I, [2018-07-04T14:11:48.972508 #5286]  INFO -- : 【2018-07-04 14:11:48】 访问电商接口：http://api.colipu.com:10145/v0/api/area/provinces?token=eab4082f-1fac-4b92-ae0d-df2f58f0b919
+I, [2018-07-04T14:11:48.972579 #5286]  INFO -- : 返回：{"success":true,"desc":"","result":{"158":"山西"}}
+I, [2018-07-04T14:13:08.425417 #5909]  INFO -- : 【2018-07-04 14:13:08】 访问电商接口：http://api.colipu.com:10145/v0/api/area/provinces?token=eab4082f-1fac-4b92-ae0d-df2f58f0b919
+I, [2018-07-04T14:13:08.427242 #5909]  INFO -- : 返回：{"success":true,"desc":"","result":{"158":"山西"}}
+I, [2018-07-04T14:13:34.390506 #5909]  INFO -- : 【2018-07-04 14:13:34】 访问电商接口：http://api.colipu.com:10145/v0/api/area/provinces?token=eab4082f-1fac-4b92-ae0d-df2f58f0b919
+I, [2018-07-04T14:13:34.390587 #5909]  INFO -- : 返回：{"success":true,"desc":"","result":{"158":"山西"}}
+I, [2018-07-04T14:13:46.984559 #6008]  INFO -- : 【2018-07-04 14:13:46】 访问电商接口：http://api.colipu.com:10145/v0/api/area/provinces?token=eab4082f-1fac-4b92-ae0d-df2f58f0b919
+I, [2018-07-04T14:13:46.984652 #6008]  INFO -- : 返回：{"success":true,"desc":"","result":{"158":"山西"}}
+I, [2018-07-04T14:57:53.790175 #6008]  INFO -- : 【2018-07-04 14:57:53】 访问电商接口：http://api.colipu.com:10145/v0/api/area/provinces?token=eab4082f-1fac-4b92-ae0d-df2f58f0b919
+I, [2018-07-04T14:57:53.792678 #6008]  INFO -- : 返回：{"success":true,"desc":"","result":{"山西":"158"}}
+I, [2018-07-04T14:58:45.902393 #7978]  INFO -- : 【2018-07-04 14:58:45】 访问电商接口：http://api.colipu.com:10145/v0/api/area/provinces?token=eab4082f-1fac-4b92-ae0d-df2f58f0b919
+I, [2018-07-04T14:58:45.902473 #7978]  INFO -- : 返回：{"success":true,"desc":"","result":{"山西":"158"}}
+I, [2018-07-04T14:58:46.005931 #7978]  INFO -- : 【2018-07-04 14:58:46】 访问电商接口：http://api.colipu.com:10145/v0/api/area/cities?token=eab4082f-1fac-4b92-ae0d-df2f58f0b919&id=158
+I, [2018-07-04T14:58:46.006190 #7978]  INFO -- : 返回：{"success":true,"desc":"","result":{"太原":"348"}}
+I, [2018-07-04T14:58:46.108476 #7978]  INFO -- : 【2018-07-04 14:58:46】 访问电商接口：http://api.colipu.com:10145/v0/api/area/getCounty?token=eab4082f-1fac-4b92-ae0d-df2f58f0b919&id=348
+I, [2018-07-04T14:58:46.108757 #7978]  INFO -- : 返回：{"success":true,"desc":"","result":{"综改示范区":"349"}}
+I, [2018-07-04T14:59:26.485522 #8043]  INFO -- : 【2018-07-04 14:59:26】 访问电商接口：http://api.colipu.com:10145/v0/api/area/provinces?token=eab4082f-1fac-4b92-ae0d-df2f58f0b919
+I, [2018-07-04T14:59:26.486092 #8043]  INFO -- : 返回：{"success":true,"desc":"","result":{"山西":"158"}}
+I, [2018-07-04T14:59:36.656629 #8043]  INFO -- : 【2018-07-04 14:59:36】 访问电商接口：http://api.colipu.com:10145/v0/api/area/cities?token=eab4082f-1fac-4b92-ae0d-df2f58f0b919&id=158
+I, [2018-07-04T14:59:36.656926 #8043]  INFO -- : 返回：{"success":true,"desc":"","result":{"太原":"348"}}
+I, [2018-07-04T14:59:50.901870 #8043]  INFO -- : 【2018-07-04 14:59:50】 访问电商接口：http://api.colipu.com:10145/v0/api/area/getCounty?token=eab4082f-1fac-4b92-ae0d-df2f58f0b919&id=348
+I, [2018-07-04T14:59:50.902271 #8043]  INFO -- : 返回：{"success":true,"desc":"","result":{"综改示范区":"349"}}
+I, [2018-07-04T15:14:35.444625 #8043]  INFO -- : 【2018-07-04 15:14:35】 访问电商接口：http://api.colipu.com:10145/v0/api/area/getCounty?token=eab4082f-1fac-4b92-ae0d-df2f58f0b919&id=348
+I, [2018-07-04T15:14:35.451356 #8043]  INFO -- : 返回：{"success":true,"desc":"","result":{"小店区":"349","杏花岭区":"402","迎泽区":"627","小店":"1268","杏花岭":"1269","榆次":"1270","万柏林":"1299","迎泽":"1300","尖草坪区":"1391","晋源":"1451","阳曲县":"2214","古交市":"2215","娄烦县":"2216","清徐县":"2217","高新":"4091"}}
+I, [2018-07-04T15:15:16.763199 #8728]  INFO -- : 【2018-07-04 15:15:16】 访问电商接口：http://api.colipu.com:10145/v0/api/area/provinces?token=eab4082f-1fac-4b92-ae0d-df2f58f0b919
+I, [2018-07-04T15:15:16.763968 #8728]  INFO -- : 返回：{"success":true,"desc":"","result":{"山西":"158"}}
+I, [2018-07-04T15:15:16.869831 #8728]  INFO -- : 【2018-07-04 15:15:16】 访问电商接口：http://api.colipu.com:10145/v0/api/area/cities?token=eab4082f-1fac-4b92-ae0d-df2f58f0b919&id=158
+I, [2018-07-04T15:15:16.870349 #8728]  INFO -- : 返回：{"success":true,"desc":"","result":{"太原":"348"}}
+I, [2018-07-04T15:15:16.982937 #8728]  INFO -- : 【2018-07-04 15:15:16】 访问电商接口：http://api.colipu.com:10145/v0/api/area/getCounty?token=eab4082f-1fac-4b92-ae0d-df2f58f0b919&id=348
+I, [2018-07-04T15:15:16.983499 #8728]  INFO -- : 返回：{"success":true,"desc":"","result":{"小店区":"349","杏花岭区":"402","迎泽区":"627","小店":"1268","杏花岭":"1269","榆次":"1270","万柏林":"1299","迎泽":"1300","尖草坪区":"1391","晋源":"1451","阳曲县":"2214","古交市":"2215","娄烦县":"2216","清徐县":"2217","高新":"4091"}}
+I, [2018-07-04T16:04:59.350075 #7217]  INFO -- : 【2018-07-04 16:04:59】 访问电商接口：http://api.colipu.com:10145/v0/api/product/prices?token=eab4082f-1fac-4b92-ae0d-df2f58f0b919&sku=408067
+I, [2018-07-04T16:04:59.350360 #7217]  INFO -- : 返回：{"success":true,"desc":"","result":[{"Id":5006,"market_price":37.800000,"mall_price":32.900000,"price":32.900000,"AreaCode":"*","CustomerCode":"*","sku":"408067"}]}
+I, [2018-07-04T16:04:59.968719 #7217]  INFO -- : 【2018-07-04 16:04:59】 访问电商接口：http://api.colipu.com:10145/v0/api/product/prices?token=eab4082f-1fac-4b92-ae0d-df2f58f0b919&sku=1036163
+I, [2018-07-04T16:04:59.968858 #7217]  INFO -- : 返回：{"success":true,"desc":"","result":[{"Id":2526,"market_price":2299.000000,"mall_price":1805.000000,"price":1805.000000,"AreaCode":"*","CustomerCode":"*","sku":"1036163"}]}
+I, [2018-07-04T16:05:47.588130 #7217]  INFO -- : 【2018-07-04 16:05:47】 访问电商接口：http://api.colipu.com:10145/v0/api/product/prices?token=eab4082f-1fac-4b92-ae0d-df2f58f0b919&sku=408067
+I, [2018-07-04T16:05:47.588502 #7217]  INFO -- : 返回：{"success":true,"desc":"","result":[{"Id":5006,"market_price":37.800000,"mall_price":32.900000,"price":32.900000,"AreaCode":"*","CustomerCode":"*","sku":"408067"}]}
+I, [2018-07-04T16:05:48.277124 #7217]  INFO -- : 【2018-07-04 16:05:48】 访问电商接口：http://api.colipu.com:10145/v0/api/product/prices?token=eab4082f-1fac-4b92-ae0d-df2f58f0b919&sku=1036163
+I, [2018-07-04T16:05:48.277582 #7217]  INFO -- : 返回：{"success":true,"desc":"","result":[{"Id":2526,"market_price":2299.000000,"mall_price":1805.000000,"price":1805.000000,"AreaCode":"*","CustomerCode":"*","sku":"1036163"}]}
+I, [2018-07-04T16:53:48.237619 #7217]  INFO -- : 【2018-07-04 16:53:48】 访问电商接口：http://api.colipu.com:10145/v0/api/product/prices?token=eab4082f-1fac-4b92-ae0d-df2f58f0b919&sku=408067
+I, [2018-07-04T16:53:48.238178 #7217]  INFO -- : 返回：{"success":true,"desc":"","result":[{"Id":5006,"market_price":37.800000,"mall_price":32.900000,"price":32.900000,"AreaCode":"*","CustomerCode":"*","sku":"408067"}]}
+I, [2018-07-04T16:53:48.552291 #7217]  INFO -- : 【2018-07-04 16:53:48】 访问电商接口：http://api.colipu.com:10145/v0/api/product/prices?token=eab4082f-1fac-4b92-ae0d-df2f58f0b919&sku=1036163
+I, [2018-07-04T16:53:48.552757 #7217]  INFO -- : 返回：{"success":true,"desc":"","result":[{"Id":2526,"market_price":2299.000000,"mall_price":1805.000000,"price":1805.000000,"AreaCode":"*","CustomerCode":"*","sku":"1036163"}]}
+I, [2018-07-04T17:10:12.006519 #7217]  INFO -- : 【2018-07-04 17:10:12】 访问电商接口：http://api.colipu.com:10145/v0/api/product/stocks?token=eab4082f-1fac-4b92-ae0d-df2f58f0b919&sku=408067&area=158_348_1268
+I, [2018-07-04T17:10:12.009009 #7217]  INFO -- : 返回：{"success":true,"result":[{"area":"158_348_1268","desc":"有货","sku":"408067","num":9999.00}],"resultMessage":null,"requestId":"9324205c-235f-4b61-9e09-e7db520c6815","resultCode":null}
+I, [2018-07-04T17:10:27.123429 #7217]  INFO -- : 【2018-07-04 17:10:27】 访问电商接口：http://api.colipu.com:10145/v0/api/product/stocks?token=eab4082f-1fac-4b92-ae0d-df2f58f0b919&sku=1036163&area=158_348_1268
+I, [2018-07-04T17:10:27.123816 #7217]  INFO -- : 返回：{"success":true,"result":[{"area":"158_348_1268","desc":"有货","sku":"1036163","num":9999.00}],"resultMessage":null,"requestId":"62d24aa4-e588-4487-b239-c299061e4107","resultCode":null}
+I, [2018-07-04T17:10:32.784744 #7217]  INFO -- : 【2018-07-04 17:10:32】 访问电商接口：http://api.colipu.com:10145/v0/api/product/stocks?token=eab4082f-1fac-4b92-ae0d-df2f58f0b919&sku=1036163&area=158_348_1268
+I, [2018-07-04T17:10:32.785124 #7217]  INFO -- : 返回：{"success":true,"result":[{"area":"158_348_1268","desc":"有货","sku":"1036163","num":9999.00}],"resultMessage":null,"requestId":"b098735f-a49e-4f28-9614-2e1870498140","resultCode":null}
+I, [2018-07-04T17:11:36.874910 #7217]  INFO -- : 【2018-07-04 17:11:36】 访问电商接口：http://api.colipu.com:10145/v0/api/product/stocks?token=eab4082f-1fac-4b92-ae0d-df2f58f0b919&sku=408067&area=158_348_1268
+I, [2018-07-04T17:11:36.875258 #7217]  INFO -- : 返回：{"success":true,"result":[{"area":"158_348_1268","desc":"有货","sku":"408067","num":9999.00}],"resultMessage":null,"requestId":"891141f7-5747-4937-9448-eb21bf6184f5","resultCode":null}
+I, [2018-07-04T17:12:23.420597 #7217]  INFO -- : 【2018-07-04 17:12:23】 访问电商接口：http://api.colipu.com:10145/v0/api/product/prices?token=eab4082f-1fac-4b92-ae0d-df2f58f0b919&sku=408067
+I, [2018-07-04T17:12:23.421135 #7217]  INFO -- : 返回：{"success":true,"desc":"","result":[{"Id":5006,"market_price":37.800000,"mall_price":32.900000,"price":32.900000,"AreaCode":"*","CustomerCode":"*","sku":"408067"}]}
+I, [2018-07-04T17:12:25.336440 #7217]  INFO -- : 【2018-07-04 17:12:25】 访问电商接口：http://api.colipu.com:10145/v0/api/product/prices?token=eab4082f-1fac-4b92-ae0d-df2f58f0b919&sku=1036163
+I, [2018-07-04T17:12:25.337050 #7217]  INFO -- : 返回：{"success":true,"desc":"","result":[{"Id":2526,"market_price":2299.000000,"mall_price":1805.000000,"price":1805.000000,"AreaCode":"*","CustomerCode":"*","sku":"1036163"}]}
+I, [2018-07-04T17:12:26.437076 #7217]  INFO -- : 【2018-07-04 17:12:26】 访问电商接口：http://api.colipu.com:10145/v0/api/product/stocks?token=eab4082f-1fac-4b92-ae0d-df2f58f0b919&sku=408067&area=158_348_1268
+I, [2018-07-04T17:12:26.437467 #7217]  INFO -- : 返回：{"success":true,"result":[{"area":"158_348_1268","desc":"有货","sku":"408067","num":9999.00}],"resultMessage":null,"requestId":"b81f527a-2bcb-49a9-89f3-899a37f7e619","resultCode":null}
+I, [2018-07-04T17:12:28.956007 #7217]  INFO -- : 【2018-07-04 17:12:28】 访问电商接口：http://api.colipu.com:10145/v0/api/order/submit?token=eab4082f-1fac-4b92-ae0d-df2f58f0b919&yggc_order=964ae612b6&sku=%5B%7B%22sku%22%3A%22408067%22%2C%22num%22%3A1%2C%22price%22%3A32.9%7D%5D&name=%E9%98%B3%E5%85%89%E5%85%AC%E9%87%87&province=158&city=348&county=1268&address=%E5%B1%B1%E8%A5%BF+%E5%A4%AA%E5%8E%9F%E5%B8%82+%E5%B0%8F%E5%BA%97%E5%8C%BA+%E9%80%9A%E5%85%91%E5%A4%A7%E5%8E%A6&zip=510000&phone=84442456&mobile=15851398152&email=cgr123%40qq.com&remark=&invoice_type=2&invoice_title=%E5%8F%91%E7%A5%A8%E6%8A%AC%E5%A4%B4%EF%BC%9A%E4%BC%A0%E5%80%BC&payment=0&order_price=32.9&freight=0&mode=1&invoice_org_code=%E7%BB%9F%E4%B8%80%E4%BB%A3%E7%A0%81%EF%BC%9A%E4%BC%A0%E5%80%BC&dep_name=%E5%8C%97%E4%BA%AC%E6%B5%8B%E8%AF%95%E5%8D%95%E4%BD%8D&invoice_mobile=&invoice_receipt_address=&invoice_name=%E9%98%B3%E5%85%89%E5%85%AC%E9%87%87&invoice_phone=%E6%B3%A8%E5%86%8C%E7%94%B5%E8%AF%9D%EF%BC%9A%E4%BC%A0%E5%80%BC&invoice_bank=%E5%BC%80%E6%88%B7%E9%93%B6%E8%A1%8C%EF%BC%9A%E4%BC%A0%E5%80%BC&invoice_bank_code=%E5%BC%80%E6%88%B7%E8%B4%A6%E5%8F%B7%EF%BC%9A%E4%BC%A0%E5%80%BC&invoice_address=%E6%B3%A8%E5%86%8C%E5%9C%B0%E5%9D%80%EF%BC%9A%E4%BC%A0%E5%80%BC
+I, [2018-07-04T17:12:28.956282 #7217]  INFO -- : 返回：{"success":true,"desc":"","result":{"mall_order_id":"964ae612b6","orderPrice":32.9,"sku":[{"sku":"408067","num":1.0,"price":32.9}],"freight":0}}
+I, [2018-07-04T17:12:45.182521 #7217]  INFO -- : 【2018-07-04 17:12:45】 访问电商接口：http://api.colipu.com:10145/v0/api/product/prices?token=eab4082f-1fac-4b92-ae0d-df2f58f0b919&sku=408067
+I, [2018-07-04T17:12:45.182611 #7217]  INFO -- : 返回：{"success":true,"desc":"","result":[{"Id":5006,"market_price":37.800000,"mall_price":32.900000,"price":32.900000,"AreaCode":"*","CustomerCode":"*","sku":"408067"}]}
+I, [2018-07-04T17:13:54.537245 #7217]  INFO -- : 【2018-07-04 17:13:54】 访问电商接口：http://api.colipu.com:10145/v0/api/product/stocks?token=eab4082f-1fac-4b92-ae0d-df2f58f0b919&sku=1036163&area=158_348_1268
+I, [2018-07-04T17:13:54.537622 #7217]  INFO -- : 返回：{"success":true,"result":[{"area":"158_348_1268","desc":"有货","sku":"1036163","num":9999.00}],"resultMessage":null,"requestId":"f99c14f3-d5ac-4b64-917a-2c64061006bb","resultCode":null}

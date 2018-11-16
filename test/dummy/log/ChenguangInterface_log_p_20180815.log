@@ -1,0 +1,9 @@
+# Logfile created on 2018-08-15 16:21:24 by logger.rb/56438
+I, [2018-08-15T16:21:24.212606 #9606]  INFO -- : 【2018-08-15 16:21:24】 访问电商接口：http://api.colipu.com:10145/v0/api/product/shelf_states?token=eab4082f-1fac-4b92-ae0d-df2f58f0b919&sku=333014
+I, [2018-08-15T16:21:24.212684 #9606]  INFO -- : 返回：{"success":false,"desc":"token : eab4082f-1fac-4b92-ae0d-df2f58f0b919 已过期","result":null}
+I, [2018-08-15T16:23:28.003458 #9606]  INFO -- : 【2018-08-15 16:23:28】 访问电商接口：http://api.colipu.com:10145/v0/api/product/shelf_states?token=eab4082f-1fac-4b92-ae0d-df2f58f0b919&sku=333014
+I, [2018-08-15T16:23:28.005307 #9606]  INFO -- : 返回：{"success":false,"desc":"token : eab4082f-1fac-4b92-ae0d-df2f58f0b919 已过期","result":null}
+I, [2018-08-15T16:23:33.698952 #9606]  INFO -- : 【2018-08-15 16:23:33】 访问电商接口：http://api.colipu.com:10145/v0/api/product/shelf_states?token=eab4082f-1fac-4b92-ae0d-df2f58f0b919&sku=333123
+I, [2018-08-15T16:23:33.700348 #9606]  INFO -- : 返回：{"success":false,"desc":"token : eab4082f-1fac-4b92-ae0d-df2f58f0b919 已过期","result":null}
+I, [2018-08-15T16:23:34.153495 #9606]  INFO -- : 【2018-08-15 16:23:34】 访问电商接口：http://api.colipu.com:10145/v0/api/product/shelf_states?token=eab4082f-1fac-4b92-ae0d-df2f58f0b919&sku=333025
+I, [2018-08-15T16:23:34.153592 #9606]  INFO -- : 返回：{"success":false,"desc":"token : eab4082f-1fac-4b92-ae0d-df2f58f0b919 已过期","result":null}

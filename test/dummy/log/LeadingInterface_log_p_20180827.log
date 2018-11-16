@@ -1,0 +1,219 @@
+# Logfile created on 2018-08-27 17:15:00 by logger.rb/56438
+I, [2018-08-27T17:15:00.051394 #21053]  INFO -- : 【2018-08-27 17:15:00】 访问电商接口：http://test.66123123.com:8002/auth2/access_token?username=SXZGSC&password=bGVhZGluZ18yMDE4MDgwOV9zeHpnc2M%3D&timestamp=2018-08-27+17%3A14%3A59&sign=3c4c66678611ab9fc153f87d07e1c134
+I, [2018-08-27T17:15:00.051706 #21053]  INFO -- : 返回：{
+  "access_token": "bd23df3f-f984-4840-8059-e2e0f7080daa",
+  "expires_at": "2020-08-10 11:30:23",
+  "success": true
+}
+I, [2018-08-27T17:15:08.407367 #21053]  INFO -- : 【2018-08-27 17:15:08】 访问电商接口：http://test.66123123.com:8002/product/skus?token=bd23df3f-f984-4840-8059-e2e0f7080daa&catalog_id=sxzg_bxsjsj_45
+I, [2018-08-27T17:15:08.407714 #21053]  INFO -- : 返回：{"success":true,"result":["78107","78108","78109","78110","78179","78186","78188","78190","78193","78527","78528","78529","78530","78531","78532","78533","78534","78535","78540","78591","78771","78772","78773","78775","78777","78781","78783","78785","78787","78788","78789","78790","78791","78792","78793","78794","78795"]}
+I, [2018-08-27T17:15:09.583297 #21053]  INFO -- : 【2018-08-27 17:15:09】 访问电商接口：http://test.66123123.com:8002/product/skus?token=bd23df3f-f984-4840-8059-e2e0f7080daa&catalog_id=sxzg_tsjsj_90
+I, [2018-08-27T17:15:09.583606 #21053]  INFO -- : 返回：{"success":true,"result":["129560","129561","129562","129563","129564","129565","129568"]}
+I, [2018-08-27T17:15:38.901405 #21053]  INFO -- : 【2018-08-27 17:15:38】 访问电商接口：http://test.66123123.com:8002/product/get_pools?token=bd23df3f-f984-4840-8059-e2e0f7080daa
+I, [2018-08-27T17:15:38.901573 #21053]  INFO -- : 返回：{"success":true,"result":[{"name":"便携式计算机","id":"sxzg_bxsjsj_45"},{"name":"台式计算机","id":"sxzg_tsjsj_90"}]}
+I, [2018-08-27T17:17:04.795921 #21156]  INFO -- : 【2018-08-27 17:17:04】 访问电商接口：http://api.66123123.com:8008/auth2/access_token?username=SXZGSC&password=bGVhZGluZ18yMDE4MDgwOV9zeHpnc2M%3D&timestamp=2018-08-27+17%3A17%3A04&sign=152c156c0a09566f2a48366a043e893c
+I, [2018-08-27T17:17:04.796047 #21156]  INFO -- : 返回：{
+  "access_token": "15c79aa0-c87c-4c40-9520-0d8f3132f055",
+  "expires_at": "2020-08-22 14:58:01",
+  "success": true
+}
+I, [2018-08-27T17:17:14.950008 #21156]  INFO -- : 【2018-08-27 17:17:14】 访问电商接口：http://api.66123123.com:8008/product/skus?token=15c79aa0-c87c-4c40-9520-0d8f3132f055&catalog_id=sxzg_bxsjsj_45
+I, [2018-08-27T17:17:14.950154 #21156]  INFO -- : 返回：{"success":false,"desc":"您输入的池子编号不存在。"}
+I, [2018-08-27T17:17:15.067553 #21156]  INFO -- : 【2018-08-27 17:17:15】 访问电商接口：http://api.66123123.com:8008/product/skus?token=15c79aa0-c87c-4c40-9520-0d8f3132f055&catalog_id=sxzg_tsjsj_90
+I, [2018-08-27T17:17:15.067771 #21156]  INFO -- : 返回：{"success":false,"desc":"您输入的池子编号不存在。"}
+I, [2018-08-27T17:17:22.677954 #21156]  INFO -- : 【2018-08-27 17:17:22】 访问电商接口：http://api.66123123.com:8008/product/get_pools?token=15c79aa0-c87c-4c40-9520-0d8f3132f055
+I, [2018-08-27T17:17:22.678423 #21156]  INFO -- : 返回：{"success":true,"result":[{"name":"U盘","id":"sxzg_up_11"},{"name":"板夹","id":"sxzg_bj_69"},{"name":"报告夹","id":"sxzg_bgj_86"},{"name":"笔类","id":"sxzg_bl_34"},{"name":"笔刨","id":"sxzg_bp_76"},{"name":"笔芯","id":"sxzg_bx_51"},{"name":"便携相机","id":"sxzg_bxxj_51"},{"name":"触控一体机","id":"sxzg_ckytj_69"},{"name":"传真机","id":"sxzg_czj_17"},{"name":"传真纸","id":"sxzg_czz_66"},{"name":"存储卡","id":"sxzg_cck_31"},{"name":"打印纸","id":"sxzg_dyz_25"},{"name":"单电相机","id":"sxzg_ddxj_23"},{"name":"单反相机","id":"sxzg_dfxj_0"},{"name":"档案袋(盒)","id":"sxzg_dadh_65"},{"name":"电话机","id":"sxzg_dhj_27"},{"name":"电视机","id":"sxzg_dsj_6"},{"name":"电子白板","id":"sxzg_dzbb_81"},{"name":"读卡器","id":"sxzg_dkq_21"},{"name":"粉笔","id":"sxzg_fb_17"},{"name":"服务器","id":"sxzg_fwq_43"},{"name":"复印纸","id":"sxzg_fyz_75"},{"name":"会议音视频设备","id":"sxzg_hyyspsb_4"},{"name":"激光打印机","id":"sxzg_jgdyj_59"},{"name":"激光多功能一体机","id":"sxzg_jgdgnytj_56"},{"name":"名片册","id":"sxzg_mpc_12"},{"name":"墨盒","id":"sxzg_mh_4"},{"name":"墨水","id":"sxzg_ms_31"},{"name":"喷墨打印机","id":"sxzg_pmdyj_17"},{"name":"喷墨多功能一体机","id":"sxzg_pmdgnytj_42"},{"name":"票据打印机","id":"sxzg_pjdyj_80"},{"name":"其他打印设备","id":"sxzg_qtdysb_38"},{"name":"其他计算机配件","id":"sxzg_qtjsjpj_62"},{"name":"扫描仪","id":"sxzg_smy_14"},{"name":"色带","id":"sxzg_sd_75"},{"name":"色带架","id":"sxzg_sdj_58"},{"name":"摄像头","id":"sxzg_sxt_80"},{"name":"数码录像机","id":"sxzg_smlxj_94"},{"name":"速印机","id":"sxzg_syj_30"},{"name":"碎纸机","id":"sxzg_szj_18"},{"name":"碳带","id":"sxzg_td_31"},{"name":"碳粉","id":"sxzg_tf_72"},{"name":"条码打印机","id":"sxzg_tmdyj_55"},{"name":"投影仪","id":"sxzg_tyy_58"},{"name":"文件夹(袋)","id":"sxzg_wjjd_0"},{"name":"硒鼓","id":"sxzg_xg_2"},{"name":"橡皮","id":"sxzg_xp_94"},{"name":"移动硬盘","id":"sxzg_ydyp_42"},{"name":"硬盘","id":"sxzg_yp_22"},{"name":"针式打印机","id":"sxzg_zsdyj_12"}]}
+I, [2018-08-27T17:17:26.362292 #21156]  INFO -- : 【2018-08-27 17:17:26】 访问电商接口：http://api.66123123.com:8008/product/skus?token=15c79aa0-c87c-4c40-9520-0d8f3132f055&catalog_id=sxzg_bxsjsj_45
+I, [2018-08-27T17:17:26.362538 #21156]  INFO -- : 返回：{"success":false,"desc":"您输入的池子编号不存在。"}
+I, [2018-08-27T17:17:26.439336 #21156]  INFO -- : 【2018-08-27 17:17:26】 访问电商接口：http://api.66123123.com:8008/product/skus?token=15c79aa0-c87c-4c40-9520-0d8f3132f055&catalog_id=sxzg_tsjsj_90
+I, [2018-08-27T17:17:26.439716 #21156]  INFO -- : 返回：{"success":false,"desc":"您输入的池子编号不存在。"}
+I, [2018-08-27T17:17:26.489614 #21156]  INFO -- : 【2018-08-27 17:17:26】 访问电商接口：http://api.66123123.com:8008/product/skus?token=15c79aa0-c87c-4c40-9520-0d8f3132f055&catalog_id=sxzg_up_11
+I, [2018-08-27T17:17:26.490113 #21156]  INFO -- : 返回：{"success":true,"result":["14329","14717","15534","17283","18578","19018","20183","20553","20625","23707","24592","26495","26528","26529","26537","27184","27197","27204","27486","27593","27613","27773","27778","27837","27887","27890","27975","27985","28020","28031","28035","28059","28726","28788","28800","28810","28839","28861","30125","40422","42131","42132","42261","46277","52970","53714","61120","67314","67316","67317","67320","67323","67328","68122","76579","81056","84487","108229","108300","112058","112094","139601","151954","152646","152657","152676","152685","152699","152731","152738","152742","152989","152990","153046","157650","162026","163858","164179","168199","172443","175507","177014","177547","179675","179872","179875","179887","179890","180810","181079","181082","181704","187634","187807","190000","193154","196031","199679","200008","201806","203180","203181","205476","205522","205563","205608","206069","206713","207968","207991","207992","208000","210351","213506","214570","216430","219159","220788","220789","221007","221008","221009","221010","221350","222605","222606","222607","222608","222624","222625","222626","222627","222628","222629","222630","222631","222632","222633","222634","222635","226611","226612","226613","226614","226621","226622","226623","226624","226736","226737","226738","226739","226746","226747","226748","226749","226760","226761","226762","226763","226773","226774","226775","226776","226865","226866","226867","226868","226876","226877","226878","226879","245885","250166","250167","250168","250169","250170","250171","259415","259421","259422","275171"]}
+I, [2018-08-27T17:17:26.635905 #21156]  INFO -- : 【2018-08-27 17:17:26】 访问电商接口：http://api.66123123.com:8008/product/detail?token=15c79aa0-c87c-4c40-9520-0d8f3132f055&sku=14329
+I, [2018-08-27T17:17:26.636260 #21156]  INFO -- : 返回：{
+  "success": true,
+  "result": {
+    "sku": 14329,
+    "url": "http://www.66123123.com/Goods/GoodsDetail?id=14329",
+    "model": "CZ50 16G",
+    "weight": "未知",
+    "image_path": "http://www.66123123.com/Photos/bgyp3/14329_1.jpg",
+    "state": "1",
+    "brand_name": "闪迪",
+    "name": "闪迪 CZ50 16G 酷刃U盘",
+    "product_area": "中国",
+    "upc": "未知",
+    "unit": "个",
+    "category": "U盘",
+    "categoryId": "sxzg_up_11",
+    "service": "未知",
+    "introduction": "<div><img   src='http://www.66123123.com/Photos/bgyp183/14329_6.jpg' alt='' /><img   src='http://www.66123123.com/Photos/bgyp4/14329_5.jpg' alt='' /></div>",
+    "param": "<table border='1' class='Ptable' ><tr><th colspan='2' class='title'>基本信息</th></tr><tr><td class='name'>品牌</td><td class='val'>SanDisk</td></tr><tr><td class='name'>型号</td><td class='val'>CZ50</td></tr><tr><td class='name'>颜色</td><td class='val'>黑红</td></tr><tr><td class='name'>外壳材质</td><td class='val'>塑料</td></tr><tr><th colspan='2' class='title'>规格</th></tr><tr><td class='name'>容量</td><td class='val'>16G</td></tr><tr><td class='name'>指示灯</td><td class='val'>无</td></tr><tr><td class='name'>尺寸</td><td class='val'>41.5mm x 17.6mm x 7.4mm</td></tr><tr><td class='name'>重量</td><td class='val'>2.5g</td></tr></table>",
+    "ware": "闪迪 CZ50*1个",
+    "sale_actives": "未知",
+    "energy": "",
+    "protection": ""
+  }
+}
+I, [2018-08-27T17:18:40.923222 #21156]  INFO -- : 【2018-08-27 17:18:40】 访问电商接口：http://api.66123123.com:8008/product/skus?token=15c79aa0-c87c-4c40-9520-0d8f3132f055&catalog_id=sxzg_bxsjsj_45
+I, [2018-08-27T17:18:40.924716 #21156]  INFO -- : 返回：{"success":false,"desc":"您输入的池子编号不存在。"}
+I, [2018-08-27T17:18:40.983492 #21156]  INFO -- : 【2018-08-27 17:18:40】 访问电商接口：http://api.66123123.com:8008/product/skus?token=15c79aa0-c87c-4c40-9520-0d8f3132f055&catalog_id=sxzg_tsjsj_90
+I, [2018-08-27T17:18:40.983585 #21156]  INFO -- : 返回：{"success":false,"desc":"您输入的池子编号不存在。"}
+I, [2018-08-27T17:18:41.052386 #21156]  INFO -- : 【2018-08-27 17:18:41】 访问电商接口：http://api.66123123.com:8008/product/skus?token=15c79aa0-c87c-4c40-9520-0d8f3132f055&catalog_id=sxzg_up_11
+I, [2018-08-27T17:18:41.052497 #21156]  INFO -- : 返回：{"success":true,"result":["14329","14717","15534","17283","18578","19018","20183","20553","20625","23707","24592","26495","26528","26529","26537","27184","27197","27204","27486","27593","27613","27773","27778","27837","27887","27890","27975","27985","28020","28031","28035","28059","28726","28788","28800","28810","28839","28861","30125","40422","42131","42132","42261","46277","52970","53714","61120","67314","67316","67317","67320","67323","67328","68122","76579","81056","84487","108229","108300","112058","112094","139601","151954","152646","152657","152676","152685","152699","152731","152738","152742","152989","152990","153046","157650","162026","163858","164179","168199","172443","175507","177014","177547","179675","179872","179875","179887","179890","180810","181079","181082","181704","187634","187807","190000","193154","196031","199679","200008","201806","203180","203181","205476","205522","205563","205608","206069","206713","207968","207991","207992","208000","210351","213506","214570","216430","219159","220788","220789","221007","221008","221009","221010","221350","222605","222606","222607","222608","222624","222625","222626","222627","222628","222629","222630","222631","222632","222633","222634","222635","226611","226612","226613","226614","226621","226622","226623","226624","226736","226737","226738","226739","226746","226747","226748","226749","226760","226761","226762","226763","226773","226774","226775","226776","226865","226866","226867","226868","226876","226877","226878","226879","245885","250166","250167","250168","250169","250170","250171","259415","259421","259422","275171"]}
+I, [2018-08-27T17:18:41.132669 #21156]  INFO -- : 【2018-08-27 17:18:41】 访问电商接口：http://api.66123123.com:8008/product/detail?token=15c79aa0-c87c-4c40-9520-0d8f3132f055&sku=14329
+I, [2018-08-27T17:18:41.132861 #21156]  INFO -- : 返回：{
+  "success": true,
+  "result": {
+    "sku": 14329,
+    "url": "http://www.66123123.com/Goods/GoodsDetail?id=14329",
+    "model": "CZ50 16G",
+    "weight": "未知",
+    "image_path": "http://www.66123123.com/Photos/bgyp3/14329_1.jpg",
+    "state": "1",
+    "brand_name": "闪迪",
+    "name": "闪迪 CZ50 16G 酷刃U盘",
+    "product_area": "中国",
+    "upc": "未知",
+    "unit": "个",
+    "category": "U盘",
+    "categoryId": "sxzg_up_11",
+    "service": "未知",
+    "introduction": "<div><img   src='http://www.66123123.com/Photos/bgyp183/14329_6.jpg' alt='' /><img   src='http://www.66123123.com/Photos/bgyp4/14329_5.jpg' alt='' /></div>",
+    "param": "<table border='1' class='Ptable' ><tr><th colspan='2' class='title'>基本信息</th></tr><tr><td class='name'>品牌</td><td class='val'>SanDisk</td></tr><tr><td class='name'>型号</td><td class='val'>CZ50</td></tr><tr><td class='name'>颜色</td><td class='val'>黑红</td></tr><tr><td class='name'>外壳材质</td><td class='val'>塑料</td></tr><tr><th colspan='2' class='title'>规格</th></tr><tr><td class='name'>容量</td><td class='val'>16G</td></tr><tr><td class='name'>指示灯</td><td class='val'>无</td></tr><tr><td class='name'>尺寸</td><td class='val'>41.5mm x 17.6mm x 7.4mm</td></tr><tr><td class='name'>重量</td><td class='val'>2.5g</td></tr></table>",
+    "ware": "闪迪 CZ50*1个",
+    "sale_actives": "未知",
+    "energy": "",
+    "protection": ""
+  }
+}
+I, [2018-08-27T17:18:42.667452 #21156]  INFO -- : 【2018-08-27 17:18:42】 访问电商接口：http://api.66123123.com:8008/product/detail?token=15c79aa0-c87c-4c40-9520-0d8f3132f055&sku=14717
+I, [2018-08-27T17:18:42.667564 #21156]  INFO -- : 返回：{
+  "success": true,
+  "result": {
+    "sku": 14717,
+    "url": "http://www.66123123.com/Goods/GoodsDetail?id=14717",
+    "model": "DT100G3",
+    "weight": "未知",
+    "image_path": "http://www.66123123.com/Photos/bgyp1/14717_1.jpg",
+    "state": "1",
+    "brand_name": "金士顿",
+    "name": "金士顿 DT100G3 16GB USB3.0传速U盘",
+    "product_area": "未知",
+    "upc": "未知",
+    "unit": "个",
+    "category": "U盘",
+    "categoryId": "sxzg_up_11",
+    "service": "未知",
+    "introduction": "<div><img   src='http://www.66123123.com/Photos/bgyp4/14717_3.jpg' alt='' /></div>",
+    "param": "<table border='1' class='Ptable' ><tr><th colspan='2' class='title'>基本信息</th></tr><tr><td class='name'>品牌</td><td class='val'>金士顿</td></tr><tr><td class='name'>型号</td><td class='val'>DT100G3</td></tr><tr><td class='name'>颜色</td><td class='val'>黑色</td></tr><tr><td class='name'>外壳材质</td><td class='val'>塑料</td></tr><tr><th colspan='2' class='title'>规格</th></tr><tr><td class='name'>容量</td><td class='val'>16GB</td></tr><tr><td class='name'>尺寸</td><td class='val'>60*21.2*10mm</td></tr></table>",
+    "ware": "未知",
+    "sale_actives": "未知",
+    "energy": "",
+    "protection": ""
+  }
+}
+I, [2018-08-27T17:18:49.653956 #21156]  INFO -- : 【2018-08-27 17:18:49】 访问电商接口：http://api.66123123.com:8008/product/detail?token=15c79aa0-c87c-4c40-9520-0d8f3132f055&sku=15534
+I, [2018-08-27T17:18:49.654062 #21156]  INFO -- : 返回：{
+  "success": true,
+  "result": {
+    "sku": 15534,
+    "url": "http://www.66123123.com/Goods/GoodsDetail?id=15534",
+    "model": "CZ50",
+    "weight": "未知",
+    "image_path": "http://www.66123123.com/Photos/bgyp3/15534_1.jpg",
+    "state": "1",
+    "brand_name": "闪迪",
+    "name": "闪迪 CZ50 U盘 64G 黑红 接口：USB2.0 41.50mm*17.60mm*7.40mm",
+    "product_area": "中国大陆",
+    "upc": "未知",
+    "unit": "个",
+    "category": "U盘",
+    "categoryId": "sxzg_up_11",
+    "service": "未知",
+    "introduction": "<div><img   src='http://www.66123123.com/Photos/bgyp185/15534_6.jpg' alt='' /><img   src='http://www.66123123.com/Photos/bgyp4/15534_5.jpg' alt='' /></div>",
+    "param": "<table border='1' class='Ptable' ><tr><th colspan='2' class='title'>基本信息</th></tr><tr><td class='name'>品牌</td><td class='val'>闪迪</td></tr><tr><td class='name'>型号</td><td class='val'>CZ50</td></tr><tr><td class='name'>颜色</td><td class='val'>黑红</td></tr><tr><td class='name'>外壳材质</td><td class='val'>塑料</td></tr><tr><th colspan='2' class='title'>规格</th></tr><tr><td class='name'>容量</td><td class='val'>64GB</td></tr><tr><td class='name'>指示灯</td><td class='val'>无</td></tr><tr><td class='name'>尺寸</td><td class='val'>41.50mm x 17.60mm x 7.40mm</td></tr><tr><td class='name'>重量</td><td class='val'>2.5g</td></tr></table>",
+    "ware": "未知",
+    "sale_actives": "未知",
+    "energy": "",
+    "protection": ""
+  }
+}
+I, [2018-08-27T17:18:51.163949 #21156]  INFO -- : 【2018-08-27 17:18:51】 访问电商接口：http://api.66123123.com:8008/product/detail?token=15c79aa0-c87c-4c40-9520-0d8f3132f055&sku=17283
+I, [2018-08-27T17:18:51.164068 #21156]  INFO -- : 返回：{
+  "success": true,
+  "result": {
+    "sku": 17283,
+    "url": "http://www.66123123.com/Goods/GoodsDetail?id=17283",
+    "model": "",
+    "weight": "未知",
+    "image_path": "http://www.66123123.com/Photos/bgyp1/17283_1.jpg",
+    "state": "1",
+    "brand_name": "金士顿",
+    "name": "金士顿DTLPG3 32G USB3.0 硬件加密U盘",
+    "product_area": "未知",
+    "upc": "未知",
+    "unit": "个",
+    "category": "U盘",
+    "categoryId": "sxzg_up_11",
+    "service": "未知",
+    "introduction": "<div><img   src='http://www.66123123.com/Photos/bgyp2/17283_2.jpg' alt='' /></div>",
+    "param": "<table border='1' class='Ptable' ><tr><th colspan='2' class='title'>基本信息</th></tr><tr><td class='name'>品牌</td><td class='val'>金士顿</td></tr><tr><td class='name'>型号</td><td class='val'>DTLPG3</td></tr><tr><td class='name'>颜色</td><td class='val'>银</td></tr><tr><th colspan='2' class='title'>规格</th></tr><tr><td class='name'>容量</td><td class='val'>32G</td></tr></table>",
+    "ware": "未知",
+    "sale_actives": "未知",
+    "energy": "",
+    "protection": ""
+  }
+}
+I, [2018-08-27T17:18:55.272740 #21156]  INFO -- : 【2018-08-27 17:18:55】 访问电商接口：http://api.66123123.com:8008/product/detail?token=15c79aa0-c87c-4c40-9520-0d8f3132f055&sku=18578
+I, [2018-08-27T17:18:55.272842 #21156]  INFO -- : 返回：{
+  "success": true,
+  "result": {
+    "sku": 18578,
+    "url": "http://www.66123123.com/Goods/GoodsDetail?id=18578",
+    "model": "CZ50 32G",
+    "weight": "未知",
+    "image_path": "http://www.66123123.com/Photos/bgyp3/18578_1.jpg",
+    "state": "1",
+    "brand_name": "闪迪",
+    "name": "闪迪 CZ50 32G 酷刃U盘",
+    "product_area": "未知",
+    "upc": "未知",
+    "unit": "个",
+    "category": "U盘",
+    "categoryId": "sxzg_up_11",
+    "service": "未知",
+    "introduction": "<div><img   src='http://www.66123123.com/Photos/bgyp161/18578_6.jpg' alt='' /><img   src='http://www.66123123.com/Photos/bgyp4/18578_5.jpg' alt='' /></div>",
+    "param": "<table border='1' class='Ptable' ><tr><th colspan='2' class='title'>基本信息</th></tr><tr><td class='name'>品牌</td><td class='val'>SanDisk</td></tr><tr><td class='name'>型号</td><td class='val'>CZ50</td></tr><tr><td class='name'>颜色</td><td class='val'>红黑</td></tr><tr><td class='name'>外壳材质</td><td class='val'>塑料</td></tr><tr><th colspan='2' class='title'>规格</th></tr><tr><td class='name'>容量</td><td class='val'>32G</td></tr><tr><td class='name'>尺寸</td><td class='val'>41.50mm x 17.60mm x 7.40mm</td></tr><tr><td class='name'>重量</td><td class='val'>2.5g</td></tr></table>",
+    "ware": "未知",
+    "sale_actives": "未知",
+    "energy": "",
+    "protection": ""
+  }
+}
+I, [2018-08-27T17:18:56.672282 #21156]  INFO -- : 【2018-08-27 17:18:56】 访问电商接口：http://api.66123123.com:8008/product/detail?token=15c79aa0-c87c-4c40-9520-0d8f3132f055&sku=19018
+I, [2018-08-27T17:18:56.672371 #21156]  INFO -- : 返回：{
+  "success": true,
+  "result": {
+    "sku": 19018,
+    "url": "http://www.66123123.com/Goods/GoodsDetail?id=19018",
+    "model": "DT100G3",
+    "weight": "未知",
+    "image_path": "http://www.66123123.com/Photos/bgyp1/19018_4.jpg",
+    "state": "1",
+    "brand_name": "金士顿",
+    "name": "金士顿 DT100G3 64G USB3.0传速U盘",
+    "product_area": "未知",
+    "upc": "未知",
+    "unit": "个",
+    "category": "U盘",
+    "categoryId": "sxzg_up_11",
+    "service": "未知",
+    "introduction": "<div><img   src='http://www.66123123.com/Photos/bgyp4/19018_5.jpg' alt='' /></div>",
+    "param": "<table border='1' class='Ptable' ><tr><th colspan='2' class='title'>基本信息</th></tr><tr><td class='name'>品牌</td><td class='val'>金士顿</td></tr><tr><td class='name'>型号</td><td class='val'>DT100G3/64G</td></tr><tr><td class='name'>颜色</td><td class='val'>黑色</td></tr><tr><th colspan='2' class='title'>规格</th></tr><tr><td class='name'>容量</td><td class='val'>64G</td></tr><tr><td class='name'>尺寸</td><td class='val'>60mm x 21.2mm x10mm</td></tr></table>",
+    "ware": "未知",
+    "sale_actives": "未知",
+    "energy": "",
+    "protection": ""
+  }
+}

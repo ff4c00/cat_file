@@ -1,0 +1,14 @@
+<% return  error_message(message: @res[1]) unless @res[0]%>
+<div class="jumbotron">
+  <h1>文件详情</h1>
+  <p>文件名称: <%= @res[1][:file_name] %></p>
+  <p>文件大小: <%= @res[1][:file_size] %>KB</p>
+</div>
+
+<div class="file-datail">
+  <% @res[1][:file_detail].each do |line|%>
+    <div class="file-datail-line">
+      <%= line %>
+    </div>
+  <% end %>
+</div>

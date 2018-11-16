@@ -1,0 +1,3 @@
+# Logfile created on 2018-08-17 15:26:46 by logger.rb/56438
+I, [2018-08-17T15:26:46.707146 #25200]  INFO -- : 【2018-08-17 15:26:46】 访问电商接口：http://omsstaples03.staplescn.com/BA/api/goods/product/getPrice?token=AC-B6ky3znuUWC-j0mrShhAIV&groupCode=9000001920&sku=1100121118EA
+I, [2018-08-17T15:26:46.707442 #25200]  INFO -- : 返回：{"success":true,"resultMessage":"OK","resultCode":"0","result":[{"skuId":"1100121118EA","bizPrice":"13.11","supplierPrice":"13.80","bizNakedPrice":"11.30","bizTaxPrice":"1.81","taxRate":"0.16"}]}

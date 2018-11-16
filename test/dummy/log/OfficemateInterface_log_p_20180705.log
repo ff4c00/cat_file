@@ -1,0 +1,45 @@
+# Logfile created on 2018-07-05 10:45:56 by logger.rb/56438
+I, [2018-07-05T10:45:56.237226 #5277]  INFO -- : 【2018-07-05 10:45:56】 访问电商接口：http://www.officemate.cn:8000/api/product/prices?token=a06d56610aed14157781ba8557d82c1e&sku=125721
+I, [2018-07-05T10:45:56.237287 #5277]  INFO -- : 返回：{"success":true,"result":[{"price":"5599.00","mall_price":"5599.00","sku":"125721"}]}
+I, [2018-07-05T10:46:01.450365 #5277]  INFO -- : 【2018-07-05 10:46:01】 访问电商接口：http://www.officemate.cn:8000/api/product/prices?token=a06d56610aed14157781ba8557d82c1e&sku=129847
+I, [2018-07-05T10:46:01.450657 #5277]  INFO -- : 返回：{"success":true,"result":[{"price":"4640.00","mall_price":"4899.00","sku":"129847"}]}
+I, [2018-07-05T10:46:03.567814 #5277]  INFO -- : 【2018-07-05 10:46:03】 访问电商接口：http://www.officemate.cn:8000/api/product/prices?token=a06d56610aed14157781ba8557d82c1e&sku=114579
+I, [2018-07-05T10:46:03.568093 #5277]  INFO -- : 返回：{"success":true,"result":[{"price":"548.90","mall_price":"548.90","sku":"114579"}]}
+I, [2018-07-05T10:46:04.133643 #5277]  INFO -- : 【2018-07-05 10:46:04】 访问电商接口：http://www.officemate.cn:8000/api/product/prices?token=a06d56610aed14157781ba8557d82c1e&sku=40434
+I, [2018-07-05T10:46:04.133891 #5277]  INFO -- : 返回：{"success":true,"result":[{"price":"1721.00","mall_price":"1721.00","sku":"40434"}]}
+I, [2018-07-05T10:47:33.797923 #5277]  INFO -- : 【2018-07-05 10:47:33】 访问电商接口：http://www.officemate.cn:8000/api/product/prices?token=a06d56610aed14157781ba8557d82c1e&sku=125721
+I, [2018-07-05T10:47:33.798144 #5277]  INFO -- : 返回：{"success":true,"result":[{"price":"5599.00","mall_price":"5599.00","sku":"125721"}]}
+I, [2018-07-05T10:47:33.976027 #5277]  INFO -- : 【2018-07-05 10:47:33】 访问电商接口：http://www.officemate.cn:8000/api/product/prices?token=a06d56610aed14157781ba8557d82c1e&sku=129847
+I, [2018-07-05T10:47:33.976091 #5277]  INFO -- : 返回：{"success":true,"result":[{"price":"4640.00","mall_price":"4899.00","sku":"129847"}]}
+I, [2018-07-05T10:47:36.436971 #5277]  INFO -- : 【2018-07-05 10:47:36】 访问电商接口：http://www.officemate.cn:8000/api/product/prices?token=a06d56610aed14157781ba8557d82c1e&sku=114579
+I, [2018-07-05T10:47:36.437293 #5277]  INFO -- : 返回：{"success":true,"result":[{"price":"548.90","mall_price":"548.90","sku":"114579"}]}
+I, [2018-07-05T10:47:36.934514 #5277]  INFO -- : 【2018-07-05 10:47:36】 访问电商接口：http://www.officemate.cn:8000/api/product/prices?token=a06d56610aed14157781ba8557d82c1e&sku=40434
+I, [2018-07-05T10:47:36.934604 #5277]  INFO -- : 返回：{"success":true,"result":[{"price":"1721.00","mall_price":"1721.00","sku":"40434"}]}
+I, [2018-07-05T11:01:30.397858 #5277]  INFO -- : 【2018-07-05 11:01:30】 访问电商接口：http://www.officemate.cn:8000/api/product/prices?token=a06d56610aed14157781ba8557d82c1e&sku=33214
+I, [2018-07-05T11:01:30.398144 #5277]  INFO -- : 返回：{"success":true,"result":[{"price":"1.52","mall_price":"1.52","sku":"33214"}]}
+I, [2018-07-05T11:02:51.723811 #5277]  INFO -- : 【2018-07-05 11:02:51】 访问电商接口：http://www.officemate.cn:8000/api/product/prices?token=a06d56610aed14157781ba8557d82c1e&sku=33214
+I, [2018-07-05T11:02:51.724091 #5277]  INFO -- : 返回：{"success":true,"result":[{"price":"1.52","mall_price":"1.52","sku":"33214"}]}
+I, [2018-07-05T11:03:34.280337 #8422]  INFO -- : 【2018-07-05 11:03:34】 访问电商接口：http://www.officemate.cn:8000/api/product/prices?token=a06d56610aed14157781ba8557d82c1e&sku=33214
+I, [2018-07-05T11:03:34.280721 #8422]  INFO -- : 返回：{"success":true,"result":[{"price":"1.52","mall_price":"1.52","sku":"33214"}]}
+I, [2018-07-05T11:08:25.560269 #8721]  INFO -- : 【2018-07-05 11:08:25】 访问电商接口：http://www.officemate.cn:8000/api/product/prices?token=a06d56610aed14157781ba8557d82c1e&sku=33214
+I, [2018-07-05T11:08:25.560580 #8721]  INFO -- : 返回：{"success":true,"result":[{"price":"1.52","mall_price":"1.52","sku":"33214"}]}
+I, [2018-07-05T11:15:17.331345 #8721]  INFO -- : 【2018-07-05 11:15:17】 访问电商接口：http://www.officemate.cn:8000/api/product/prices?token=a06d56610aed14157781ba8557d82c1e&sku=33214
+I, [2018-07-05T11:15:17.333489 #8721]  INFO -- : 返回：{"success":true,"result":[{"price":"1.52","mall_price":"1.52","sku":"33214"}]}
+I, [2018-07-05T11:23:12.625634 #8721]  INFO -- : 【2018-07-05 11:23:12】 访问电商接口：http://www.officemate.cn:8000/api/product/prices?token=a06d56610aed14157781ba8557d82c1e&sku=125721
+I, [2018-07-05T11:23:12.625919 #8721]  INFO -- : 返回：{"success":true,"result":[{"price":"5599.00","mall_price":"5599.00","sku":"125721"}]}
+I, [2018-07-05T11:23:12.874647 #8721]  INFO -- : 【2018-07-05 11:23:12】 访问电商接口：http://www.officemate.cn:8000/api/product/prices?token=a06d56610aed14157781ba8557d82c1e&sku=129847
+I, [2018-07-05T11:23:12.874935 #8721]  INFO -- : 返回：{"success":true,"result":[{"price":"4640.00","mall_price":"4899.00","sku":"129847"}]}
+I, [2018-07-05T11:23:14.421227 #8721]  INFO -- : 【2018-07-05 11:23:14】 访问电商接口：http://www.officemate.cn:8000/api/product/prices?token=a06d56610aed14157781ba8557d82c1e&sku=114579
+I, [2018-07-05T11:23:14.421506 #8721]  INFO -- : 返回：{"success":true,"result":[{"price":"548.90","mall_price":"548.90","sku":"114579"}]}
+I, [2018-07-05T11:23:14.959161 #8721]  INFO -- : 【2018-07-05 11:23:14】 访问电商接口：http://www.officemate.cn:8000/api/product/prices?token=a06d56610aed14157781ba8557d82c1e&sku=40434
+I, [2018-07-05T11:23:14.959395 #8721]  INFO -- : 返回：{"success":true,"result":[{"price":"1721.00","mall_price":"1721.00","sku":"40434"}]}
+I, [2018-07-05T11:24:41.990536 #8721]  INFO -- : 【2018-07-05 11:24:41】 访问电商接口：http://www.officemate.cn:8000/api/product/prices?token=a06d56610aed14157781ba8557d82c1e&sku=125721
+I, [2018-07-05T11:24:41.990875 #8721]  INFO -- : 返回：{"success":true,"result":[{"price":"5599.00","mall_price":"5599.00","sku":"125721"}]}
+I, [2018-07-05T11:24:42.218585 #8721]  INFO -- : 【2018-07-05 11:24:42】 访问电商接口：http://www.officemate.cn:8000/api/product/prices?token=a06d56610aed14157781ba8557d82c1e&sku=129847
+I, [2018-07-05T11:24:42.218860 #8721]  INFO -- : 返回：{"success":true,"result":[{"price":"4640.00","mall_price":"4899.00","sku":"129847"}]}
+I, [2018-07-05T11:24:43.679548 #8721]  INFO -- : 【2018-07-05 11:24:43】 访问电商接口：http://www.officemate.cn:8000/api/product/prices?token=a06d56610aed14157781ba8557d82c1e&sku=114579
+I, [2018-07-05T11:24:43.679820 #8721]  INFO -- : 返回：{"success":true,"result":[{"price":"548.90","mall_price":"548.90","sku":"114579"}]}
+I, [2018-07-05T11:24:44.428557 #8721]  INFO -- : 【2018-07-05 11:24:44】 访问电商接口：http://www.officemate.cn:8000/api/product/prices?token=a06d56610aed14157781ba8557d82c1e&sku=40434
+I, [2018-07-05T11:24:44.428901 #8721]  INFO -- : 返回：{"success":true,"result":[{"price":"1721.00","mall_price":"1721.00","sku":"40434"}]}
+I, [2018-07-05T11:47:45.687969 #8721]  INFO -- : 【2018-07-05 11:47:45】 访问电商接口：http://www.officemate.cn:8000/api/product/prices?token=a06d56610aed14157781ba8557d82c1e&sku=33214
+I, [2018-07-05T11:47:45.690196 #8721]  INFO -- : 返回：{"success":true,"result":[{"price":"1.52","mall_price":"1.52","sku":"33214"}]}
