@@ -1,7 +1,0 @@
-# Logfile created on 2018-08-08 14:51:31 by logger.rb/56438
-I, [2018-08-08T14:51:31.564546 #5410]  INFO -- : 【2018-08-08 14:51:31】 访问电商接口：http://open.suning.com/api/http/sopRequest?sn_request=%7B%3Asn_body%3D%3E%7B%3AgetInventory%3D%3E%7B%3AskuIds%3D%3E%5B%7B%3Anum%3D%3E1%2C+%3AskuId%3D%3E%22161816483%22%7D%5D%2C+%3AcityId%3D%3E%22351%22%2C+%3AcountyId%3D%3E%2201%22%7D%7D%7D
-I, [2018-08-08T14:51:31.564861 #5410]  INFO -- : 返回：{"sn_responseContent":{"sn_body":{"getInventory":{"resultInfo":[{"skuId":"161816483","state":"02","remainNum":"-1"}]}}}}
-
-I, [2018-08-08T14:51:33.316018 #5410]  INFO -- : 【2018-08-08 14:51:33】 访问电商接口：http://open.suning.com/api/http/sopRequest?sn_request=%7B%3Asn_body%3D%3E%7B%3AqueryPrice%3D%3E%7B%3AcityId%3D%3E%22351%22%2C+%3Askus%3D%3E%5B%7B%3AskuId%3D%3E%22161816483%22%7D%5D%7D%7D%7D
-I, [2018-08-08T14:51:33.316171 #5410]  INFO -- : 返回：{"sn_responseContent":{"sn_body":{"queryPrice":{"parity":1,"skus":[{"skuId":"161816483","price":"1799.00","snPrice":"1799.00","discountRate":""}],"errorMsg":"商品编码为：161816483的商品暂不销售,请联系客户经理维护！"}}}}
-

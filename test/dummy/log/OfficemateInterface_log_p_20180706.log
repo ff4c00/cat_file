@@ -1,5 +1,0 @@
-# Logfile created on 2018-07-06 15:02:02 by logger.rb/56438
-I, [2018-07-06T15:02:02.816179 #14873]  INFO -- : 【2018-07-06 15:02:02】 访问电商接口：http://www.officemate.cn:8000/api/product/stocks?token=a06d56610aed14157781ba8557d82c1e&sku=40434&area=2340_2341_2342
-I, [2018-07-06T15:02:02.817354 #14873]  INFO -- : 返回：{"success":true,"result":[{"desc":"有货","send_day":"","num":"99999","sku":"40434","area":"2340_2341_2342"}]}
-I, [2018-07-06T15:02:03.053868 #14873]  INFO -- : 【2018-07-06 15:02:03】 访问电商接口：http://www.officemate.cn:8000/api/product/prices?token=a06d56610aed14157781ba8557d82c1e&sku=40434
-I, [2018-07-06T15:02:03.054291 #14873]  INFO -- : 返回：{"success":true,"result":[{"price":"1721.00","mall_price":"1721.00","sku":"40434"}]}

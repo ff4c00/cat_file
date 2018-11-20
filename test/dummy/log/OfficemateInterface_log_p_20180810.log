@@ -1,3 +1,0 @@
-# Logfile created on 2018-08-10 11:58:38 by logger.rb/56438
-I, [2018-08-10T11:58:38.946830 #13697]  INFO -- : 【2018-08-10 11:58:38】 访问电商接口：http://www.officemate.cn:8000/api/product/prices?token=4c0046b364a4c359ec8a2ff0be75ab28&sku=33214
-I, [2018-08-10T11:58:38.946906 #13697]  INFO -- : 返回：{"success":true,"result":[{"price":"1.52","mall_price":"1.52","sku":"33214"}]}

@@ -1,5 +1,0 @@
-# Logfile created on 2018-08-23 16:37:53 by logger.rb/56438
-I, [2018-08-23T16:37:53.770485 #13717]  INFO -- : 【2018-08-23 16:37:53】 访问电商接口：http://service.jeecal.com:8080/sxzg/auth2/access_token?username=UMZG000001&password=lUYdtO1XJ2WHnjJ6UUYgBg%3D%3D&timestamp=2018-08-23+16%3A37%3A53&sign=8cffb1cd974585f9d8522b12481544ff
-I, [2018-08-23T16:37:53.770660 #13717]  INFO -- : 返回：{"access_token":"JMrqJqGbsqflxu8nRnVmQCyLGl5z0LRt","expires_at":"2018-08-24 08:37:53","success":true}
-I, [2018-08-23T16:37:53.809073 #13717]  INFO -- : 【2018-08-23 16:37:53】 访问电商接口：http://service.jeecal.com:8080/sxzg/order/track?token=rQBYHg8O7BcRZ2rXJNc6uJhZRzdKcTt5&order_id=O38H00000001
-I, [2018-08-23T16:37:53.810049 #13717]  INFO -- : 返回：{"success":false,"desc":"token_expired","result":{"track":[{"content":"您提交了订单，请等待系统确认","operate_time":"","operator":null},{"content":"您的订单正在排队准备出库","operate_time":null,"operator":"几口自动配送"},{"content":"您的货物已送达","operate_time":null,"operator":null}],"order_id":"O38H00000001"}}
