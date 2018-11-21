@@ -1,0 +1,5 @@
+<el-row>
+  <el-col :span="24">
+    <el-autocomplete class="serach-input" v-model="search_key" :fetch-suggestions="querySearch" placeholder="根据文件名称搜索" @select="handleSelect(search_key)"></el-autocomplete>
+  </el-col>
+</el-row>

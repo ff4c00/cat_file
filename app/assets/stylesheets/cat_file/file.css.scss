@@ -1,3 +1,4 @@
+/* 文件详情页样式 */
 .file-datail {
   margin: 0px 10px;
   /* p {margin: 30px 0px;} */
@@ -6,4 +7,23 @@
     margin: 30px 0px;
   }
   
+}
+
+/* 文件列表页样式 */
+.files-index {
+  &-file-names {
+    &-search-space {
+      .el-row {
+        .el-col {
+          .serach-input {
+            width: 100%;
+          }
+        }
+      }
+      .search_2 {
+        
+      }
+      margin-bottom: 15px;
+    }
+  }
 }

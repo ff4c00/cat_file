@@ -60,7 +60,6 @@ module CatFile
           return res unless res[0]
           tmp = res[1]
         end
-
         [true, tmp]
       end
 

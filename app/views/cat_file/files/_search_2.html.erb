@@ -1,0 +1,6 @@
+<el-input placeholder="根据文件名称查找" v-model.trim="search_key" class="input-with-select">
+  <el-select v-model="search_lable" slot="prepend" placeholder="请选择文件类型">
+    <el-option :label="lable" v-for='(lable, index) in file_lables' :value="lable"></el-option>
+  </el-select>
+  <el-button slot="append" icon="el-icon-search"></el-button>
+</el-input>
